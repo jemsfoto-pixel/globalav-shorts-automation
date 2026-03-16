@@ -28,7 +28,7 @@ Crea estos **GitHub Secrets** en tu repositorio:
 
 | Secret | Descripción | Cómo obtenerla |
 |--------|-------------|----------------|
-| `GEMINI_API_KEY` | Google Gemini AI | [aistudio.google.com](https://aistudio.google.com/) → Get API Key |
+| `GOOGLE_API_KEY` | Google Gemini AI | [aistudio.google.com](https://aistudio.google.com/) → Get API Key |
 | `PEXELS_API_KEY` | Imágenes gratuitas | [pexels.com/api](https://www.pexels.com/api/) → Your API Key |
 | `YOUTUBE_CLIENT_SECRET` | YouTube upload | [console.cloud.google.com](https://console.cloud.google.com/) → APIs → YouTube Data API v3 → OAuth |
 | `YOUTUBE_TOKEN_JSON` | Auth token | Se genera en el primer login OAuth |
