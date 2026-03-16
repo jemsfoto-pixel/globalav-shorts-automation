@@ -47,6 +47,8 @@ jobs:
     - name: Run Animation Pipeline
       env:
         YOUTUBE_UPLOAD_ENABLED: "true"
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
       run: |
         python scripts/main.py
 

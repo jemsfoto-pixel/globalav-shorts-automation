@@ -93,8 +93,7 @@ def run_pipeline():
         return
     logger.info(f"✅ Selected: {video_meta['title']} ({video_meta['views']} views)")
 
-    # --- Phase 2: Download ---
-    logger.info("⬇️ Phase 2: Downloading video...")
+    # --- Phase 2: Download or Generate ---
     asset_mgr = AssetManager(config["PROJECT_ROOT"])
     raw_path = asset_mgr.download_video(video_meta["id"])
     
@@ -102,6 +101,7 @@ def run_pipeline():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     short_path = PROJECT_ROOT / "output" / "videos" / f"short_{timestamp}.mp4"
     metadata = None
+    thumb_text = ""
 
     if not raw_path:
         if gen_config.get("enabled"):
@@ -134,7 +134,8 @@ def run_pipeline():
             builder = VideoBuilder(config)
             builder.build_generative_short(audio_path, video_paths, short_path, content["script"])
             
-            # 5. SEO for AI video
+            # 5. Metadata & Thumbnail Text
+            thumb_text = topic.upper()
             metadata = {
                 "title": f"The Truth about {topic}! #Shorts #AV",
                 "description": f"AI-powered insights about {topic}. \n\n{content['script']}",
@@ -156,6 +157,7 @@ def run_pipeline():
         seo = SEOGenerator(config)
         original_url = f"https://www.youtube.com/watch?v={video_meta['id']}"
         metadata = seo.generate(video_meta["title"], original_url)
+        thumb_text = " ".join(video_meta["title"].split()[:3]).upper()
 
     logger.info(f"✅ Short ready: {short_path}")
 
@@ -163,19 +165,11 @@ def run_pipeline():
     logger.info("🖼️ Phase 4: Generating thumbnail...")
     thumb_path = PROJECT_ROOT / "output" / "thumbnails" / f"thumb_{timestamp}.jpg"
     thumb_gen = ThumbnailGenerator(config)
-    # Use first 3 words of title as thumbnail text
-    thumb_text = " ".join(video_meta["title"].split()[:3]).upper()
     thumb_gen.generate(short_path, thumb_path, text=thumb_text)
     logger.info(f"✅ Thumbnail: {thumb_path}")
 
-    # --- Phase 5: SEO ---
-    logger.info("🔍 Phase 5: Generating SEO metadata...")
-    seo = SEOGenerator(config)
-    original_url = f"https://www.youtube.com/watch?v={video_meta['id']}"
-    metadata = seo.generate(video_meta["title"], original_url)
-    logger.info(f"✅ Title: {metadata['title']}")
-
     # Save metadata
+    logger.info(f"✅ Title: {metadata['title']}")
     meta_path = short_path.with_suffix(".json")
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
@@ -196,12 +190,13 @@ def run_pipeline():
     # --- Update History ---
     history["videos"].append({
         "timestamp": timestamp,
-        "video_id": video_meta["id"],
-        "original_title": video_meta["title"],
+        "video_id": video_meta["id"] if raw_path else "generative",
+        "original_title": video_meta["title"] if raw_path else "AI Generated Content",
         "short_path": str(short_path),
         "metadata": metadata,
     })
     manager.save_history(history)
+
 
     logger.info("=" * 60)
     logger.info("🎉 Pipeline complete!")
