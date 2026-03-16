@@ -105,8 +105,12 @@ class ChannelManager:
         unprocessed = [v for v in videos if v['id'] not in processed_ids]
 
         if not unprocessed:
-            logger.warning("No new unprocessed videos found!")
-            return None
+            logger.warning("No new unprocessed videos found! RECYCLING history to keep producing shorts.")
+            # Clear processed history
+            history["processed_ids"] = []
+            self.save_history(history)
+            # Re-select from the full pool
+            unprocessed = videos
 
         # Sort by views (descending) to pick highest impact
         unprocessed.sort(key=lambda x: x['views'], reverse=True)

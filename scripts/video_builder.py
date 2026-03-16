@@ -38,10 +38,15 @@ class VideoBuilder:
 
         clip = VideoFileClip(str(input_video))
 
-        # 1. Segment Selection — 55s starting at ~10% of the video
+        import random
+        # 1. Segment Selection — Random 55s window
         duration = clip.duration
         target_duration = 55
-        start_time = max(0, min(duration * 0.1, duration - target_duration - 5))
+        
+        # Ensure we don't start too close to the end
+        max_start = max(0, duration - target_duration - 5)
+        # Random start time between 5s in and max_start
+        start_time = random.uniform(5.0, max_start) if max_start > 5.0 else 0
 
         end_time = min(start_time + target_duration, duration)
         subclip = clip.subclipped(start_time, end_time)
