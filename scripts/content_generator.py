@@ -18,7 +18,7 @@ class ContentGenerator:
             logger.warning("GOOGLE_API_KEY not found in environment.")
         
         self.client = genai.Client(api_key=self.api_key)
-        self.model_id = "gemini-1.5-flash"
+        self.model_id = "gemini-flash-latest"
 
     def generate_content(self, topic: str):
         """Generates a script and search keywords for a given topic."""
