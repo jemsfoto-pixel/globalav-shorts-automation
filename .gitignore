@@ -1,0 +1,38 @@
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Output
+output/videos/*.mp4
+output/thumbnails/
+assets/images/
+assets/audio/
+
+# Credentials (NEVER commit these!)
+credentials/
+*.json
+!config.yml
+!package.json
+
+# Keep output structure
+!output/.gitkeep
+!output/videos/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Temp
+dep_check.txt

@@ -1,0 +1,12 @@
+Starting ChannelManager test...
+Fetching videos...
+Fetch completed. Found 5 videos.
+{'id': 'JG3Ijb3LX-4', 'title': 'Dead Pixel Test / Pantalla Roja: Stuck Pixel Check & Burn-in | GlobalAVInsights', 'views': 17, 'date': '', 'duration': 906.0}
+{'id': 'OVHgbNfycLY', 'title': 'Monitor Viewing Cone & Color Shift Test Pattern | GlobalAVInsights', 'views': 28, 'date': '', 'duration': 906.0}
+{'id': 'WNzx6cI-fvk', 'title': 'Skin Tone Test / Tonos de Piel: Color Accuracy & Natural Look | GlobalAVInsights', 'views': 50, 'date': '', 'duration': 906.0}
+{'id': 'ZxYglMRKQLI', 'title': 'Clipping Test / Prueba de Recorte: Display Dynamic Range & Contrast | GlobalAVInsights', 'views': 43, 'date': '', 'duration': 906.0}
+{'id': '8bIo6Btz4wE', 'title': 'Aspect Geometry: Garantiza el Mapeo de Píxeles 1:1 y Evita el Overscan Técnico (Enfoque en Calidad)', 'views': 52, 'date': '', 'duration': 901.0}
+
+Selecting best video...
+Best video to process: {'id': 'hfI6q7uOeAM', 'title': 'SMPTE HD Color Bars (RP 219) - 1080p Reference Signal & 1kHz Tone', 'views': 2505, 'date': '', 'duration': 901.0}
+Test finished.

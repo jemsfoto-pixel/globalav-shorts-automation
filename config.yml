@@ -1,0 +1,50 @@
+# ============================================================
+# YouTube Shorts Automation — GlobalAVInsights
+# ============================================================
+
+channel:
+  name: "GlobalAVInsights"
+  url: "https://www.youtube.com/@GlobalAVInsights"
+  language: "es"
+
+# --- Video Settings ---
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+  short_duration: 55   # Target Short duration (50-59s)
+  format: "mp4"
+  codec: "libx264"
+
+# --- Subtitles ---
+subtitles:
+  font: "Montserrat-Bold"
+  font_size: 80
+  color: "#FFFFFF"
+  highlight_color: "#FFD700"
+  stroke_color: "#000000"
+  stroke_width: 3
+  position_y: 1400
+
+# --- SEO ---
+seo:
+  max_title_chars: 50
+  hashtags:
+    - "#Shorts"
+    - "#GlobalAVInsights"
+    - "#HiFi"
+    - "#Audio"
+    - "#Calibración"
+  category_id: "28"  # Science & Technology
+  privacy: "public"
+
+# --- Schedule ---
+schedule:
+  interval_hours: 6
+  timezone: "Europe/Madrid"
+
+# --- APIs ---
+apis:
+  youtube:
+    credentials_dir: "credentials"
+    env_var: "YOUTUBE_CLIENT_SECRET"
