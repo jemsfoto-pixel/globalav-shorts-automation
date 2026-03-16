@@ -40,7 +40,7 @@ seo:
 
 # --- Schedule ---
 schedule:
-  interval_hours: 6
+  interval_hours: 0
   timezone: "Europe/Madrid"
 
 # --- APIs ---
