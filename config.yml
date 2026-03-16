@@ -48,3 +48,14 @@ apis:
   youtube:
     credentials_dir: "credentials"
     env_var: "YOUTUBE_CLIENT_SECRET"
+
+# --- Generation Settings ---
+generator:
+  enabled: true
+  topics:
+    - "Best 4K Monitor for Productivity"
+    - "OLED vs QLED: Which is better?"
+    - "How to calibrate your TV for movies"
+    - "Setup a Home Theater on a budget"
+    - "Audio Sync Issues: How to fix them"
+    - "Understanding HDR: Brightness and Contrast"

@@ -97,18 +97,67 @@ def run_pipeline():
     logger.info("⬇️ Phase 2: Downloading video...")
     asset_mgr = AssetManager(config["PROJECT_ROOT"])
     raw_path = asset_mgr.download_video(video_meta["id"])
-    if not raw_path:
-        logger.error("❌ Failed to download video.")
-        return
-    logger.info(f"✅ Downloaded: {raw_path}")
-
-    # --- Phase 3: Build Short ---
-    logger.info("🎬 Phase 3: Building Short (9:16, 55s, subtitles, fadeout)...")
-    builder = VideoBuilder(config)
+    
+    gen_config = config.get("generator", {})
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     short_path = PROJECT_ROOT / "output" / "videos" / f"short_{timestamp}.mp4"
-    builder.build_short(raw_path, short_path)
-    logger.info(f"✅ Short rendered: {short_path}")
+    metadata = None
+
+    if not raw_path:
+        if gen_config.get("enabled"):
+            logger.warning("⚠️ YouTube download failed. Switching to GENERATIVE PIPELINE...")
+            from scripts.content_generator import ContentGenerator
+            
+            gen = ContentGenerator(config)
+            import random
+            topic = random.choice(gen_config.get("topics", ["AV Insights"]))
+            
+            # 1. Script & Keywords
+            content = gen.generate_content(topic)
+            if not content:
+                logger.error("❌ Failed to generate AI content.")
+                return
+            
+            # 2. Audio
+            audio_path = PROJECT_ROOT / "assets" / "raw_videos" / f"voice_{timestamp}.mp3"
+            gen.generate_voiceover(content["script"], audio_path)
+            
+            # 3. Stock Footage
+            logger.info(f"🔍 Searching Pexels for: {content['keywords']}")
+            video_paths = asset_mgr.download_pexels_videos(content["keywords"])
+            if not video_paths:
+                logger.error("❌ Failed to download stock footage.")
+                return
+            
+            # 4. Build Generative Short
+            logger.info("🎬 Phase 3: Building Generative Short...")
+            builder = VideoBuilder(config)
+            builder.build_generative_short(audio_path, video_paths, short_path, content["script"])
+            
+            # 5. SEO for AI video
+            metadata = {
+                "title": f"The Truth about {topic}! #Shorts #AV",
+                "description": f"AI-powered insights about {topic}. \n\n{content['script']}",
+                "tags": content["keywords"] + ["AV", "Shorts", "GlobalAVInsights"]
+            }
+        else:
+            logger.error("❌ Failed to download video and generator is disabled.")
+            return
+    else:
+        logger.info(f"✅ Downloaded: {raw_path}")
+        # --- Phase 3: Build Short ---
+        logger.info("🎬 Phase 3: Building Short (9:16, 55s, subtitles, fadeout)...")
+        builder = VideoBuilder(config)
+        builder.build_short(raw_path, short_path)
+        
+        # --- Phase 5: SEO (Original Video) ---
+        logger.info("🔍 Phase 5: Generating SEO metadata...")
+        from scripts.seo import SEOGenerator
+        seo = SEOGenerator(config)
+        original_url = f"https://www.youtube.com/watch?v={video_meta['id']}"
+        metadata = seo.generate(video_meta["title"], original_url)
+
+    logger.info(f"✅ Short ready: {short_path}")
 
     # --- Phase 4: Thumbnail ---
     logger.info("🖼️ Phase 4: Generating thumbnail...")

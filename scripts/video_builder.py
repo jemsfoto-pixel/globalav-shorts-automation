@@ -143,3 +143,73 @@ class VideoBuilder:
         if text_clips:
             return CompositeVideoClip([clip] + text_clips)
         return clip
+
+    def build_generative_short(
+        self, audio_path: Path, video_paths: list[Path], output_path: Path, script: str
+    ) -> Path:
+        """Stitch multiple clips together to match audio duration and add voiceover."""
+        logger.info(f"Assembling generative short. Audio: {audio_path}")
+        
+        from moviepy import AudioFileClip
+        audio = AudioFileClip(str(audio_path))
+        target_duration = audio.duration
+        
+        clips = []
+        for vp in video_paths:
+            clips.append(VideoFileClip(str(vp)))
+            
+        # Stitch clips to match audio duration
+        final_video = concatenate_videoclips(clips, method="compose")
+        
+        # If video is longer than audio, trim it
+        if final_video.duration > target_duration:
+            final_video = final_video.subclipped(0, target_duration)
+        # If video is shorter, loop the last bit or just let it be (ideally Pexels clips are long enough)
+        
+        # Add audio
+        final_video = final_video.with_audio(audio)
+        
+        # Resize/Crop to 1080x1920
+        final_video = final_video.resized(height=self.height)
+        if final_video.w > self.width:
+            final_video = final_video.cropped(
+                x1=(final_video.w - self.width) // 2,
+                x2=(final_video.w + self.width) // 2,
+            )
+            
+        # Add Subtitles from script
+        # We'll split the script into 2-second chunks for subtitles
+        script_words = script.split()
+        sub_items = []
+        words_per_seg = 4
+        for i in range(0, len(script_words), words_per_seg):
+            chunk = script_words[i : i + words_per_seg]
+            start = (i // words_per_seg) * 2
+            if start < target_duration:
+                sub_items.append({
+                    "text": " ".join(chunk).upper(),
+                    "start": start,
+                    "end": min(start + 2, target_duration),
+                    "highlight": (i // words_per_seg) % 3 == 0
+                })
+        
+        final_video = self.add_subtitles(final_video, sub_items)
+        final_video = final_video.with_effects([vfx.FadeOut(1.0)])
+        
+        logger.info(f"Rendering generative short to {output_path}...")
+        final_video.write_videofile(
+            str(output_path),
+            fps=self.fps,
+            codec="libx264",
+            audio_codec="aac",
+            preset="ultrafast",
+            threads=2,
+            logger=None,
+        )
+        
+        final_video.close()
+        audio.close()
+        for c in clips:
+            c.close()
+            
+        return output_path
