@@ -98,7 +98,7 @@ def run_clip_pipeline(config, manager, history, timestamp):
     logger.info(f"✅ Selected: {video_meta['title']} ({video_meta['views']} views)")
 
     # --- Phase 2: Download ---
-    asset_mgr = AssetManager(config["PROJECT_ROOT"])
+    asset_mgr = AssetManager(config)
     raw_path = asset_mgr.download_video(video_meta["id"])
     
     if not raw_path:
@@ -148,7 +148,7 @@ def run_ai_pipeline(config, manager, history, timestamp):
         return False
     
     # 2. Audio
-    asset_mgr = AssetManager(config["PROJECT_ROOT"])
+    asset_mgr = AssetManager(config)
     audio_path = Path(config["PROJECT_ROOT"]) / "assets" / "raw_videos" / f"voice_{timestamp}.mp3"
     gen.generate_voiceover(content["script"], audio_path)
     
