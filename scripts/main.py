@@ -105,7 +105,7 @@ def run_clip_pipeline(config, manager, history, timestamp):
         logger.error("❌ YouTube download failed.")
         return False
 
-    short_path = config["PROJECT_ROOT"] / "output" / "videos" / f"short_{timestamp}.mp4"
+    short_path = Path(config["PROJECT_ROOT"]) / "output" / "videos" / f"short_{timestamp}.mp4"
     logger.info(f"✅ Downloaded: {raw_path}")
     
     # --- Phase 3: Build Short ---
@@ -139,7 +139,7 @@ def run_ai_pipeline(config, manager, history, timestamp):
     
     gen = ContentGenerator(config)
     topic = random.choice(gen_config.get("topics", ["AV Insights"]))
-    short_path = config["PROJECT_ROOT"] / "output" / "videos" / f"short_{timestamp}.mp4"
+    short_path = Path(config["PROJECT_ROOT"]) / "output" / "videos" / f"short_{timestamp}.mp4"
     
     # 1. Script & Keywords
     content = gen.generate_content(topic)
@@ -149,7 +149,7 @@ def run_ai_pipeline(config, manager, history, timestamp):
     
     # 2. Audio
     asset_mgr = AssetManager(config["PROJECT_ROOT"])
-    audio_path = config["PROJECT_ROOT"] / "assets" / "raw_videos" / f"voice_{timestamp}.mp3"
+    audio_path = Path(config["PROJECT_ROOT"]) / "assets" / "raw_videos" / f"voice_{timestamp}.mp3"
     gen.generate_voiceover(content["script"], audio_path)
     
     # 3. Stock Footage
@@ -184,7 +184,7 @@ def process_post_generation(config, manager, history, timestamp, short_path, thu
 
     # --- Phase 5: Thumbnail ---
     logger.info("🖼️ Phase 5: Generating thumbnail...")
-    thumb_path = config["PROJECT_ROOT"] / "output" / "thumbnails" / f"thumb_{timestamp}.jpg"
+    thumb_path = Path(config["PROJECT_ROOT"]) / "output" / "thumbnails" / f"thumb_{timestamp}.jpg"
     thumb_gen = ThumbnailGenerator(config)
     thumb_gen.generate(short_path, thumb_path, text=thumb_text)
     logger.info(f"✅ Thumbnail: {thumb_path}")
