@@ -156,7 +156,24 @@ class VideoBuilder:
         
         clips = []
         for vp in video_paths:
-            clips.append(VideoFileClip(str(vp)))
+            try:
+                c = VideoFileClip(str(vp))
+                # Resize and crop EACH clip to 1080x1920 first to avoid black screen on concatenate
+                c = c.resized(height=self.height)
+                if c.w > self.width:
+                    c = c.cropped(
+                        x1=(c.w - self.width) // 2,
+                        x2=(c.w + self.width) // 2,
+                    )
+                # Ensure the clip has no audio to prevent concatenate errors (we will add one later)
+                c = c.without_audio()
+                clips.append(c)
+            except Exception as e:
+                logger.error(f"Error processing clip {vp}: {e}")
+            
+        if not clips:
+            logger.error("No valid video clips found to build generative short.")
+            raise ValueError("No valid video clips")
             
         # Stitch clips to match audio duration
         final_video = concatenate_videoclips(clips, method="compose")
@@ -164,18 +181,9 @@ class VideoBuilder:
         # If video is longer than audio, trim it
         if final_video.duration > target_duration:
             final_video = final_video.subclipped(0, target_duration)
-        # If video is shorter, loop the last bit or just let it be (ideally Pexels clips are long enough)
         
         # Add audio
         final_video = final_video.with_audio(audio)
-        
-        # Resize/Crop to 1080x1920
-        final_video = final_video.resized(height=self.height)
-        if final_video.w > self.width:
-            final_video = final_video.cropped(
-                x1=(final_video.w - self.width) // 2,
-                x2=(final_video.w + self.width) // 2,
-            )
             
         # Add Subtitles from script
         # We'll split the script into 2-second chunks for subtitles

@@ -1,0 +1,35 @@
+[33mcommit d97c2b63f666c0d4cd4a8360f944569b2ce3bc54[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: [jordi] <lagares66@gmail.com>
+Date:   Mon Mar 16 20:11:50 2026 +0100
+
+    fix: logic error in main pipeline and update workflow with API keys
+
+[33mcommit 3c17a08c284ca119d8efcce95b4b90ca7f504dd0[m
+Author: [jordi] <lagares66@gmail.com>
+Date:   Mon Mar 16 19:48:43 2026 +0100
+
+    docs: finalize API keys documentation
+
+[33mcommit 15e5bfa928c52d74f2327fcb83d3cb14222ad2b9[m
+Author: [jordi] <lagares66@gmail.com>
+Date:   Mon Mar 16 19:17:19 2026 +0100
+
+    feat: add generative pipeline fallback (Gemini + gTTS + Pexels)
+
+[33mcommit 6d10af2ac7dc4da79f9c7b32824319c89f65ee9a[m
+Author: [jordi] <lagares66@gmail.com>
+Date:   Mon Mar 16 18:58:33 2026 +0100
+
+    feat: infinite video recycling and randomized clipping
+
+[33mcommit 89d12610ef3f4f8c31ec143463ed69b1429a5d35[m
+Author: [jordi] <lagares66@gmail.com>
+Date:   Mon Mar 16 18:53:48 2026 +0100
+
+    fix: add yt-dlp to requirements and allow history.json in gitignore
+
+[33mcommit 59aba1dc3c956ee8c40b6367a820766d422e1818[m
+Author: [jordi] <lagares66@gmail.com>
+Date:   Mon Mar 16 18:29:16 2026 +0100
+
+    Initial commit - GlobalAVInsights Automation

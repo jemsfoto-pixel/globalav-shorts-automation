@@ -25,11 +25,12 @@ class ContentGenerator:
         logger.info(f"Generating script for topic: {topic}")
         
         prompt = f"""
-        Write a high-energy, fast-paced YouTube Shorts script about: {topic}.
-        The script must be exactly 50 words long.
-        Do not use emojis, do not use complex formatting.
-        Topic context: Global Audiovisual Insights (AV technology, monitors, projectors).
-        Include a hook at the beginning and a call to action at the end.
+        Actúa como un creador de YouTube Shorts viral.
+        Escribe un guion dinámico y de ritmo rápido en ESPAÑOL sobre: {topic}.
+        El guion debe tener exactamente 50-60 palabras para durar unos 45 segundos.
+        NO USES emojis, ni formatos complejos (ni asteriscos, ni negritas, ni comillas). Solo texto plano continuo.
+        Contexto del canal: Global Audiovisual Insights (tecnología AV, monitores, proyectores, sonido, home theater).
+        Incluye un "gancho" inicial muy atractivo en la primera frase y una llamada a la acción rápida al final pidiendo suscripción.
         """
         
         try:
@@ -37,11 +38,11 @@ class ContentGenerator:
                 model=self.model_id,
                 contents=prompt
             )
-            script = response.text.strip()
+            script = response.text.strip().replace("\n", " ").replace("*", "")
             logger.info("Script generated successfully.")
             
             # Extract keywords for Pexels search
-            keyword_prompt = f"Extract 3 simple English keywords for stock video search from this script, separated by commas: {script}"
+            keyword_prompt = f"Read the following Spanish script and extract exactly 3 simple English keywords for stock video search, separated by commas (e.g., monitor, technology, office): {script}"
             kw_response = self.client.models.generate_content(
                 model=self.model_id,
                 contents=keyword_prompt
@@ -62,7 +63,7 @@ class ContentGenerator:
         """Convert text to speech and save as MP3."""
         logger.info(f"Generating voiceover: {output_path}")
         try:
-            tts = gTTS(text=text, lang='en', slow=False)
+            tts = gTTS(text=text, lang='es', tld='es', slow=False)
             tts.save(str(output_path))
             return output_path
         except Exception as e:

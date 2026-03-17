@@ -85,85 +85,106 @@ def run_pipeline():
         logger.info("⏳ Skipping — next upload not due yet.")
         return
 
+def run_clip_pipeline(config, manager, history, timestamp):
+    logger.info("🎬 Mode: CLIP PIPELINE (YouTube long-form to Short)")
+    
     # --- Phase 1: Select Video ---
     logger.info("📋 Phase 1: Selecting best video from channel...")
     video_meta = manager.select_best_video()
     if not video_meta:
-        logger.error("❌ No eligible video found.")
-        return
+        logger.error("❌ No eligible video found for clipping.")
+        return False
+
     logger.info(f"✅ Selected: {video_meta['title']} ({video_meta['views']} views)")
 
-    # --- Phase 2: Download or Generate ---
+    # --- Phase 2: Download ---
     asset_mgr = AssetManager(config["PROJECT_ROOT"])
     raw_path = asset_mgr.download_video(video_meta["id"])
     
-    gen_config = config.get("generator", {})
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    short_path = PROJECT_ROOT / "output" / "videos" / f"short_{timestamp}.mp4"
-    metadata = None
-    thumb_text = ""
-
     if not raw_path:
-        if gen_config.get("enabled"):
-            logger.warning("⚠️ YouTube download failed. Switching to GENERATIVE PIPELINE...")
-            from scripts.content_generator import ContentGenerator
-            
-            gen = ContentGenerator(config)
-            import random
-            topic = random.choice(gen_config.get("topics", ["AV Insights"]))
-            
-            # 1. Script & Keywords
-            content = gen.generate_content(topic)
-            if not content:
-                logger.error("❌ Failed to generate AI content.")
-                return
-            
-            # 2. Audio
-            audio_path = PROJECT_ROOT / "assets" / "raw_videos" / f"voice_{timestamp}.mp3"
-            gen.generate_voiceover(content["script"], audio_path)
-            
-            # 3. Stock Footage
-            logger.info(f"🔍 Searching Pexels for: {content['keywords']}")
-            video_paths = asset_mgr.download_pexels_videos(content["keywords"])
-            if not video_paths:
-                logger.error("❌ Failed to download stock footage.")
-                return
-            
-            # 4. Build Generative Short
-            logger.info("🎬 Phase 3: Building Generative Short...")
-            builder = VideoBuilder(config)
-            builder.build_generative_short(audio_path, video_paths, short_path, content["script"])
-            
-            # 5. Metadata & Thumbnail Text
-            thumb_text = topic.upper()
-            metadata = {
-                "title": f"The Truth about {topic}! #Shorts #AV",
-                "description": f"AI-powered insights about {topic}. \n\n{content['script']}",
-                "tags": content["keywords"] + ["AV", "Shorts", "GlobalAVInsights"]
-            }
-        else:
-            logger.error("❌ Failed to download video and generator is disabled.")
-            return
-    else:
-        logger.info(f"✅ Downloaded: {raw_path}")
-        # --- Phase 3: Build Short ---
-        logger.info("🎬 Phase 3: Building Short (9:16, 55s, subtitles, fadeout)...")
-        builder = VideoBuilder(config)
-        builder.build_short(raw_path, short_path)
-        
-        # --- Phase 5: SEO (Original Video) ---
-        logger.info("🔍 Phase 5: Generating SEO metadata...")
-        from scripts.seo import SEOGenerator
-        seo = SEOGenerator(config)
-        original_url = f"https://www.youtube.com/watch?v={video_meta['id']}"
-        metadata = seo.generate(video_meta["title"], original_url)
-        thumb_text = " ".join(video_meta["title"].split()[:3]).upper()
+        logger.error("❌ YouTube download failed.")
+        return False
 
+    short_path = config["PROJECT_ROOT"] / "output" / "videos" / f"short_{timestamp}.mp4"
+    logger.info(f"✅ Downloaded: {raw_path}")
+    
+    # --- Phase 3: Build Short ---
+    logger.info("🎬 Phase 3: Building Short (9:16, 55s, subtitles, fadeout)...")
+    builder = VideoBuilder(config)
+    try:
+        builder.build_short(raw_path, short_path)
+    except Exception as e:
+        logger.error(f"❌ Failed to build short: {e}")
+        return False
+    
+    # --- Phase 4: SEO & Metadata ---
+    logger.info("🔍 Phase 4: Generating SEO metadata...")
+    seo = SEOGenerator(config)
+    original_url = f"https://www.youtube.com/watch?v={video_meta['id']}"
+    metadata = seo.generate(video_meta["title"], original_url)
+    thumb_text = " ".join(video_meta["title"].split()[:3]).upper()
+    
+    return process_post_generation(config, manager, history, timestamp, short_path, thumb_text, metadata, video_meta["id"], video_meta["title"])
+
+
+def run_ai_pipeline(config, manager, history, timestamp):
+    logger.info("🧠 Mode: AI GENERATIVE PIPELINE")
+    gen_config = config.get("generator", {})
+    if not gen_config.get("enabled"):
+        logger.error("❌ Generator is disabled in config.")
+        return False
+        
+    from scripts.content_generator import ContentGenerator
+    import random
+    
+    gen = ContentGenerator(config)
+    topic = random.choice(gen_config.get("topics", ["AV Insights"]))
+    short_path = config["PROJECT_ROOT"] / "output" / "videos" / f"short_{timestamp}.mp4"
+    
+    # 1. Script & Keywords
+    content = gen.generate_content(topic)
+    if not content:
+        logger.error("❌ Failed to generate AI content.")
+        return False
+    
+    # 2. Audio
+    asset_mgr = AssetManager(config["PROJECT_ROOT"])
+    audio_path = config["PROJECT_ROOT"] / "assets" / "raw_videos" / f"voice_{timestamp}.mp3"
+    gen.generate_voiceover(content["script"], audio_path)
+    
+    # 3. Stock Footage
+    logger.info(f"🔍 Searching Pexels for: {content['keywords']}")
+    video_paths = asset_mgr.download_pexels_videos(content["keywords"])
+    if not video_paths:
+        logger.error("❌ Failed to download stock footage.")
+        return False
+    
+    # 4. Build Generative Short
+    logger.info("🎬 Phase 3: Building Generative Short...")
+    builder = VideoBuilder(config)
+    try:
+        builder.build_generative_short(audio_path, video_paths, short_path, content["script"])
+    except Exception as e:
+        logger.error(f"❌ Failed to build AI short: {e}")
+        return False
+    
+    # 5. Metadata
+    thumb_text = topic.upper()
+    metadata = {
+        "title": f"The Truth about {topic}! #Shorts #AV",
+        "description": f"AI-powered insights about {topic}. \n\n{content['script']}",
+        "tags": content["keywords"] + ["AV", "Shorts", "GlobalAVInsights"]
+    }
+    
+    return process_post_generation(config, manager, history, timestamp, short_path, thumb_text, metadata, "generative", "AI Generated Content")
+
+
+def process_post_generation(config, manager, history, timestamp, short_path, thumb_text, metadata, video_id, original_title):
     logger.info(f"✅ Short ready: {short_path}")
 
-    # --- Phase 4: Thumbnail ---
-    logger.info("🖼️ Phase 4: Generating thumbnail...")
-    thumb_path = PROJECT_ROOT / "output" / "thumbnails" / f"thumb_{timestamp}.jpg"
+    # --- Phase 5: Thumbnail ---
+    logger.info("🖼️ Phase 5: Generating thumbnail...")
+    thumb_path = config["PROJECT_ROOT"] / "output" / "thumbnails" / f"thumb_{timestamp}.jpg"
     thumb_gen = ThumbnailGenerator(config)
     thumb_gen.generate(short_path, thumb_path, text=thumb_text)
     logger.info(f"✅ Thumbnail: {thumb_path}")
@@ -180,7 +201,8 @@ def run_pipeline():
         uploader = YouTubeUploader(config)
         success = uploader.upload(short_path, metadata, thumb_path)
         if success:
-            manager.mark_as_processed(video_meta["id"])
+            if video_id != "generative":
+                manager.mark_as_processed(video_id)
             logger.info("🎉 Short published successfully!")
         else:
             logger.error("❌ Upload failed.")
@@ -190,13 +212,12 @@ def run_pipeline():
     # --- Update History ---
     history["videos"].append({
         "timestamp": timestamp,
-        "video_id": video_meta["id"] if raw_path else "generative",
-        "original_title": video_meta["title"] if raw_path else "AI Generated Content",
+        "video_id": video_id,
+        "original_title": original_title,
         "short_path": str(short_path),
         "metadata": metadata,
     })
     manager.save_history(history)
-
 
     logger.info("=" * 60)
     logger.info("🎉 Pipeline complete!")
@@ -204,6 +225,48 @@ def run_pipeline():
     logger.info(f"🖼️ Thumb: {thumb_path}")
     logger.info(f"📋 Meta:  {meta_path}")
     logger.info("=" * 60)
+    return True
+
+
+def run_pipeline():
+    logger.info("=" * 60)
+    logger.info("🚀 GlobalAVInsights — YouTube Shorts Automation")
+    logger.info("=" * 60)
+
+    config = load_config()
+    channel_url = config["channel"]["url"]
+    interval = config["schedule"]["interval_hours"]
+
+    # --- Setup ---
+    os.makedirs(PROJECT_ROOT / "output" / "videos", exist_ok=True)
+    os.makedirs(PROJECT_ROOT / "output" / "thumbnails", exist_ok=True)
+    os.makedirs(PROJECT_ROOT / "assets" / "raw_videos", exist_ok=True)
+
+    history_path = str(PROJECT_ROOT / "output" / "history.json")
+    manager = ChannelManager(channel_url, history_file=history_path)
+    history = manager.load_history()
+
+    # --- Check Schedule ---
+    if not should_run(history, interval):
+        logger.info("⏳ Skipping — next upload not due yet.")
+        return
+
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
+    # Determine which pipeline to run
+    # Defaults to 'auto'. 'auto' means try clip, then try AI if clip fails (no videos left).
+    pipeline_mode = os.getenv("PIPELINE_MODE", "auto").lower()
+
+    if pipeline_mode == "clip":
+        run_clip_pipeline(config, manager, history, timestamp)
+    elif pipeline_mode == "ai":
+        run_ai_pipeline(config, manager, history, timestamp)
+    else: # auto
+        logger.info("🔄 Mode: AUTO. Attempting CLIP pipeline first...")
+        success = run_clip_pipeline(config, manager, history, timestamp)
+        if not success:
+            logger.info("🔄 CLIP pipeline skipped or failed. Falling back to AI pipeline...")
+            run_ai_pipeline(config, manager, history, timestamp)
 
 
 if __name__ == "__main__":
