@@ -15,7 +15,7 @@ from typing import Optional
 logger = logging.getLogger("assets")
 
 
-class AssetFetcher:
+class AssetManager:
     """Downloads visual assets (videos + images) from Pexels."""
 
     def __init__(self, config: dict):
