@@ -17,6 +17,7 @@ credentials/
 !config.yml
 !package.json
 !output/history.json
+!output/used_assets.json
 
 # Keep output structure
 !output/.gitkeep
