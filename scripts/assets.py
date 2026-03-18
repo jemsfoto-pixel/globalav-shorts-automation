@@ -1,9 +1,10 @@
 import os
 import subprocess
+import json
+import random
 import logging
-from pathlib import Path
-
 import requests
+from pathlib import Path
 from typing import Optional, List
 
 logger = logging.getLogger("assets")
@@ -46,30 +47,54 @@ class AssetManager:
             return None
 
     def download_pexels_videos(self, keywords: List[str], count: int = 3) -> List[Path]:
-        """Search and download vertical videos from Pexels."""
+        """Search and download vertical videos from Pexels. Uses tracking to avoid repeats."""
         api_key = os.getenv("PEXELS_API_KEY", "").strip()
         if not api_key:
             logger.error("PEXELS_API_KEY not found.")
             return []
 
+        # Load used assets history
+        history_path = self.base_dir / "output" / "used_assets.json"
+        used_ids = []
+        if history_path.exists():
+            try:
+                with open(history_path, "r") as f:
+                    used_ids = json.load(f)
+            except Exception:
+                pass
+
         downloaded = []
         headers = {"Authorization": api_key}
         
-        # We'll use the first 2 keywords for better search variety
-        query = " ".join(keywords[:2])
-        url = f"https://api.pexels.com/videos/search?query={query}&orientation=portrait&per_page={count}"
+        # Improve variety: use a random keyword or combination
+        # Pick 2 random keywords instead of always the first two
+        if len(keywords) > 2:
+            search_keywords = random.sample(keywords, 2)
+        else:
+            search_keywords = keywords
+            
+        query = " ".join(search_keywords)
+        url = f"https://api.pexels.com/videos/search?query={query}&orientation=portrait&per_page=15" # Fetch more to filter repeats
         
         try:
             response = requests.get(url, headers=headers)
             response.raise_for_status()
             data = response.json()
             
-            for i, video in enumerate(data.get("videos", [])):
+            videos = data.get("videos", [])
+            random.shuffle(videos) # Add randomness even if the query is the same
+            
+            for video in videos:
+                vid_id = str(video["id"])
+                if vid_id in used_ids:
+                    logger.info(f"Skipping already used Pexels video: {vid_id}")
+                    continue
+
                 video_files = video.get("video_files", [])
                 best_file = next((f for f in video_files if f["quality"] == "hd"), video_files[0])
                 file_url = best_file["link"]
                 
-                dest = self.raw_dir / f"pexels_{i}_{video['id']}.mp4"
+                dest = self.raw_dir / f"pexels_{vid_id}.mp4"
                 logger.info(f"Downloading Pexels clip: {file_url}")
                 
                 with requests.get(file_url, stream=True) as r:
@@ -79,8 +104,14 @@ class AssetManager:
                             f.write(chunk)
                 
                 downloaded.append(dest)
+                used_ids.append(vid_id)
+                
                 if len(downloaded) >= count:
                     break
+            
+            # Save updated history (keep last 100 to avoid file growing too much)
+            with open(history_path, "w") as f:
+                json.dump(used_ids[-100:], f)
                     
             return downloaded
         except Exception as e:

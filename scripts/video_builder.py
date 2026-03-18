@@ -121,20 +121,24 @@ class VideoBuilder:
         for item in subtitle_data:
             color = "#FFD700" if item.get("highlight") else "#FFFFFF"
             try:
+                # Use method='caption' for automatic wrapping
+                # Reduce font size to 70 for better fit
+                # Use a larger width margin (200px -> 100px from each side)
                 txt = (
                     TextClip(
                         text=item["text"],
-                        font_size=80,
+                        font_size=70,  # Slightly smaller to prevent clipping
                         color=color,
                         font=self.font_path,
                         stroke_color="#000000",
-                        stroke_width=3,
+                        stroke_width=2,
                         text_align="center",
+                        method="caption", # CRITICAL: enable wrapping
                         size=(self.width - 200, None),
                     )
                     .with_duration(item["end"] - item["start"])
                     .with_start(item["start"])
-                    .with_position(("center", 1400))
+                    .with_position(("center", self.config.get("subtitles", {}).get("position_y", 1400)))
                 )
                 text_clips.append(txt)
             except Exception as e:

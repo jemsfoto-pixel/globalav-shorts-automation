@@ -14,14 +14,22 @@ logger = logging.getLogger("audio_engine")
 PROJECT_ROOT = Path(__file__).parent.parent
 
 try:
+    import edge_tts
+    import asyncio
+    EDGE_TTS_AVAILABLE = True
+except ImportError:
+    EDGE_TTS_AVAILABLE = False
+    logger.warning("edge-tts not installed — TTS will fallback to gTTS or be unavailable")
+
+try:
     from gtts import gTTS
     GTTS_AVAILABLE = True
 except ImportError:
     GTTS_AVAILABLE = False
-    logger.warning("gTTS not installed — TTS will be unavailable")
+    logger.warning("gTTS not installed")
 
 try:
-    from moviepy import AudioFileClip, CompositeAudioClip, concatenate_audioclips
+    from moviepy import AudioFileClip, CompositeAudioClip, concatenate_audioclips, AudioArrayClip
     MOVIEPY_AUDIO_AVAILABLE = True
 except ImportError:
     MOVIEPY_AUDIO_AVAILABLE = False
@@ -34,14 +42,16 @@ class AudioEngine:
     def __init__(self, config: dict):
         self.config = config
         self.language = config["niche"].get("language", "es")
+        self.voice = config.get("audio", {}).get("voice", "es-ES-AlvaroNeural")
+        self.rate = config.get("audio", {}).get("rate", "+15%") # Default faster for Shorts
 
     def generate_voiceover(self, script: dict, output_dir: Path) -> Optional[Path]:
         """
         Generate a TTS voiceover from the script segments.
         Returns path to the combined voiceover .mp3 file.
         """
-        if not GTTS_AVAILABLE:
-            logger.warning("gTTS not available, skipping voiceover")
+        if not EDGE_TTS_AVAILABLE and not GTTS_AVAILABLE:
+            logger.warning("No TTS engine available, skipping voiceover")
             return None
 
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -74,10 +84,29 @@ class AudioEngine:
         for i, text in enumerate(parts):
             segment_path = output_dir / f"tts_segment_{i:03d}.mp3"
             try:
-                tts = gTTS(text=text, lang=self.language, slow=False)
-                tts.save(str(segment_path))
+                if EDGE_TTS_AVAILABLE:
+                    # Async generation for edge-tts
+                    async def _gen():
+                        communicate = edge_tts.Communicate(text, self.voice, rate=self.rate)
+                        await communicate.save(str(segment_path))
+                    
+                    import asyncio
+                    try:
+                        loop = asyncio.get_event_loop()
+                        if loop.is_running():
+                            # This is tricky in some environments, but script is usually top-level
+                            import nest_asyncio
+                            nest_asyncio.apply()
+                        asyncio.run(_gen())
+                    except Exception:
+                        # Fallback for already running loop
+                        asyncio.run(_gen())
+                else:
+                    tts = gTTS(text=text, lang=self.language, slow=False)
+                    tts.save(str(segment_path))
+                
                 segment_paths.append(segment_path)
-                logger.info(f"TTS segment {i}: {len(text)} chars")
+                logger.info(f"TTS segment {i} ({'edge-tts' if EDGE_TTS_AVAILABLE else 'gTTS'}): {len(text)} chars")
             except Exception as e:
                 logger.error(f"TTS failed for segment {i}: {e}")
 
@@ -89,8 +118,15 @@ class AudioEngine:
         try:
             if MOVIEPY_AUDIO_AVAILABLE:
                 clips = [AudioFileClip(str(p)) for p in segment_paths]
-                # Add 0.3s silence between segments
-                combined = concatenate_audioclips(clips)
+                
+                # Add 0.5s silence at the end to ensure it doesn't cut mid-sentence
+                silence_duration = 0.5
+                import numpy as np
+                # Create a small silent clip
+                # Note: moviepy 2.x AudioArrayClip
+                silence = AudioArrayClip(np.zeros((int(44100 * silence_duration), 2)), fps=44100)
+                
+                combined = concatenate_audioclips(clips + [silence])
                 combined.write_audiofile(str(combined_path), logger=None)
                 combined.close()
                 for c in clips:

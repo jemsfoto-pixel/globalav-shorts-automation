@@ -22,33 +22,31 @@ except ImportError:
 
 
 SCRIPT_PROMPT = """Eres un guionista experto en YouTube Shorts virales en español.
+TIENES QUE SER DINÁMICO Y ENÉRGICO.
 
 TAREA: Escribe un guion de {duration} segundos sobre: "{topic}"
 
 FORMATO DE SALIDA (JSON estricto):
 {{
-  "hook": "Frase inicial impactante de 2-3 segundos para captar atención",
+  "hook": "¡GANCHO IMPACTANTE! (3 segundos max)",
   "segments": [
     {{
-      "text": "Texto del narrador para este segmento (1-2 frases cortas)",
-      "duration": 5,
-      "visual_description": "Descripción breve de la imagen/visual que acompaña"
+      "text": "Frase corta y rápida (3-4 segundos)",
+      "duration": 4,
+      "visual_description": "visual descript"
     }}
   ],
-  "cta": "Llamada a la acción final (ej: Sígueme para más)"
+  "cta": "¡SÍGUEME PARA MÁS! 🔥"
 }}
 
-REGLAS:
-1. El HOOK debe ser una pregunta impactante o un dato sorprendente.
-2. Si es un TRUCO: Explica los pasos de forma ultra-clara (Paso 1, Paso 2...).
-3. Si es una NOVEDAD: Empieza con "¡URGENTE!" o "ACABA DE SALIR" para crear hype.
-4. Cada segmento dura 4-7 segundos.
-5. Usa frases CORTAS y directas (máx 15 palabras por frase).
-6. Total de segmentos: 6-10.
-7. Tono: Informal, energético, como hablando a un amigo.
-8. El CTA debe invitar a seguir el canal para no perderse más trucos.
-9. Palabras clave del nicho a incluir: {keywords}.
-10. SOLO devuelve el JSON, sin explicaciones. En español.
+REGLAS DE ORO:
+1. DURACIÓN TOTAL: El texto completo debe leerse en MENOS de 55 segundos a ritmo RÁPIDO.
+2. MÁXIMO 140 palabras en total para todo el guion.
+3. Máximo 8 segmentos.
+4. Cada frase debe ser CORTA (máximo 12 palabras).
+5. Usa palabras de acción y suspenso.
+6. Palabras clave del nicho: {keywords}.
+7. SOLO devuelve el JSON. Idioma: Español.
 """
 
 
