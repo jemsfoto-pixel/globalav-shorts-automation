@@ -70,6 +70,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260318_065440",
+      "video_id": "generative",
+      "original_title": "AI Generated Content",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260318_065440.mp4",
+      "metadata": {
+        "title": "The Truth about Audio Sync Issues: How to fix them! #Shorts #AV",
+        "description": "AI-powered insights about Audio Sync Issues: How to fix them. \n\n¿Tu audio va con retraso y arruina tus películas? Este problema se llama desincronización y es muy molesto. Primero entra a los ajustes de tu televisor o barra de sonido. Busca la opción sincronización AV o retardo de audio. Ajusta los milisegundos hasta que los labios coincidan perfectamente. Si usas bluetooth cámbiate a cable HDMI. Suscríbete para mejorar tu cine.",
+        "tags": [
+          "television",
+          "remote",
+          "speaker",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [],
