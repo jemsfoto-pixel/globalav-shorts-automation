@@ -142,6 +142,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260319_012842",
+      "video_id": "generative",
+      "original_title": "AI Generated Content",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260319_012842.mp4",
+      "metadata": {
+        "title": "The Truth about Audio Sync Issues: How to fix them! #Shorts #AV",
+        "description": "AI-powered insights about Audio Sync Issues: How to fix them. \n\n¿Odias que el audio y la imagen no coincidan en tu cine en casa? Ese retraso arruina cualquier película. Primero revisa el ajuste de Lip Sync en tu receptor AV o televisor. Si usas bluetooth cambia a cable óptico o HDMI ARC para eliminar latencia. Ajusta los milisegundos hasta que todo encaje perfecto. Suscríbete ahora mismo para más trucos audiovisuales.",
+        "tags": [
+          "television",
+          "home cinema",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [],
