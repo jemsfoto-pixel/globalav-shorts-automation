@@ -87,25 +87,41 @@ class YouTubeUploader:
                 flow = InstalledAppFlow.from_client_secrets_file(
                     str(CLIENT_SECRET_FILE), SCOPES
                 )
-                credentials = flow.run_local_server(port=0)
+                
+                print(f"\n{'='*60}")
+                print("MÉTODO DE EMERGENCIA (Si localhost falla):")
+                print("1. Abre este link en tu navegador:")
+                auth_url, _ = flow.authorization_url(prompt='consent', access_type='offline')
+                print(auth_url)
+                print("\n2. Elige tu cuenta y acepta.")
+                print("3. La página dará ERROR (localhost rechazó la conexión). ¡NO PASA NADA!")
+                print("4. MIRA LA BARRA DE DIRECCIONES de tu navegador (donde pone la URL).")
+                print("5. Verás algo como: http://localhost:8080/?code=4/0Af...&scope=...")
+                print("6. COPIA todo lo que hay DESPUÉS de 'code=' y ANTES de '&scope='.")
+                print(f"{'='*60}\n")
+                
+                try:
+                    logger.info("Intentando abrir servidor local en 127.0.0.1:8080...")
+                    credentials = flow.run_local_server(
+                        host='127.0.0.1',
+                        port=8080, 
+                        prompt='consent',
+                        timeout_seconds=60,
+                        success_message='Autorización completada. Ya puedes cerrar esta ventana.'
+                    )
+                except Exception as e:
+                    logger.warning(f"No se pudo iniciar el servidor local: {e}")
+                    print("\n[MODO MANUAL ACTIVADO]")
+                    code = input("Pega aquí el código que aparece en la URL del navegador despues de 'code=': ").strip()
+                    flow.fetch_token(code=code)
+                    credentials = flow.credentials
+                
                 logger.info("Completed OAuth2 flow")
             else:
-                # Check env for client secret
-                client_secret = os.getenv("YOUTUBE_CLIENT_SECRET", "")
-                if client_secret:
-                    secret_data = json.loads(client_secret)
-                    with open(CLIENT_SECRET_FILE, "w") as f:
-                        json.dump(secret_data, f)
-                    flow = InstalledAppFlow.from_client_secrets_file(
-                        str(CLIENT_SECRET_FILE), SCOPES
-                    )
-                    credentials = flow.run_local_server(port=0)
-                else:
-                    logger.error(
-                        "No YouTube credentials found. Place client_secret.json "
-                        "in credentials/ or set YOUTUBE_CLIENT_SECRET env var."
-                    )
-                    return False
+                logger.error(
+                    "No YouTube credentials found. Please ensure credentials/client_secret.json exists."
+                )
+                return False
 
             # Save token for future use
             with open(TOKEN_FILE, "w") as f:

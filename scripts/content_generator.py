@@ -12,7 +12,7 @@ class ContentGenerator:
 
     def __init__(self, config: dict):
         self.config = config
-        self.api_key = os.getenv("GOOGLE_API_KEY") # User needs to have this in Secrets
+        self.api_key = os.getenv("GOOGLE_API_KEY", "").strip() # User needs to have this in Secrets
         if not self.api_key:
             # Fallback for local testing if env not set, but expected in GitHub Actions
             logger.warning("GOOGLE_API_KEY not found in environment.")
@@ -58,6 +58,29 @@ class ContentGenerator:
         except Exception as e:
             logger.error(f"Error generating AI content: {e}")
             return None
+
+    def generate_topics(self, count: int = 5) -> List[str]:
+        """Generates a list of new and trending topics for the AV niche."""
+        logger.info(f"Generating {count} new topics for the AV channel...")
+        
+        prompt = f"""
+        Actúa como un estratega de contenido para un canal de YouTube sobre tecnología Audiovisual (AV).
+        Genera una lista de {count} temas de actualidad y tendencia (trending topics) en ESPAÑOL para YouTube Shorts.
+        Enfócate en: monitores (OLED, Gaming), proyectores, sonido de alta fidelidad (Hi-Fi), noticias tecnológicas, comparativas rápidas o consejos de configuración.
+        Devuelve SOLO la lista de temas, uno por línea, sin números ni guiones.
+        """
+        
+        try:
+            response = self.client.models.generate_content(
+                model=self.model_id,
+                contents=prompt
+            )
+            topics = [line.strip() for line in response.text.strip().split("\n") if line.strip()]
+            logger.info(f"Successfully generated topics: {topics}")
+            return topics[:count]
+        except Exception as e:
+            logger.error(f"Error generating topics: {e}")
+            return []
 
     def generate_voiceover(self, text: str, output_path: Path) -> Optional[Path]:
         """Convert text to speech and save as MP3."""

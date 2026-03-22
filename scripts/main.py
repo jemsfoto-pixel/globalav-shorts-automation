@@ -138,7 +138,27 @@ def run_ai_pipeline(config, manager, history, timestamp):
     import random
     
     gen = ContentGenerator(config)
-    topic = random.choice(gen_config.get("topics", ["AV Insights"]))
+    
+    # --- Topic Selection Logic ---
+    static_topics = gen_config.get("topics", ["Tecnología Audiovisual"])
+    used_topics = history.get("topics_used", [])
+    
+    # Filter available topics
+    available_topics = [t for t in static_topics if t not in used_topics]
+    
+    if not available_topics:
+        logger.info("🔄 Static topics exhausted or variety needed. Generating dynamic topics...")
+        dynamic_topics = gen.generate_topics(count=5)
+        # Filter dynamic topics too (just in case they were generated/used before)
+        available_topics = [t for t in dynamic_topics if t not in used_topics]
+        
+        # If still nothing (rare), just pick from dynamic or fallback
+        if not available_topics:
+            available_topics = dynamic_topics if dynamic_topics else [random.choice(static_topics)]
+
+    topic = random.choice(available_topics)
+    logger.info(f"🎯 Selected Topic: {topic}")
+    
     short_path = Path(config["PROJECT_ROOT"]) / "output" / "videos" / f"short_{timestamp}.mp4"
     
     # 1. Script & Keywords
@@ -171,12 +191,17 @@ def run_ai_pipeline(config, manager, history, timestamp):
     # 5. Metadata
     thumb_text = topic.upper()
     metadata = {
-        "title": f"The Truth about {topic}! #Shorts #AV",
-        "description": f"AI-powered insights about {topic}. \n\n{content['script']}",
+        "title": f"¡{topic}! #Shorts #AV",
+        "description": f"Perspectivas de IA sobre {topic}. \n\n{content['script']}",
         "tags": content["keywords"] + ["AV", "Shorts", "GlobalAVInsights"]
     }
     
-    return process_post_generation(config, manager, history, timestamp, short_path, thumb_text, metadata, "generative", "AI Generated Content")
+    # Mark topic as used in history
+    if "topics_used" not in history:
+        history["topics_used"] = []
+    history["topics_used"].append(topic)
+    
+    return process_post_generation(config, manager, history, timestamp, short_path, thumb_text, metadata, "generative", f"AI: {topic}")
 
 
 def process_post_generation(config, manager, history, timestamp, short_path, thumb_text, metadata, video_id, original_title):
