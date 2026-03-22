@@ -394,8 +394,28 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260322_065605",
+      "video_id": "generative",
+      "original_title": "AI: Best 4K Monitor for Productivity",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260322_065605.mp4",
+      "metadata": {
+        "title": "¡Best 4K Monitor for Productivity! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Best 4K Monitor for Productivity. \n\nTu productividad está muriendo si no usas el monitor adecuado para trabajar. El Dell UltraSharp U2723QE es el rey indiscutible actualmente. Su tecnología IPS Black ofrece contrastes increíbles y una nitidez 4K asombrosa que reduce la fatiga visual de inmediato. Conecta todo con un solo cable USB-C y mejora tu setup ahora mismo. Suscríbete a Global Audiovisual Insights para más.",
+        "tags": [
+          "monitor",
+          "technology",
+          "office",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
-  "topics_used": [],
+  "topics_used": [
+    "Best 4K Monitor for Productivity"
+  ],
   "processed_ids": []
 }
