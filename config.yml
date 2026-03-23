@@ -53,9 +53,18 @@ apis:
 generator:
   enabled: true
   topics:
-    - "Best 4K Monitor for Productivity"
-    - "OLED vs QLED: Which is better?"
-    - "How to calibrate your TV for movies"
-    - "Setup a Home Theater on a budget"
-    - "Audio Sync Issues: How to fix them"
-    - "Understanding HDR: Brightness and Contrast"
+    # --- Español y Variados ---
+    - "Monitores OLED vs IPS: ¿Cuál elegir en 2026?"
+    - "Cómo calibrar tu TV para ver películas en 4K"
+    - "Errores comunes al montar un Home Theater"
+    - "Por qué el sonido de tu TV plana es tan malo (y cómo arreglarlo)"
+    - "Proyectores vs TV Gigante para el salón"
+    - "5 trucos para mejorar el sonido de tu oficina"
+    - "Tecnología MicroLED explicada en 1 minuto"
+    - "El mito de los cables de audio caros"
+    - "HDR10 vs Dolby Vision: Batalla definitiva"
+    - "Barras de sonido o altavoces dedicados: La verdad"
+    - "Cómo afecta la acústica de tu sala al sonido"
+    - "Hz y FPS: Guía rápida para monitores gaming"
+    - "La configuración perfecta para hacer streaming"
+    - "Conexiones HDMI 2.1: Por qué las necesitas"
