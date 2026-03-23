@@ -59,6 +59,52 @@ class ContentGenerator:
             logger.error(f"Error generating AI content: {e}")
             return None
 
+    def generate_content_from_video(self, title: str, description: str):
+        """Generates a script explaining an existing channel video."""
+        logger.info(f"Generating explainer script for video: {title}")
+        
+        prompt = f"""
+        Actúa como un creador de YouTube Shorts viral.
+        Escribe un guion dinámico y de ritmo rápido en ESPAÑOL explicando de qué trata este vídeo:
+        
+        TÍTULO DEL VÍDEO ORIGEN: {title}
+        BREVE RESUMEN/DESCRIPCIÓN: {description[:500]}
+        
+        REGLAS:
+        - El guion debe tener exactamente 50-60 palabras para durar unos 45 segundos.
+        - NO USES emojis, ni formatos complejos (ni asteriscos, ni negritas, ni comillas). Solo texto plano continuo.
+        - Contexto: Canal Global Audiovisual Insights (tecnología AV).
+        - Empieza con un "gancho" inicial muy atractivo.
+        - Termina con una llamada a la acción: "Mira el vídeo completo en el canal y suscríbete".
+        """
+        
+        try:
+            response = self.client.models.generate_content(
+                model=self.model_id,
+                contents=prompt
+            )
+            script = response.text.strip().replace("\n", " ").replace("*", "")
+            logger.info("Explainer script generated successfully.")
+            
+            # Extract keywords for Pexels search
+            keyword_prompt = f"Read the following Spanish script and extract exactly 3 simple English keywords for stock video search about audiovisual tech, separated by commas (e.g., monitor, technology, audio): {script}"
+            kw_response = self.client.models.generate_content(
+                model=self.model_id,
+                contents=keyword_prompt
+            )
+            keywords = [k.strip() for k in kw_response.text.split(",")]
+            logger.info(f"Keywords extracted: {keywords}")
+            
+            return {
+                "script": script,
+                "keywords": keywords[:3],
+                "topic": title
+            }
+        except Exception as e:
+            logger.error(f"Error generating explainer script: {e}")
+            return None
+
+
     def generate_topics(self, count: int = 5) -> List[str]:
         """Generates a list of new and trending topics for the AV niche."""
         logger.info(f"Generating {count} new topics for the AV channel...")

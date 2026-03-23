@@ -75,6 +75,7 @@ class ChannelManager:
                 videos.append({
                     "id": vid_id,
                     "title": title,
+                    "description": entry.get("description", ""),
                     "views": int(views),
                     "date": date,
                     "duration": duration,
@@ -125,3 +126,40 @@ class ChannelManager:
         if video_id not in history["processed_ids"]:
             history["processed_ids"].append(video_id)
             self.save_history(history)
+
+    def get_video_metadata(self, video_id: str) -> dict:
+        """Fetch detailed metadata (title, description, tags) for a specific video."""
+        url = f"https://www.youtube.com/watch?v={video_id}"
+        logger.info(f"Fetching deep metadata for {url}...")
+        
+        tmp_file = tempfile.NamedTemporaryFile(mode='w', suffix='.json', delete=False, encoding='utf-8')
+        tmp_path = tmp_file.name
+        tmp_file.close()
+
+        cmd = f'yt-dlp --dump-json --no-warnings "{url}" > "{tmp_path}"'
+        
+        try:
+            subprocess.run(cmd, shell=True, check=True, timeout=60)
+            with open(tmp_path, 'r', encoding='utf-8', errors='replace') as f:
+                data = json.load(f)
+                
+            return {
+                "id": data.get("id"),
+                "title": data.get("title", ""),
+                "description": data.get("description", ""),
+                "tags": data.get("tags", [])
+            }
+        except Exception as e:
+            logger.error(f"Error fetching metadata for {video_id}: {e}")
+            return {
+                "id": video_id,
+                "title": "",
+                "description": "",
+                "tags": []
+            }
+        finally:
+            try:
+                os.unlink(tmp_path)
+            except:
+                pass
+

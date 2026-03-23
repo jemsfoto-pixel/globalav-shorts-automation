@@ -86,41 +86,62 @@ def run_pipeline():
         return
 
 def run_clip_pipeline(config, manager, history, timestamp):
-    logger.info("🎬 Mode: CLIP PIPELINE (YouTube long-form to Short)")
+    logger.info("🎬 Mode: EXPLAINER PIPELINE (YouTube long-form explained by AI)")
     
     # --- Phase 1: Select Video ---
     logger.info("📋 Phase 1: Selecting best video from channel...")
-    video_meta = manager.select_best_video()
-    if not video_meta:
-        logger.error("❌ No eligible video found for clipping.")
+    video_meta_basic = manager.select_best_video()
+    if not video_meta_basic:
+        logger.error("❌ No eligible video found for explaining.")
         return False
 
-    logger.info(f"✅ Selected: {video_meta['title']} ({video_meta['views']} views)")
+    logger.info(f"✅ Selected: {video_meta_basic['title']} ({video_meta_basic['views']} views)")
 
-    # --- Phase 2: Download ---
-    asset_mgr = AssetManager(config)
-    raw_path = asset_mgr.download_video(video_meta["id"])
+    # Fetch full metadata to get description
+    video_meta = manager.get_video_metadata(video_meta_basic['id'])
     
-    if not raw_path:
-        logger.error("❌ YouTube download failed.")
+    from scripts.content_generator import ContentGenerator
+    gen = ContentGenerator(config)
+    
+    # --- Phase 2: Generate Content from Video ---
+    logger.info("🧠 Phase 2: Generating explanation script from video metadata...")
+    content = gen.generate_content_from_video(video_meta["title"], video_meta.get("description", ""))
+    
+    if not content:
+        logger.error("❌ Failed to generate explainer script.")
         return False
 
     short_path = Path(config["PROJECT_ROOT"]) / "output" / "videos" / f"short_{timestamp}.mp4"
-    logger.info(f"✅ Downloaded: {raw_path}")
     
-    # --- Phase 3: Build Short ---
-    logger.info("🎬 Phase 3: Building Short (9:16, 55s, subtitles, fadeout)...")
-    builder = VideoBuilder(config)
-    try:
-        builder.build_short(raw_path, short_path)
-    except Exception as e:
-        logger.error(f"❌ Failed to build short: {e}")
+    # --- Phase 3: Audio & Stock Footage ---
+    from scripts.assets import AssetManager
+    asset_mgr = AssetManager(config)
+    audio_path = Path(config["PROJECT_ROOT"]) / "assets" / "raw_videos" / f"voice_{timestamp}.mp3"
+    
+    logger.info("🔊 Generating voiceover...")
+    gen.generate_voiceover(content["script"], audio_path)
+    
+    logger.info(f"🔍 Searching Pexels for: {content['keywords']}")
+    video_paths = asset_mgr.download_pexels_videos(content["keywords"])
+    
+    if not video_paths:
+        logger.error("❌ Failed to download stock footage.")
         return False
     
-    # --- Phase 4: SEO & Metadata ---
-    logger.info("🔍 Phase 4: Generating SEO metadata...")
+    # --- Phase 4: Build Generative Short ---
+    logger.info("🎬 Phase 4: Building Generative Explainer Short...")
+    builder = VideoBuilder(config)
+    try:
+        builder.build_generative_short(audio_path, video_paths, short_path, content["script"])
+    except Exception as e:
+        logger.error(f"❌ Failed to build AI short: {e}")
+        return False
+    
+    # --- Phase 5: SEO & Metadata ---
+    logger.info("🔍 Phase 5: Generating SEO metadata...")
     seo = SEOGenerator(config)
     original_url = f"https://www.youtube.com/watch?v={video_meta['id']}"
+    # Use dynamic generator
     metadata = seo.generate(video_meta["title"], original_url)
     thumb_text = " ".join(video_meta["title"].split()[:3]).upper()
     
