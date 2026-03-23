@@ -38,10 +38,10 @@ class SEOGenerator:
                 Genera metadatos SEO virales para un YouTube Short en español sobre este tema:
                 TEMA: {original_title}
                 
-                Devuelve exactamente tres líneas:
-                1. Un título muy gancho de máximo 50 caracteres (sin comillas).
-                2. Una breve descripción de una línea.
-                3. 5 hashtags relevantes separados por espacios (incluyendo #Shorts).
+                Devuelve exactamente tres líneas y NADA MÁS. NINGUNA disculpa ni aclaración:
+                1. Un título muy gancho de máximo 50 caracteres (sin comillas). SIEMPRE debe ser un título sobre tecnología audiovisual, incluso si el tema parece confuso.
+                2. Una breve descripción de una línea apoyando el título.
+                3. 5 hashtags relevantes sobre monitores, sonido o AV separados por espacios (incluyendo #Shorts).
                 """
                 response = self.client.models.generate_content(
                     model="gemini-flash-latest",

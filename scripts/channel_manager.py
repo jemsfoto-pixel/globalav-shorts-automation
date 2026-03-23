@@ -127,8 +127,8 @@ class ChannelManager:
             history["processed_ids"].append(video_id)
             self.save_history(history)
 
-    def get_video_metadata(self, video_id: str) -> dict:
-        """Fetch detailed metadata (title, description, tags) for a specific video."""
+    def get_video_metadata(self, video_id: str, fallback_title: str = "", fallback_desc: str = "") -> dict:
+        """Fetch detailed metadata. If it fails, use the fallback title and description."""
         url = f"https://www.youtube.com/watch?v={video_id}"
         logger.info(f"Fetching deep metadata for {url}...")
         
@@ -153,8 +153,8 @@ class ChannelManager:
             logger.error(f"Error fetching metadata for {video_id}: {e}")
             return {
                 "id": video_id,
-                "title": "",
-                "description": "",
+                "title": fallback_title,
+                "description": fallback_desc,
                 "tags": []
             }
         finally:

@@ -97,8 +97,8 @@ def run_clip_pipeline(config, manager, history, timestamp):
 
     logger.info(f"✅ Selected: {video_meta_basic['title']} ({video_meta_basic['views']} views)")
 
-    # Fetch full metadata to get description
-    video_meta = manager.get_video_metadata(video_meta_basic['id'])
+    # Fetch full metadata to get description (use basic metadata as fallback if yt-dlp is blocked)
+    video_meta = manager.get_video_metadata(video_meta_basic['id'], fallback_title=video_meta_basic['title'], fallback_desc=video_meta_basic.get('description', ''))
     
     from scripts.content_generator import ContentGenerator
     gen = ContentGenerator(config)
