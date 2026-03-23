@@ -64,18 +64,20 @@ class ContentGenerator:
         logger.info(f"Generating explainer script for video: {title}")
         
         prompt = f"""
-        Actúa como un creador de YouTube Shorts viral.
-        Escribe un guion dinámico y de ritmo rápido en ESPAÑOL explicando de qué trata este vídeo:
+        Actúa como un experto ingeniero audiovisual creando un YouTube Short viral y educativo.
+        Tu objetivo es ENSEÑAR y EXPLICAR el concepto técnico de este vídeo en ESPAÑOL, de forma clara y directa.
+        No hagas un simple resumen o un tráiler del vídeo; el Short debe tener valor educativo por sí mismo.
         
         TÍTULO DEL VÍDEO ORIGEN: {title}
-        BREVE RESUMEN/DESCRIPCIÓN: {description[:500]}
+        CONTEXTO TÉCNICO: {description[:800]}
         
-        REGLAS:
-        - El guion debe tener exactamente 50-60 palabras para durar unos 45 segundos.
+        REGLAS ESTRICTAS:
+        - Explica 1 o 2 conceptos técnicos clave (ej. para qué sirve una barra de color, qué es el tono de 1kHz, qué es el DSE, etc.) basándote en el título y contexto.
+        - Sé conciso pero muy informativo (cero paja). Usa un tono experto pero accesible.
+        - El guion debe tener exactamente 70-85 palabras para durar unos 50-60 segundos.
         - NO USES emojis, ni formatos complejos (ni asteriscos, ni negritas, ni comillas). Solo texto plano continuo.
-        - Contexto: Canal Global Audiovisual Insights (tecnología AV).
-        - Empieza con un "gancho" inicial muy atractivo.
-        - Termina con una llamada a la acción: "Mira el vídeo completo en el canal y suscríbete".
+        - Empieza con un "gancho" inicial educativo muy atractivo (ej: "¿Sabías para qué sirven realmente las barras de colores de TV?").
+        - Termina con una llamada a la acción rapidísima: "Suscríbete para más tips AV". (NO digas "mira el vídeo completo").
         """
         
         try:
