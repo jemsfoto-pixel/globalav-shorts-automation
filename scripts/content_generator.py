@@ -30,6 +30,7 @@ class ContentGenerator:
         El guion debe tener exactamente 50-60 palabras para durar unos 45 segundos.
         NO USES emojis, ni formatos complejos (ni asteriscos, ni negritas, ni comillas). Solo texto plano continuo.
         Contexto del canal: Global Audiovisual Insights (tecnología AV, monitores, proyectores, sonido, home theater).
+        IMPORTANTE: NO hables de "barras de color", "señales de prueba" o "ajustes técnicos" a menos que el tema lo requiera específicamente. Enfócate en el valor para el espectador.
         Incluye un "gancho" inicial muy atractivo en la primera frase y una llamada a la acción rápida al final pidiendo suscripción.
         """
         

@@ -72,6 +72,12 @@ class ChannelManager:
                     logger.info(f"  Skipping Short: {title} ({duration}s)")
                     continue
 
+                # Filter out repetitive technical tests (Color Bars, Dead Pixel, etc.)
+                exclude_keywords = ["color bar", "dead pixel", "test", "tone", "sine wave"]
+                if any(kw in title.lower() for kw in exclude_keywords):
+                    logger.info(f"  Filtering out repetitive technical video: {title}")
+                    continue
+
                 videos.append({
                     "id": vid_id,
                     "title": title,
