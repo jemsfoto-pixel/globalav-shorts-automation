@@ -300,7 +300,6 @@ def run_pipeline():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # Determine which pipeline to run
-    # Defaults to 'auto'. 'auto' means try clip, then try AI if clip fails (no videos left).
     pipeline_mode = os.getenv("PIPELINE_MODE", "auto").lower()
 
     if pipeline_mode == "clip":
@@ -308,11 +307,22 @@ def run_pipeline():
     elif pipeline_mode == "ai":
         run_ai_pipeline(config, manager, history, timestamp)
     else: # auto
-        logger.info("🔄 Mode: AUTO. Attempting CLIP pipeline first...")
-        success = run_clip_pipeline(config, manager, history, timestamp)
-        if not success:
-            logger.info("🔄 CLIP pipeline skipped or failed. Falling back to AI pipeline...")
-            run_ai_pipeline(config, manager, history, timestamp)
+        import random
+        ai_weight = config.get("generator", {}).get("ai_mode_weight", 0.5)
+        
+        # Decide which one to try first based on weight
+        if random.random() < ai_weight:
+            logger.info(f"🔄 Mode: AUTO (Weighted). Chosen first: AI pipeline (weight: {ai_weight})")
+            success = run_ai_pipeline(config, manager, history, timestamp)
+            if not success:
+                logger.info("🔄 AI pipeline failed. Falling back to CLIP pipeline...")
+                run_clip_pipeline(config, manager, history, timestamp)
+        else:
+            logger.info(f"🔄 Mode: AUTO (Weighted). Chosen first: CLIP pipeline (weight: {1-ai_weight})")
+            success = run_clip_pipeline(config, manager, history, timestamp)
+            if not success:
+                logger.info("🔄 CLIP pipeline failed/skipped. Falling back to AI pipeline...")
+                run_ai_pipeline(config, manager, history, timestamp)
 
 
 if __name__ == "__main__":
