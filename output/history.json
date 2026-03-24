@@ -540,11 +540,30 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260324_184553",
+      "video_id": "generative",
+      "original_title": "AI: Por qué el contraste es más importante que la resolución.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260324_184553.mp4",
+      "metadata": {
+        "title": "¡Por qué el contraste es más importante que la resolución.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué el contraste es más importante que la resolución.. \n\nDeja de gastar dinero en pantallas 8K porque la resolución no lo es todo. El contraste es el verdadero secreto de una imagen realista. Mientras los píxeles añaden nitidez el contraste genera profundidad y vida en cada escena. Un panel 1080p con negros perfectos siempre superará a un 4K lavado. Mejora tu experiencia visual hoy mismo y suscríbete para más.",
+        "tags": [
+          "television",
+          "screen",
+          "contrast",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
     "Best 4K Monitor for Productivity",
-    "Guía para elegir tu primer proyector económico."
+    "Guía para elegir tu primer proyector económico.",
+    "Por qué el contraste es más importante que la resolución."
   ],
   "processed_ids": []
 }
