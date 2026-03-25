@@ -611,6 +611,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260325_125256",
+      "video_id": "generative",
+      "original_title": "AI: La importancia del tratamiento de graves con trampas de bajos.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260325_125256.mp4",
+      "metadata": {
+        "title": "¡La importancia del tratamiento de graves con trampas de bajos.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La importancia del tratamiento de graves con trampas de bajos.. \n\n¿Tu cine en casa suena fatal y retumba sin control? El problema real son las esquinas donde el grave se acumula destruyendo la claridad del sonido. Las trampas de bajos absorben esa energía sobrante permitiendo que escuches cada detalle con máxima definición. Transforma tu sala hoy mismo con este cambio. Suscríbete para dominar tu audio profesional.",
+        "tags": [
+          "acoustic",
+          "studio",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -618,7 +636,8 @@
     "Guía para elegir tu primer proyector económico.",
     "Por qué el contraste es más importante que la resolución.",
     "Cómo configurar un sistema de sonido 5.1.2 para Atmos.",
-    "Cómo calibrar brillo y contraste para una imagen perfecta."
+    "Cómo calibrar brillo y contraste para una imagen perfecta.",
+    "La importancia del tratamiento de graves con trampas de bajos."
   ],
   "processed_ids": []
 }
