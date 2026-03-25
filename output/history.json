@@ -593,13 +593,32 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260325_065515",
+      "video_id": "generative",
+      "original_title": "AI: Cómo calibrar brillo y contraste para una imagen perfecta.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260325_065515.mp4",
+      "metadata": {
+        "title": "¡Cómo calibrar brillo y contraste para una imagen perfecta.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo calibrar brillo y contraste para una imagen perfecta.. \n\nTu pantalla te está mintiendo y estás perdiendo detalles increíbles en tus películas favoritas ahora mismo. Para arreglarlo ajusta el brillo hasta que las sombras tengan detalle sin verse grises. Luego sube el contraste para que los blancos brillen sin perder texturas. Logra una imagen profesional de cine hoy mismo. Suscríbete a Global Audiovisual Insights para ver contenido exclusivo.",
+        "tags": [
+          "monitor",
+          "cinema",
+          "settings",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
     "Best 4K Monitor for Productivity",
     "Guía para elegir tu primer proyector económico.",
     "Por qué el contraste es más importante que la resolución.",
-    "Cómo configurar un sistema de sonido 5.1.2 para Atmos."
+    "Cómo configurar un sistema de sonido 5.1.2 para Atmos.",
+    "Cómo calibrar brillo y contraste para una imagen perfecta."
   ],
   "processed_ids": []
 }
