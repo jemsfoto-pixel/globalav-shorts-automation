@@ -629,6 +629,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260325_184646",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre Dolby Vision IQ y HDR10+ Adaptive.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260325_184646.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre Dolby Vision IQ y HDR10+ Adaptive.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre Dolby Vision IQ y HDR10+ Adaptive.. \n\n¿Cansado de no ver nada cuando hay luz en tu sala? Dolby Vision IQ y HDR10+ Adaptive son la solución definitiva. Ambos usan sensores para ajustar el brillo automáticamente según tu entorno real. Dolby ofrece mayor precisión y soporte premium, mientras HDR10+ destaca por ser libre en Samsung. Disfruta un cine perfecto. Suscríbete ahora para dominar toda la tecnología audiovisual.",
+        "tags": [
+          "television",
+          "living room",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -637,7 +655,8 @@
     "Por qué el contraste es más importante que la resolución.",
     "Cómo configurar un sistema de sonido 5.1.2 para Atmos.",
     "Cómo calibrar brillo y contraste para una imagen perfecta.",
-    "La importancia del tratamiento de graves con trampas de bajos."
+    "La importancia del tratamiento de graves con trampas de bajos.",
+    "Diferencias entre Dolby Vision IQ y HDR10+ Adaptive."
   ],
   "processed_ids": []
 }
