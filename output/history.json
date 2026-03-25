@@ -575,12 +575,31 @@
           "Tech"
         ]
       }
+    },
+    {
+      "timestamp": "20260325_012707",
+      "video_id": "generative",
+      "original_title": "AI: Cómo configurar un sistema de sonido 5.1.2 para Atmos.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260325_012707.mp4",
+      "metadata": {
+        "title": "¡Cómo configurar un sistema de sonido 5.1.2 para Atmos.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo configurar un sistema de sonido 5.1.2 para Atmos.. \n\nTu sala puede sonar mejor que un cine profesional ahora mismo. Para montar un sistema cinco punto uno punto dos necesitas tres altavoces frontales y dos laterales para el sonido envolvente. Suma un subwoofer para impactos profundos. El toque final son dos altavoces de techo que activan el efecto Atmos tridimensional. Suscríbete para más cine en casa.",
+        "tags": [
+          "speakers",
+          "cinema",
+          "home",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
     "Best 4K Monitor for Productivity",
     "Guía para elegir tu primer proyector económico.",
-    "Por qué el contraste es más importante que la resolución."
+    "Por qué el contraste es más importante que la resolución.",
+    "Cómo configurar un sistema de sonido 5.1.2 para Atmos."
   ],
   "processed_ids": []
 }
