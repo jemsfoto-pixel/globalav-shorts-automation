@@ -665,6 +665,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260326_070023",
+      "video_id": "generative",
+      "original_title": "AI: Por qué el modo vívido de las tiendas estropea la imagen.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260326_070023.mp4",
+      "metadata": {
+        "title": "¡Por qué el modo vívido de las tiendas estropea la imagen.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué el modo vívido de las tiendas estropea la imagen.. \n\nTu televisor nuevo te está mintiendo y no lo sabes. El modo vívido de las tiendas sube el brillo y la saturación al extremo solo para captar tu atención. Esto destroza los detalles y muestra colores totalmente irreales que cansan tu vista. Si buscas calidad profesional cámbialo a modo cine. Suscríbete ahora a Global Audiovisual Insights para mejorar tu imagen.",
+        "tags": [
+          "television",
+          "screen",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -675,7 +693,8 @@
     "Cómo calibrar brillo y contraste para una imagen perfecta.",
     "La importancia del tratamiento de graves con trampas de bajos.",
     "Diferencias entre Dolby Vision IQ y HDR10+ Adaptive.",
-    "La importancia de la profundidad de color en diseño gráfico."
+    "La importancia de la profundidad de color en diseño gráfico.",
+    "Por qué el modo vívido de las tiendas estropea la imagen."
   ],
   "processed_ids": []
 }
