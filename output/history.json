@@ -647,6 +647,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260326_014602",
+      "video_id": "generative",
+      "original_title": "AI: La importancia de la profundidad de color en diseño gráfico.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260326_014602.mp4",
+      "metadata": {
+        "title": "¡La importancia de la profundidad de color en diseño gráfico.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La importancia de la profundidad de color en diseño gráfico.. \n\n¿Alguna vez has visto esas bandas feas en tus degradados? Eso es falta de profundidad de color. No es solo un dato técnico, es la diferencia real entre un diseño mediocre y uno profesional de alta fidelidad. Más bits significan transiciones perfectas y un realismo absoluto en pantalla. Mejora tu calidad visual ahora mismo. Suscríbete para más secretos audiovisuales increíbles.",
+        "tags": [
+          "monitor",
+          "technology",
+          "color",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -656,7 +674,8 @@
     "Cómo configurar un sistema de sonido 5.1.2 para Atmos.",
     "Cómo calibrar brillo y contraste para una imagen perfecta.",
     "La importancia del tratamiento de graves con trampas de bajos.",
-    "Diferencias entre Dolby Vision IQ y HDR10+ Adaptive."
+    "Diferencias entre Dolby Vision IQ y HDR10+ Adaptive.",
+    "La importancia de la profundidad de color en diseño gráfico."
   ],
   "processed_ids": []
 }
