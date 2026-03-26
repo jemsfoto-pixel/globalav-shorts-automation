@@ -700,6 +700,24 @@
           "Setup"
         ]
       }
+    },
+    {
+      "timestamp": "20260326_185717",
+      "video_id": "generative",
+      "original_title": "AI: ¿Es necesario contratar un calibrador profesional?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260326_185717.mp4",
+      "metadata": {
+        "title": "¡¿Es necesario contratar un calibrador profesional?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿Es necesario contratar un calibrador profesional?. \n\nTu televisor de miles de dólares se ve mal y no sabes por qué. Un calibrador profesional transforma tu pantalla para mostrar colores reales y detalles ocultos que te estás perdiendo ahora mismo. No es un gasto sino una inversión para ver cine como un experto. Maximiza tu equipo hoy. Suscríbete para mejorar tu experiencia audiovisual.",
+        "tags": [
+          "television",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -711,7 +729,8 @@
     "La importancia del tratamiento de graves con trampas de bajos.",
     "Diferencias entre Dolby Vision IQ y HDR10+ Adaptive.",
     "La importancia de la profundidad de color en diseño gráfico.",
-    "Por qué el modo vívido de las tiendas estropea la imagen."
+    "Por qué el modo vívido de las tiendas estropea la imagen.",
+    "¿Es necesario contratar un calibrador profesional?"
   ],
   "processed_ids": []
 }
