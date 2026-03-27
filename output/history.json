@@ -718,6 +718,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260327_014633",
+      "video_id": "generative",
+      "original_title": "AI: HDR10, Dolby Vision y HDR10+: Diferencias explicadas.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260327_014633.mp4",
+      "metadata": {
+        "title": "¡HDR10, Dolby Vision y HDR10+: Diferencias explicadas.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre HDR10, Dolby Vision y HDR10+: Diferencias explicadas.. \n\n¿Tu televisor se ve aburrido y sin vida? La diferencia está en el HDR. HDR10 es el estándar básico pero estático. En cambio Dolby Vision y HDR10 plus usan metadatos dinámicos para optimizar cada escena individualmente. Dolby Vision ofrece colores premium mientras HDR10 plus es la alternativa gratuita. Elige siempre bien para ver cine real. Suscríbete para más secretos tecnológicos.",
+        "tags": [
+          "television",
+          "technology",
+          "color",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -730,7 +748,8 @@
     "Diferencias entre Dolby Vision IQ y HDR10+ Adaptive.",
     "La importancia de la profundidad de color en diseño gráfico.",
     "Por qué el modo vívido de las tiendas estropea la imagen.",
-    "¿Es necesario contratar un calibrador profesional?"
+    "¿Es necesario contratar un calibrador profesional?",
+    "HDR10, Dolby Vision y HDR10+: Diferencias explicadas."
   ],
   "processed_ids": []
 }
