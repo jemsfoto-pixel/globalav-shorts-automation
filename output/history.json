@@ -754,6 +754,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260327_124600",
+      "video_id": "generative",
+      "original_title": "AI: Por qué usar un receptor AV en lugar de una barra de sonido.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260327_124600.mp4",
+      "metadata": {
+        "title": "¡Por qué usar un receptor AV en lugar de una barra de sonido.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué usar un receptor AV en lugar de una barra de sonido.. \n\n¿Sigues usando una barra de sonido? Estás perdiendo calidad real. Un receptor AV ofrece sonido envolvente auténtico y potencia ilimitada. Puedes actualizar cada altavoz por separado sin tirar todo el sistema completo al cambiar de tecnología. Es la diferencia entre ver una película y vivirla de verdad. Mejora tu cine ahora mismo. Suscríbete a Global Audiovisual Insights para más.",
+        "tags": [
+          "home theater",
+          "speakers",
+          "receiver",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -768,7 +786,8 @@
     "Por qué el modo vívido de las tiendas estropea la imagen.",
     "¿Es necesario contratar un calibrador profesional?",
     "HDR10, Dolby Vision y HDR10+: Diferencias explicadas.",
-    "¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?"
+    "¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?",
+    "Por qué usar un receptor AV en lugar de una barra de sonido."
   ],
   "processed_ids": []
 }
