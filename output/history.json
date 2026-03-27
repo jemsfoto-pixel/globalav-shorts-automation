@@ -736,6 +736,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260327_070004",
+      "video_id": "generative",
+      "original_title": "AI: ¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260327_070004.mp4",
+      "metadata": {
+        "title": "¡¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?. \n\n¿Sientes que tu juego va lento aunque tengas muchísimos FPS? Eso es el retardo de entrada o input lag. Es el tiempo exacto que tarda tu acción física en aparecer en la pantalla. Si es alto pierdes precisión y ventaja competitiva en segundos vitales. Mejora hoy mismo tu experiencia audiovisual. Suscríbete ahora para dominar toda tu tecnología audiovisual avanzada.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "gamer",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -749,7 +767,8 @@
     "La importancia de la profundidad de color en diseño gráfico.",
     "Por qué el modo vívido de las tiendas estropea la imagen.",
     "¿Es necesario contratar un calibrador profesional?",
-    "HDR10, Dolby Vision y HDR10+: Diferencias explicadas."
+    "HDR10, Dolby Vision y HDR10+: Diferencias explicadas.",
+    "¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?"
   ],
   "processed_ids": []
 }
