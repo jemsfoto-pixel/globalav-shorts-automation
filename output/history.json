@@ -772,6 +772,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260327_184652",
+      "video_id": "generative",
+      "original_title": "AI: Guía de tamaños de pantalla según la distancia de visionado.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260327_184652.mp4",
+      "metadata": {
+        "title": "¡Guía de tamaños de pantalla según la distancia de visionado.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Guía de tamaños de pantalla según la distancia de visionado.. \n\nEstás comprando la tele equivocada y tus ojos lo saben. Para una experiencia de cine divide la distancia entre uno punto seis. Si estás a dos metros necesitas sesenta y cinco pulgadas mínimo. No te conformes con pantallas pequeñas que cansan tu vista. Optimiza tu cine en casa hoy mismo. Suscríbete para más secretos audiovisuales profesionales.",
+        "tags": [
+          "television",
+          "home cinema",
+          "living room",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -787,7 +805,8 @@
     "¿Es necesario contratar un calibrador profesional?",
     "HDR10, Dolby Vision y HDR10+: Diferencias explicadas.",
     "¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?",
-    "Por qué usar un receptor AV en lugar de una barra de sonido."
+    "Por qué usar un receptor AV en lugar de una barra de sonido.",
+    "Guía de tamaños de pantalla según la distancia de visionado."
   ],
   "processed_ids": []
 }
