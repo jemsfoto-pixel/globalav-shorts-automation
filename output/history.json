@@ -825,6 +825,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260328_183059",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260328_183059.mp4",
+      "metadata": {
+        "title": "¡Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1.. \n\n¿Sigues usando cables viejos para tu PS5 o PC gamer? HDMI 2.1 es el salto definitivo. Mientras la versión 2.0 se limita a 18 gigas por segundo el 2.1 alcanza los 48 gigas. Esto permite jugar en 4K a 120 hercios o ver cine en 8K real. No limites tu equipo profesional ahora. Suscríbete ya para dominar tu setup.",
+        "tags": [
+          "gaming",
+          "cable",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -842,7 +860,8 @@
     "¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?",
     "Por qué usar un receptor AV en lugar de una barra de sonido.",
     "Guía de tamaños de pantalla según la distancia de visionado.",
-    "Resumen: Cómo montar el setup audiovisual de tus sueños."
+    "Resumen: Cómo montar el setup audiovisual de tus sueños.",
+    "Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1."
   ],
   "processed_ids": []
 }
