@@ -807,6 +807,24 @@
           "AV"
         ]
       }
+    },
+    {
+      "timestamp": "20260328_123831",
+      "video_id": "generative",
+      "original_title": "AI: Resumen: Cómo montar el setup audiovisual de tus sueños.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260328_123831.mp4",
+      "metadata": {
+        "title": "¡Resumen: Cómo montar el setup audiovisual de tus sueños.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Resumen: Cómo montar el setup audiovisual de tus sueños.. \n\nQuieres tener el cine en casa pero no sabes por dónde empezar. Primero elige una pantalla que domine tu espacio con resoluciones impactantes. Luego suma un sistema de sonido envolvente para sentir cada explosión. No olvides una iluminación ambiental que mejore el contraste visual. Convierte tu cuarto en un paraíso tecnológico hoy mismo. Suscríbete ahora para más consejos audiovisuales increíbles.",
+        "tags": [
+          "cinema",
+          "television",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -823,7 +841,8 @@
     "HDR10, Dolby Vision y HDR10+: Diferencias explicadas.",
     "¿Qué es el retardo de entrada (Input Lag) y cómo te afecta?",
     "Por qué usar un receptor AV en lugar de una barra de sonido.",
-    "Guía de tamaños de pantalla según la distancia de visionado."
+    "Guía de tamaños de pantalla según la distancia de visionado.",
+    "Resumen: Cómo montar el setup audiovisual de tus sueños."
   ],
   "processed_ids": []
 }
