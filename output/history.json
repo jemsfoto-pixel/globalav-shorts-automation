@@ -843,6 +843,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260329_014852",
+      "video_id": "generative",
+      "original_title": "AI: Configuración de color: ¿RGB Completo o YCbCr 4:4:4?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260329_014852.mp4",
+      "metadata": {
+        "title": "¡Configuración de color: ¿RGB Completo o YCbCr 4:4:4?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Configuración de color: ¿RGB Completo o YCbCr 4:4:4?. \n\n¿Tu pantalla se ve lavada o con colores apagados? La solución es muy simple. Si usas un monitor de PC elige siempre RGB completo para obtener negros profundos y detalles nítidos. Pero si conectas tu televisión para ver cine YCbCr 444 es tu mejor aliado. Maximiza la calidad de tu imagen. Suscríbete ahora mismo para dominar tu cine en casa.",
+        "tags": [
+          "monitor",
+          "television",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -861,7 +879,8 @@
     "Por qué usar un receptor AV en lugar de una barra de sonido.",
     "Guía de tamaños de pantalla según la distancia de visionado.",
     "Resumen: Cómo montar el setup audiovisual de tus sueños.",
-    "Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1."
+    "Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1.",
+    "Configuración de color: ¿RGB Completo o YCbCr 4:4:4?"
   ],
   "processed_ids": []
 }
