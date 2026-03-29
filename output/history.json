@@ -861,6 +861,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260329_065614",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre audio óptico y audio por HDMI/eARC.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260329_065614.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre audio óptico y audio por HDMI/eARC.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre audio óptico y audio por HDMI/eARC.. \n\n¿Sigues usando el cable óptico para tu sonido? Estás perdiendo mucha calidad. El cable óptico es tecnología vieja que solo llega a cinco punto uno canales. HDMI eARC es el verdadero rey porque soporta Dolby Atmos y audio de alta resolución sin pérdida. Permite controlar todo con un solo mando. Mejora tu cine en casa hoy y suscríbete para más.",
+        "tags": [
+          "HDMI",
+          "audio",
+          "home theater",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -880,7 +898,8 @@
     "Guía de tamaños de pantalla según la distancia de visionado.",
     "Resumen: Cómo montar el setup audiovisual de tus sueños.",
     "Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1.",
-    "Configuración de color: ¿RGB Completo o YCbCr 4:4:4?"
+    "Configuración de color: ¿RGB Completo o YCbCr 4:4:4?",
+    "Diferencias entre audio óptico y audio por HDMI/eARC."
   ],
   "processed_ids": []
 }
