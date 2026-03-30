@@ -931,6 +931,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260330_185213",
+      "video_id": "generative",
+      "original_title": "AI: Cómo limpiar la pantalla de tu monitor sin dañarla.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260330_185213.mp4",
+      "metadata": {
+        "title": "¡Cómo limpiar la pantalla de tu monitor sin dañarla.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo limpiar la pantalla de tu monitor sin dañarla.. \n\nSabías que estás destruyendo tu monitor cada vez que lo limpias mal? Nunca uses alcohol ni papel de cocina porque dañan la pantalla de forma irreversible. Apaga el equipo y pasa un paño de microfibra seco suavemente. Para manchas difíciles usa solo agua destilada humedeciendo ligeramente la tela. Suscríbete ahora a Global Audiovisual Insights para más trucos geniales hoy mismo.",
+        "tags": [
+          "monitor",
+          "cleaning",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -952,7 +970,8 @@
     "Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1.",
     "Configuración de color: ¿RGB Completo o YCbCr 4:4:4?",
     "Diferencias entre audio óptico y audio por HDMI/eARC.",
-    "Cómo afecta el tamaño del píxel a la nitidez visual (PPI)."
+    "Cómo afecta el tamaño del píxel a la nitidez visual (PPI).",
+    "Cómo limpiar la pantalla de tu monitor sin dañarla."
   ],
   "processed_ids": []
 }
