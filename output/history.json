@@ -913,6 +913,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260330_071852",
+      "video_id": "generative",
+      "original_title": "AI: Cómo afecta el tamaño del píxel a la nitidez visual (PPI).",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260330_071852.mp4",
+      "metadata": {
+        "title": "¡Cómo afecta el tamaño del píxel a la nitidez visual (PPI).! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo afecta el tamaño del píxel a la nitidez visual (PPI).. \n\n¿Por qué tu móvil se ve más nítido que un monitor enorme? La clave es el PPI. Cuanto más pequeño es el tamaño del píxel más cantidad se concentra en el mismo espacio eliminando los bordes de sierra. Un píxel grande rompe la ilusión y arruina la definición. Aprende a elegir la mejor pantalla con nosotros y suscríbete para más.",
+        "tags": [
+          "smartphone",
+          "monitor",
+          "pixels",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -933,7 +951,8 @@
     "Resumen: Cómo montar el setup audiovisual de tus sueños.",
     "Diferencias fundamentales entre HDMI 2.0 y HDMI 2.1.",
     "Configuración de color: ¿RGB Completo o YCbCr 4:4:4?",
-    "Diferencias entre audio óptico y audio por HDMI/eARC."
+    "Diferencias entre audio óptico y audio por HDMI/eARC.",
+    "Cómo afecta el tamaño del píxel a la nitidez visual (PPI)."
   ],
   "processed_ids": []
 }
