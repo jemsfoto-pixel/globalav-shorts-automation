@@ -1002,6 +1002,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260331_185254",
+      "video_id": "generative",
+      "original_title": "AI: Por qué el contenido en HDR a veces se ve demasiado oscuro.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260331_185254.mp4",
+      "metadata": {
+        "title": "¡Por qué el contenido en HDR a veces se ve demasiado oscuro.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué el contenido en HDR a veces se ve demasiado oscuro.. \n\nAlguna vez has sentido que el HDR se ve demasiado oscuro. Esto sucede porque el contenido se masteriza con picos de brillo que tu pantalla no puede alcanzar. Tu panel intenta salvar los detalles en las sombras, pero termina oscureciendo toda la imagen para compensar. El resultado es una experiencia frustrante y apagada. Suscríbete para dominar tu cine en casa.",
+        "tags": [
+          "television",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1026,7 +1044,8 @@
     "Cómo afecta el tamaño del píxel a la nitidez visual (PPI).",
     "Cómo limpiar la pantalla de tu monitor sin dañarla.",
     "Por qué el audio de YouTube suena comprimido.",
-    "Cómo saber si tu cable HDMI es realmente de 48 Gbps."
+    "Cómo saber si tu cable HDMI es realmente de 48 Gbps.",
+    "Por qué el contenido en HDR a veces se ve demasiado oscuro."
   ],
   "processed_ids": []
 }
