@@ -949,6 +949,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260331_014732",
+      "video_id": "generative",
+      "original_title": "AI: Por qué el audio de YouTube suena comprimido.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260331_014732.mp4",
+      "metadata": {
+        "title": "¡Por qué el audio de YouTube suena comprimido.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué el audio de YouTube suena comprimido.. \n\n¿Alguna vez notaste que YouTube suena diferente al estudio? El secreto es la normalización de volumen. YouTube comprime el audio para que todos los videos suenen igual de fuerte, evitando saltos molestos de volumen entre contenidos. Esto sacrifica rango dinámico por comodidad del usuario. Suscríbete para dominar tu sonido con Global Audiovisual Insights ahora mismo.",
+        "tags": [
+          "audio",
+          "studio",
+          "waveform",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -971,7 +989,8 @@
     "Configuración de color: ¿RGB Completo o YCbCr 4:4:4?",
     "Diferencias entre audio óptico y audio por HDMI/eARC.",
     "Cómo afecta el tamaño del píxel a la nitidez visual (PPI).",
-    "Cómo limpiar la pantalla de tu monitor sin dañarla."
+    "Cómo limpiar la pantalla de tu monitor sin dañarla.",
+    "Por qué el audio de YouTube suena comprimido."
   ],
   "processed_ids": []
 }
