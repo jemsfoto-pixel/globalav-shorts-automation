@@ -984,6 +984,24 @@
           "AV"
         ]
       }
+    },
+    {
+      "timestamp": "20260331_130005",
+      "video_id": "generative",
+      "original_title": "AI: Cómo saber si tu cable HDMI es realmente de 48 Gbps.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260331_130005.mp4",
+      "metadata": {
+        "title": "¡Cómo saber si tu cable HDMI es realmente de 48 Gbps.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo saber si tu cable HDMI es realmente de 48 Gbps.. \n\nTe estafaron con tu cable HDMI. Muchos prometen 48 Gbps pero fallan en 4K a 120 hercios. La única forma real de saberlo es buscando el sello holográfico Ultra High Speed en el empaque. Escanea el código QR con la aplicación oficial para confirmar su autenticidad. No malgastes tu dinero. Suscríbete para dominar tu tecnología audiovisual ahora.",
+        "tags": [
+          "HDMI",
+          "cable",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1007,7 +1025,8 @@
     "Diferencias entre audio óptico y audio por HDMI/eARC.",
     "Cómo afecta el tamaño del píxel a la nitidez visual (PPI).",
     "Cómo limpiar la pantalla de tu monitor sin dañarla.",
-    "Por qué el audio de YouTube suena comprimido."
+    "Por qué el audio de YouTube suena comprimido.",
+    "Cómo saber si tu cable HDMI es realmente de 48 Gbps."
   ],
   "processed_ids": []
 }
