@@ -1020,6 +1020,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260401_071212",
+      "video_id": "generative",
+      "original_title": "AI: Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260401_071212.mp4",
+      "metadata": {
+        "title": "¡Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?. \n\nNo dejes que te engañen al comprar tu próximo monitor. El IPS es perfecto si buscas colores precisos y ahorro. El MiniLED es la bestia del brillo para habitaciones muy iluminadas y HDR espectacular. Pero si buscas el contraste infinito y velocidad pura para jugar el OLED no tiene rival. Elige bien según tu espacio. Suscríbete para dominar tu setup.",
+        "tags": [
+          "monitor",
+          "technology",
+          "gaming",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1045,7 +1063,8 @@
     "Cómo limpiar la pantalla de tu monitor sin dañarla.",
     "Por qué el audio de YouTube suena comprimido.",
     "Cómo saber si tu cable HDMI es realmente de 48 Gbps.",
-    "Por qué el contenido en HDR a veces se ve demasiado oscuro."
+    "Por qué el contenido en HDR a veces se ve demasiado oscuro.",
+    "Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?"
   ],
   "processed_ids": []
 }
