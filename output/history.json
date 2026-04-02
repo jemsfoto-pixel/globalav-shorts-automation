@@ -1072,6 +1072,24 @@
           "Tech"
         ]
       }
+    },
+    {
+      "timestamp": "20260402_070438",
+      "video_id": "generative",
+      "original_title": "AI: Cómo hacer una calibración básica de color con Windows.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260402_070438.mp4",
+      "metadata": {
+        "title": "¡Cómo hacer una calibración básica de color con Windows.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo hacer una calibración básica de color con Windows.. \n\n¿Tus colores se ven apagados o lavados en Windows? Esto arruina por completo tus películas y juegos favoritos. Solo escribe calibrar en el buscador y abre calibrar color de la pantalla. Sigue los pasos para ajustar brillo y contraste hasta que las imágenes luzcan perfectas. Notarás la diferencia. Suscríbete para mejorar tu tecnología audiovisual hoy mismo.",
+        "tags": [
+          "monitor",
+          "computer",
+          "calibration",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1098,7 +1116,8 @@
     "Por qué el audio de YouTube suena comprimido.",
     "Cómo saber si tu cable HDMI es realmente de 48 Gbps.",
     "Por qué el contenido en HDR a veces se ve demasiado oscuro.",
-    "Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?"
+    "Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?",
+    "Cómo hacer una calibración básica de color con Windows."
   ],
   "processed_ids": []
 }
