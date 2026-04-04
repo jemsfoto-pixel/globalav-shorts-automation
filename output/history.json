@@ -1124,6 +1124,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260404_012719",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre monitores de estudio y altavoces Hi-Fi.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260404_012719.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre monitores de estudio y altavoces Hi-Fi.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre monitores de estudio y altavoces Hi-Fi.. \n\n¿Estás arruinando tu experiencia de audio por elegir mal? Los monitores de estudio entregan la verdad cruda y analítica revelando cada mínima imperfección de la mezcla. Por el contrario los altavoces HiFi siempre maquillan el sonido buscando que todo se escuche espectacular y placentero al oído humano. Elige según tu objetivo real. Suscríbete a Global Audiovisual Insights ahora mismo.",
+        "tags": [
+          "audio",
+          "speaker",
+          "studio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1151,7 +1169,8 @@
     "Cómo saber si tu cable HDMI es realmente de 48 Gbps.",
     "Por qué el contenido en HDR a veces se ve demasiado oscuro.",
     "Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?",
-    "Cómo hacer una calibración básica de color con Windows."
+    "Cómo hacer una calibración básica de color con Windows.",
+    "Diferencias entre monitores de estudio y altavoces Hi-Fi."
   ],
   "processed_ids": []
 }
