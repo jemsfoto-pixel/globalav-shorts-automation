@@ -1142,6 +1142,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260404_123822",
+      "video_id": "generative",
+      "original_title": "AI: Cómo conectar correctamente un PC a un receptor AV.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260404_123822.mp4",
+      "metadata": {
+        "title": "¡Cómo conectar correctamente un PC a un receptor AV.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo conectar correctamente un PC a un receptor AV.. \n\n¿Tu PC suena mal conectado al receptor? Estás cometiendo un error común que arruina tu cine en casa. Para obtener sonido envolvente real y la mejor imagen usa siempre un cable HDMI de alta velocidad directo a la entrada del receptor. Configura la salida de audio en modo Bitstream para máxima calidad. Suscríbete ahora para dominar todo tu equipo audiovisual.",
+        "tags": [
+          "HDMI",
+          "home theater",
+          "computer",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1170,7 +1188,8 @@
     "Por qué el contenido en HDR a veces se ve demasiado oscuro.",
     "Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?",
     "Cómo hacer una calibración básica de color con Windows.",
-    "Diferencias entre monitores de estudio y altavoces Hi-Fi."
+    "Diferencias entre monitores de estudio y altavoces Hi-Fi.",
+    "Cómo conectar correctamente un PC a un receptor AV."
   ],
   "processed_ids": []
 }
