@@ -1195,6 +1195,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260405_124030",
+      "video_id": "generative",
+      "original_title": "AI: Cómo limpiar correctamente las lentes de un proyector.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260405_124030.mp4",
+      "metadata": {
+        "title": "¡Cómo limpiar correctamente las lentes de un proyector.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo limpiar correctamente las lentes de un proyector.. \n\nTu imagen se ve borrosa y podrías estar dañando tu equipo ahora mismo. Jamás limpies el lente del proyector con tu ropa o alcohol común. Usa únicamente aire comprimido para el polvo y un paño de microfibra con líquido especial para ópticas. Limpia en círculos suaves desde el centro hacia afuera. Protege tu inversión hoy mismo. Suscríbete para más consejos.",
+        "tags": [
+          "projector",
+          "cleaning",
+          "lens",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1225,7 +1243,8 @@
     "Cómo hacer una calibración básica de color con Windows.",
     "Diferencias entre monitores de estudio y altavoces Hi-Fi.",
     "Cómo conectar correctamente un PC a un receptor AV.",
-    "5 errores comunes al colocar los altavoces de tu Home Cinema."
+    "5 errores comunes al colocar los altavoces de tu Home Cinema.",
+    "Cómo limpiar correctamente las lentes de un proyector."
   ],
   "processed_ids": []
 }
