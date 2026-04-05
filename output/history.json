@@ -1213,6 +1213,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260405_183340",
+      "video_id": "generative",
+      "original_title": "AI: Pantallas curvas vs planas: Pros y contras en gaming.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260405_183340.mp4",
+      "metadata": {
+        "title": "¡Pantallas curvas vs planas: Pros y contras en gaming.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Pantallas curvas vs planas: Pros y contras en gaming.. \n\n¿Sigues usando el monitor equivocado para jugar? Las pantallas curvas envuelven tu visión creando una inmersión total increíble. Pero ojo las planas son mejores para ángulos perfectos y una precisión competitiva sin distorsiones. La curva te mete en el juego pero la plana te hace ganar. ¿Cuál prefieres tú? Ahora suscríbete a Global Audiovisual Insights para tener mucha más tecnología.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1244,7 +1262,8 @@
     "Diferencias entre monitores de estudio y altavoces Hi-Fi.",
     "Cómo conectar correctamente un PC a un receptor AV.",
     "5 errores comunes al colocar los altavoces de tu Home Cinema.",
-    "Cómo limpiar correctamente las lentes de un proyector."
+    "Cómo limpiar correctamente las lentes de un proyector.",
+    "Pantallas curvas vs planas: Pros y contras en gaming."
   ],
   "processed_ids": []
 }
