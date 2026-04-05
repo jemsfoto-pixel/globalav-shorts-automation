@@ -1177,6 +1177,24 @@
           "Setup"
         ]
       }
+    },
+    {
+      "timestamp": "20260405_015020",
+      "video_id": "generative",
+      "original_title": "AI: 5 errores comunes al colocar los altavoces de tu Home Cinema.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260405_015020.mp4",
+      "metadata": {
+        "title": "¡5 errores comunes al colocar los altavoces de tu Home Cinema.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre 5 errores comunes al colocar los altavoces de tu Home Cinema.. \n\nTu cine en casa suena mal y no sabes por qué. Primero nunca pongas el altavoz central en el suelo. Segundo evita las esquinas o el bajo retumbará. Tercero mantén los altavoces siempre a la altura del oído. Cuarto no los tapes con muebles. Quinto sepáralos de la pared trasera. Logra un sonido profesional y suscríbete ahora para más consejos.",
+        "tags": [
+          "speaker",
+          "home theater",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1206,7 +1224,8 @@
     "Monitores OLED vs IPS vs MiniLED: ¿Cuál elegir?",
     "Cómo hacer una calibración básica de color con Windows.",
     "Diferencias entre monitores de estudio y altavoces Hi-Fi.",
-    "Cómo conectar correctamente un PC a un receptor AV."
+    "Cómo conectar correctamente un PC a un receptor AV.",
+    "5 errores comunes al colocar los altavoces de tu Home Cinema."
   ],
   "processed_ids": []
 }
