@@ -1266,6 +1266,24 @@
           "Sonido"
         ]
       }
+    },
+    {
+      "timestamp": "20260406_125414",
+      "video_id": "generative",
+      "original_title": "AI: Cómo organizar los cables (Cable Management) en tu setup.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260406_125414.mp4",
+      "metadata": {
+        "title": "¡Cómo organizar los cables (Cable Management) en tu setup.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo organizar los cables (Cable Management) en tu setup.. \n\nTu setup audiovisual parece una selva de cables y eso arruina la estética. Primero usa bridas de velcro para agrupar todo sin dañar los componentes. Instala una bandeja bajo el mueble para ocultar las fuentes de alimentación. Separa siempre la corriente de los cables de señal para evitar ruidos. Mejora tu espacio ahora mismo y suscríbete para más.",
+        "tags": [
+          "cables",
+          "desk",
+          "organization",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1299,7 +1317,8 @@
     "5 errores comunes al colocar los altavoces de tu Home Cinema.",
     "Cómo limpiar correctamente las lentes de un proyector.",
     "Pantallas curvas vs planas: Pros y contras en gaming.",
-    "Guía para montar un cine en casa en una habitación pequeña."
+    "Guía para montar un cine en casa en una habitación pequeña.",
+    "Cómo organizar los cables (Cable Management) en tu setup."
   ],
   "processed_ids": []
 }
