@@ -1231,6 +1231,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260406_015124",
+      "video_id": "generative",
+      "original_title": "AI: Guía para montar un cine en casa en una habitación pequeña.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260406_015124.mp4",
+      "metadata": {
+        "title": "¡Guía para montar un cine en casa en una habitación pequeña.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Guía para montar un cine en casa en una habitación pequeña.. \n\n¿Crees que tu cuarto es pequeño para un cine de gran lujo? Olvida la tele gigante. Usa un proyector de tiro corto pegado a la pared. Suma una barra de sonido compacta para audio envolvente. La clave es la oscuridad total con cortinas opacas. Convierte pocos metros en pura magia visual fácilmente. Suscríbete para dominar tu propio setup ahora mismo.",
+        "tags": [
+          "projector",
+          "home",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1263,7 +1281,8 @@
     "Cómo conectar correctamente un PC a un receptor AV.",
     "5 errores comunes al colocar los altavoces de tu Home Cinema.",
     "Cómo limpiar correctamente las lentes de un proyector.",
-    "Pantallas curvas vs planas: Pros y contras en gaming."
+    "Pantallas curvas vs planas: Pros y contras en gaming.",
+    "Guía para montar un cine en casa en una habitación pequeña."
   ],
   "processed_ids": []
 }
