@@ -1320,6 +1320,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260407_130441",
+      "video_id": "generative",
+      "original_title": "AI: Mitos y realidades sobre el rodaje de paneles OLED.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260407_130441.mp4",
+      "metadata": {
+        "title": "¡Mitos y realidades sobre el rodaje de paneles OLED.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Mitos y realidades sobre el rodaje de paneles OLED.. \n\n¿Todavía temes que tu pantalla OLED se queme por accidente? La verdad es que los paneles modernos son mucho más resistentes de lo que imaginas. Olvida los mitos obsoletos del rodaje intenso y disfruta de esos negros perfectos sin ninguna preocupación constante. Protege tu equipo con inteligencia hoy mismo. Suscríbete para dominar todo el ecosistema audiovisual.",
+        "tags": [
+          "OLED",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1356,7 +1374,8 @@
     "Guía para montar un cine en casa en una habitación pequeña.",
     "Cómo organizar los cables (Cable Management) en tu setup.",
     "Ventajas de usar paneles acústicos decorativos en el salón.",
-    "La revolución de los paneles QD-OLED de Sony y Samsung."
+    "La revolución de los paneles QD-OLED de Sony y Samsung.",
+    "Mitos y realidades sobre el rodaje de paneles OLED."
   ],
   "processed_ids": []
 }
