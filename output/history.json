@@ -1373,6 +1373,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260408_072324",
+      "video_id": "generative",
+      "original_title": "AI: La ventaja de los paneles de 144Hz frente a los de 60Hz.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260408_072324.mp4",
+      "metadata": {
+        "title": "¡La ventaja de los paneles de 144Hz frente a los de 60Hz.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La ventaja de los paneles de 144Hz frente a los de 60Hz.. \n\n¿Sigues usando sesenta hercios en tu monitor? Estás perdiendo fluidez total. Un panel de ciento cuarenta y cuatro hercios actualiza la imagen más del doble de rápido. Cada movimiento se siente instantáneo y mucho más nítido. Es la clave para ganar en juegos y cuidar tu vista. No vuelvas al pasado. Suscríbete a Global Audiovisual Insights ahora.",
+        "tags": [
+          "monitor",
+          "gaming",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1411,7 +1429,8 @@
     "Ventajas de usar paneles acústicos decorativos en el salón.",
     "La revolución de los paneles QD-OLED de Sony y Samsung.",
     "Mitos y realidades sobre el rodaje de paneles OLED.",
-    "Ventajas del multi-room audio: Música en toda la casa."
+    "Ventajas del multi-room audio: Música en toda la casa.",
+    "La ventaja de los paneles de 144Hz frente a los de 60Hz."
   ],
   "processed_ids": []
 }
