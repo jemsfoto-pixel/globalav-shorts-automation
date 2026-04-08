@@ -1355,6 +1355,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260408_014902",
+      "video_id": "generative",
+      "original_title": "AI: Ventajas del multi-room audio: Música en toda la casa.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260408_014902.mp4",
+      "metadata": {
+        "title": "¡Ventajas del multi-room audio: Música en toda la casa.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Ventajas del multi-room audio: Música en toda la casa.. \n\n¿Te imaginas que tu música favorita te siga por toda la casa sin interrupciones? Con el audio multiroom llevas sonido de alta fidelidad a cada habitación sincronizado perfectamente desde tu móvil. Crea ambientes distintos o una fiesta total con un solo toque. Es comodidad y tecnología de vanguardia para tu hogar. Suscríbete a Global Audiovisual Insights ahora.",
+        "tags": [
+          "music",
+          "home",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1392,7 +1410,8 @@
     "Cómo organizar los cables (Cable Management) en tu setup.",
     "Ventajas de usar paneles acústicos decorativos en el salón.",
     "La revolución de los paneles QD-OLED de Sony y Samsung.",
-    "Mitos y realidades sobre el rodaje de paneles OLED."
+    "Mitos y realidades sobre el rodaje de paneles OLED.",
+    "Ventajas del multi-room audio: Música en toda la casa."
   ],
   "processed_ids": []
 }
