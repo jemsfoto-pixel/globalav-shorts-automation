@@ -1408,6 +1408,24 @@
           "Tecnología"
         ]
       }
+    },
+    {
+      "timestamp": "20260409_130633",
+      "video_id": "generative",
+      "original_title": "AI: Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260409_130633.mp4",
+      "metadata": {
+        "title": "¡Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?. \n\nDeja de comprar auriculares sin saber esto. Los abiertos ofrecen un sonido natural y amplio perfecto para disfrutar en casa. Pero cuidado porque todos oirán tu música. Los cerrados te aíslan del mundo con bajos potentes ideales para viajes o la oficina. ¿Buscas realismo extremo o total privacidad? Elige bien y suscríbete para dominar tu sonido.",
+        "tags": [
+          "headphones",
+          "audio",
+          "music",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1447,7 +1465,8 @@
     "La revolución de los paneles QD-OLED de Sony y Samsung.",
     "Mitos y realidades sobre el rodaje de paneles OLED.",
     "Ventajas del multi-room audio: Música en toda la casa.",
-    "La ventaja de los paneles de 144Hz frente a los de 60Hz."
+    "La ventaja de los paneles de 144Hz frente a los de 60Hz.",
+    "Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?"
   ],
   "processed_ids": []
 }
