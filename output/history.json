@@ -1443,6 +1443,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260410_015221",
+      "video_id": "generative",
+      "original_title": "AI: La importancia de la tasa de refresco (Hz) en gaming.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260410_015221.mp4",
+      "metadata": {
+        "title": "¡La importancia de la tasa de refresco (Hz) en gaming.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La importancia de la tasa de refresco (Hz) en gaming.. \n\n¿Sigues perdiendo partidas por culpa de tu monitor? La tasa de refresco es la clave absoluta. Mientras sesenta hercios muestran imágenes lentas, los ciento cuarenta y cuatro hacen que todo fluya. Verás al enemigo antes y tus reacciones serán inmediatas. No es solo fluidez, es ventaja competitiva real para ganar siempre. Suscríbete a Global Audiovisual Insights para más.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1483,7 +1501,8 @@
     "Mitos y realidades sobre el rodaje de paneles OLED.",
     "Ventajas del multi-room audio: Música en toda la casa.",
     "La ventaja de los paneles de 144Hz frente a los de 60Hz.",
-    "Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?"
+    "Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?",
+    "La importancia de la tasa de refresco (Hz) en gaming."
   ],
   "processed_ids": []
 }
