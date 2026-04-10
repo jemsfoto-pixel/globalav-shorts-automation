@@ -1478,6 +1478,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260410_184203",
+      "video_id": "generative",
+      "original_title": "AI: Ventajas de tener un subwoofer dedicado en la oficina.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260410_184203.mp4",
+      "metadata": {
+        "title": "¡Ventajas de tener un subwoofer dedicado en la oficina.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Ventajas de tener un subwoofer dedicado en la oficina.. \n\n¿Sientes que a tu oficina le falta algo de potencia? Un subwoofer dedicado no es solo para cine. Al añadir frecuencias bajas reales, reduces la fatiga auditiva y creas una atmósfera de trabajo envolvente que mejora tu concentración. Es la pieza clave que transforma tu escritorio en un estudio profesional. Suscríbete para masterizar tu espacio audiovisual hoy.",
+        "tags": [
+          "subwoofer",
+          "office",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1519,7 +1537,8 @@
     "Ventajas del multi-room audio: Música en toda la casa.",
     "La ventaja de los paneles de 144Hz frente a los de 60Hz.",
     "Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?",
-    "La importancia de la tasa de refresco (Hz) en gaming."
+    "La importancia de la tasa de refresco (Hz) en gaming.",
+    "Ventajas de tener un subwoofer dedicado en la oficina."
   ],
   "processed_ids": []
 }
