@@ -1496,6 +1496,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260411_013010",
+      "video_id": "generative",
+      "original_title": "AI: Cómo configurar el Deep Color en consolas actuales.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260411_013010.mp4",
+      "metadata": {
+        "title": "¡Cómo configurar el Deep Color en consolas actuales.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo configurar el Deep Color en consolas actuales.. \n\nEstás arruinando la imagen de tus juegos por no activar el Deep Color. Esta función libera millones de tonos vibrantes en tu PS5 o Xbox Series. Entra ya mismo a los ajustes de salida de video y activa el color profundo. Notarás texturas más realistas y sombras impactantes al instante. Mejora tu experiencia visual hoy mismo. Suscríbete para más consejos.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "console",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1538,7 +1556,8 @@
     "La ventaja de los paneles de 144Hz frente a los de 60Hz.",
     "Auriculares abiertos vs cerrados: ¿Cuál es mejor para ti?",
     "La importancia de la tasa de refresco (Hz) en gaming.",
-    "Ventajas de tener un subwoofer dedicado en la oficina."
+    "Ventajas de tener un subwoofer dedicado en la oficina.",
+    "Cómo configurar el Deep Color en consolas actuales."
   ],
   "processed_ids": []
 }
