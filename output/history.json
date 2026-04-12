@@ -1549,6 +1549,24 @@
           "SmartTV"
         ]
       }
+    },
+    {
+      "timestamp": "20260412_015457",
+      "video_id": "generative",
+      "original_title": "AI: El papel de la inteligencia artificial en el reescalado 4K.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260412_015457.mp4",
+      "metadata": {
+        "title": "¡El papel de la inteligencia artificial en el reescalado 4K.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El papel de la inteligencia artificial en el reescalado 4K.. \n\n¿Sabías que tus películas antiguas pueden lucir hoy como cine moderno? La inteligencia artificial está revolucionando el reescalado 4K. No solo estira los píxeles sino que los reinventa por completo. Analiza cada fotograma para añadir detalles y texturas que antes simplemente no existían. Así logras una nitidez asombrosa en tu pantalla gigante. Suscríbete para dominar tu tecnología audiovisual.",
+        "tags": [
+          "AI",
+          "technology",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1593,7 +1611,8 @@
     "La importancia de la tasa de refresco (Hz) en gaming.",
     "Ventajas de tener un subwoofer dedicado en la oficina.",
     "Cómo configurar el Deep Color en consolas actuales.",
-    "¿Qué es el ghosting y cómo eliminarlo en monitores VA?"
+    "¿Qué es el ghosting y cómo eliminarlo en monitores VA?",
+    "El papel de la inteligencia artificial en el reescalado 4K."
   ],
   "processed_ids": []
 }
