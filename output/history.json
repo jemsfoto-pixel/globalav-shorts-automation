@@ -1567,6 +1567,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260412_124414",
+      "video_id": "generative",
+      "original_title": "AI: Cómo afecta la humedad y el polvo a tus equipos AV.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260412_124414.mp4",
+      "metadata": {
+        "title": "¡Cómo afecta la humedad y el polvo a tus equipos AV.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo afecta la humedad y el polvo a tus equipos AV.. \n\nTu equipo de sonido y video está muriendo lentamente. El polvo y la humedad son los mayores enemigos de tus proyectores y pantallas. El polvo bloquea los ventiladores provocando un calor excesivo. La humedad genera corrosión interna dañando componentes vitales para siempre. Protege tu valiosa inversión con mantenimiento constante y fundas protectoras. Suscríbete ahora para cuidar todo tu sistema audiovisual.",
+        "tags": [
+          "projector",
+          "maintenance",
+          "electronics",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1612,7 +1630,8 @@
     "Ventajas de tener un subwoofer dedicado en la oficina.",
     "Cómo configurar el Deep Color en consolas actuales.",
     "¿Qué es el ghosting y cómo eliminarlo en monitores VA?",
-    "El papel de la inteligencia artificial en el reescalado 4K."
+    "El papel de la inteligencia artificial en el reescalado 4K.",
+    "Cómo afecta la humedad y el polvo a tus equipos AV."
   ],
   "processed_ids": []
 }
