@@ -1602,6 +1602,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260413_075207",
+      "video_id": "generative",
+      "original_title": "AI: ¿Qué es la atenuación local (Local Dimming) en TVs LED?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260413_075207.mp4",
+      "metadata": {
+        "title": "¡¿Qué es la atenuación local (Local Dimming) en TVs LED?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿Qué es la atenuación local (Local Dimming) en TVs LED?. \n\n¿Tus negros parecen grises en tu televisor? Eso es porque te falta Local Dimming. Esta increíble tecnología apaga o atenúa zonas específicas de la pantalla para que las escenas oscuras se vean realmente profundas y realistas. Olvídate de esa molesta niebla blanca en tus películas favoritas. Si quieres la mejor imagen suscríbete a Global Audiovisual Insights ahora mismo.",
+        "tags": [
+          "television",
+          "contrast",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1648,7 +1666,8 @@
     "Cómo configurar el Deep Color en consolas actuales.",
     "¿Qué es el ghosting y cómo eliminarlo en monitores VA?",
     "El papel de la inteligencia artificial en el reescalado 4K.",
-    "Cómo afecta la humedad y el polvo a tus equipos AV."
+    "Cómo afecta la humedad y el polvo a tus equipos AV.",
+    "¿Qué es la atenuación local (Local Dimming) en TVs LED?"
   ],
   "processed_ids": []
 }
