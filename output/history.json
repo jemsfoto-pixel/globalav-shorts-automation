@@ -1637,6 +1637,24 @@
           "VideoTech"
         ]
       }
+    },
+    {
+      "timestamp": "20260413_190536",
+      "video_id": "generative",
+      "original_title": "AI: Por qué los altavoces de las TVs planas suenan tan mal.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260413_190536.mp4",
+      "metadata": {
+        "title": "¡Por qué los altavoces de las TVs planas suenan tan mal.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué los altavoces de las TVs planas suenan tan mal.. \n\n¿Te has preguntado por qué tu televisor moderno suena como una lata de refresco? La obsesión por el diseño extraplano eliminó el espacio físico necesario para los altavoces. El sonido requiere aire para vibrar y generar bajos potentes. Sin profundidad solo quedan agudos chillones. Si buscas cine real necesitas audio externo. Suscríbete para mejorar tu experiencia audiovisual.",
+        "tags": [
+          "television",
+          "speaker",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1684,7 +1702,8 @@
     "¿Qué es el ghosting y cómo eliminarlo en monitores VA?",
     "El papel de la inteligencia artificial en el reescalado 4K.",
     "Cómo afecta la humedad y el polvo a tus equipos AV.",
-    "¿Qué es la atenuación local (Local Dimming) en TVs LED?"
+    "¿Qué es la atenuación local (Local Dimming) en TVs LED?",
+    "Por qué los altavoces de las TVs planas suenan tan mal."
   ],
   "processed_ids": []
 }
