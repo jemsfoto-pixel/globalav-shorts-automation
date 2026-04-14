@@ -1673,6 +1673,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260414_072135",
+      "video_id": "generative",
+      "original_title": "AI: Cómo detectar fugas de luz (Backlight Bleed) en tu panel.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260414_072135.mp4",
+      "metadata": {
+        "title": "¡Cómo detectar fugas de luz (Backlight Bleed) en tu panel.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo detectar fugas de luz (Backlight Bleed) en tu panel.. \n\n¿Notas manchas blancas en las escenas oscuras de tus películas? Eso es fuga de luz y arruina tu experiencia visual. Para detectarlo apaga todas las luces de tu sala. Pon un fondo negro a pantalla completa y sube el brillo al máximo. Si ves resplandores en los bordes es un defecto técnico. Suscríbete ahora para dominar toda tu tecnología.",
+        "tags": [
+          "monitor",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1722,7 +1740,8 @@
     "Cómo afecta la humedad y el polvo a tus equipos AV.",
     "¿Qué es la atenuación local (Local Dimming) en TVs LED?",
     "Por qué los altavoces de las TVs planas suenan tan mal.",
-    "Diferencias entre Subwoofer sellado y con puerto (Ported)."
+    "Diferencias entre Subwoofer sellado y con puerto (Ported).",
+    "Cómo detectar fugas de luz (Backlight Bleed) en tu panel."
   ],
   "processed_ids": []
 }
