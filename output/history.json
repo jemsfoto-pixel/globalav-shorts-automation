@@ -1655,6 +1655,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260414_015412",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre Subwoofer sellado y con puerto (Ported).",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260414_015412.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre Subwoofer sellado y con puerto (Ported).! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre Subwoofer sellado y con puerto (Ported).. \n\n¿Quieres el bajo perfecto para tu cine en casa? Los subwoofers sellados son compactos y ofrecen graves precisos y rápidos, ideales para música. En cambio, los modelos con puerto son más grandes y potentes, perfectos para sentir las explosiones en tus películas favoritas. La elección final depende de tu espacio y gustos. Suscríbete para mejorar tu sonido hoy mismo.",
+        "tags": [
+          "subwoofer",
+          "speaker",
+          "home cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1703,7 +1721,8 @@
     "El papel de la inteligencia artificial en el reescalado 4K.",
     "Cómo afecta la humedad y el polvo a tus equipos AV.",
     "¿Qué es la atenuación local (Local Dimming) en TVs LED?",
-    "Por qué los altavoces de las TVs planas suenan tan mal."
+    "Por qué los altavoces de las TVs planas suenan tan mal.",
+    "Diferencias entre Subwoofer sellado y con puerto (Ported)."
   ],
   "processed_ids": []
 }
