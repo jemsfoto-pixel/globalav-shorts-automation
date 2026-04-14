@@ -1708,6 +1708,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260414_190322",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre proyectores de lámpara, LED y Láser.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260414_190322.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre proyectores de lámpara, LED y Láser.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre proyectores de lámpara, LED y Láser.. \n\n¿Sigues tirando dinero en el proyector equivocado? Te explico las diferencias clave ahora mismo. La lámpara es barata pero calienta mucho y dura poco. El LED ofrece colores vibrantes y larga vida con menos brillo. El láser es el rey absoluto por su potencia y encendido instantáneo. ¿Buscas calidad total? Ve por láser. Suscríbete para dominar la tecnología.",
+        "tags": [
+          "projector",
+          "technology",
+          "laser",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1758,7 +1776,8 @@
     "¿Qué es la atenuación local (Local Dimming) en TVs LED?",
     "Por qué los altavoces de las TVs planas suenan tan mal.",
     "Diferencias entre Subwoofer sellado y con puerto (Ported).",
-    "Cómo detectar fugas de luz (Backlight Bleed) en tu panel."
+    "Cómo detectar fugas de luz (Backlight Bleed) en tu panel.",
+    "Diferencias entre proyectores de lámpara, LED y Láser."
   ],
   "processed_ids": []
 }
