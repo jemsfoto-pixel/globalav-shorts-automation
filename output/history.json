@@ -1761,6 +1761,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260415_190523",
+      "video_id": "generative",
+      "original_title": "AI: Proyectores de tiro ultra corto: ¿Sustitutos de la TV?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260415_190523.mp4",
+      "metadata": {
+        "title": "¡Proyectores de tiro ultra corto: ¿Sustitutos de la TV?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Proyectores de tiro ultra corto: ¿Sustitutos de la TV?. \n\n¿Quieres cien pulgadas en tu salón sin comprar una televisión gigante? Los proyectores de tiro ultra corto son la revolución tecnológica que estabas esperando. Olvida las instalaciones complicadas y disfruta de cine real pegado a la pared con una calidad asombrosa. ¿Es el fin de las pantallas tradicionales? Suscríbete a Global Audiovisual Insights para dominar el cine en casa.",
+        "tags": [
+          "projector",
+          "cinema",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1813,7 +1831,8 @@
     "Diferencias entre Subwoofer sellado y con puerto (Ported).",
     "Cómo detectar fugas de luz (Backlight Bleed) en tu panel.",
     "Diferencias entre proyectores de lámpara, LED y Láser.",
-    "Por qué los negros son perfectos en pantallas OLED."
+    "Por qué los negros son perfectos en pantallas OLED.",
+    "Proyectores de tiro ultra corto: ¿Sustitutos de la TV?"
   ],
   "processed_ids": []
 }
