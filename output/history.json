@@ -1743,6 +1743,24 @@
           "Tecnologia"
         ]
       }
+    },
+    {
+      "timestamp": "20260415_130807",
+      "video_id": "generative",
+      "original_title": "AI: Por qué los negros son perfectos en pantallas OLED.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260415_130807.mp4",
+      "metadata": {
+        "title": "¡Por qué los negros son perfectos en pantallas OLED.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué los negros son perfectos en pantallas OLED.. \n\n¿Alguna vez notaste que el negro de tu televisor parece gris oscuro? En las pantallas OLED el negro es absoluto porque cada píxel se apaga por completo. Sin retroiluminación el contraste es infinito y los colores cobran una vida increíble. Es la experiencia definitiva para tu cine en casa. Si quieres dominar toda la tecnología audiovisual de nivel suscríbete ahora.",
+        "tags": [
+          "television",
+          "technology",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1794,7 +1812,8 @@
     "Por qué los altavoces de las TVs planas suenan tan mal.",
     "Diferencias entre Subwoofer sellado y con puerto (Ported).",
     "Cómo detectar fugas de luz (Backlight Bleed) en tu panel.",
-    "Diferencias entre proyectores de lámpara, LED y Láser."
+    "Diferencias entre proyectores de lámpara, LED y Láser.",
+    "Por qué los negros son perfectos en pantallas OLED."
   ],
   "processed_ids": []
 }
