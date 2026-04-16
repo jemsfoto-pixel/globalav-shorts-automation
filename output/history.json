@@ -1815,6 +1815,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260416_190239",
+      "video_id": "generative",
+      "original_title": "AI: ¿Qué es el eARC y por qué es mejor que el ARC estándar?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260416_190239.mp4",
+      "metadata": {
+        "title": "¡¿Qué es el eARC y por qué es mejor que el ARC estándar?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿Qué es el eARC y por qué es mejor que el ARC estándar?. \n\n¿Tu cine en casa suena mal? El culpable es el ARC tradicional. La clave está en el eARC. Mientras el ARC estándar comprime tu audio el eARC ofrece un ancho de banda masivo. Esto significa Dolby Atmos real y sonido sin pérdida directamente a tus oídos. Es la evolución definitiva para tu sonido. Suscríbete para dominar tu tecnología audiovisual.",
+        "tags": [
+          "audio",
+          "cinema",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1870,7 +1888,8 @@
     "Por qué los negros son perfectos en pantallas OLED.",
     "Proyectores de tiro ultra corto: ¿Sustitutos de la TV?",
     "Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?",
-    "OLED EX y MLA: Las nuevas tecnologías de LG y Samsung."
+    "OLED EX y MLA: Las nuevas tecnologías de LG y Samsung.",
+    "¿Qué es el eARC y por qué es mejor que el ARC estándar?"
   ],
   "processed_ids": []
 }
