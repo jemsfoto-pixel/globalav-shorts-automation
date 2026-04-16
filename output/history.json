@@ -1797,6 +1797,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260416_131529",
+      "video_id": "generative",
+      "original_title": "AI: OLED EX y MLA: Las nuevas tecnologías de LG y Samsung.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260416_131529.mp4",
+      "metadata": {
+        "title": "¡OLED EX y MLA: Las nuevas tecnologías de LG y Samsung.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre OLED EX y MLA: Las nuevas tecnologías de LG y Samsung.. \n\n¿Tu televisor OLED se ve oscuro? El futuro ya llegó con LG y Samsung. La tecnología OLED EX usa deuterio para aumentar el brillo un treinta por ciento sin quemarse. Pero MLA usa microlentes para potenciar la luz a niveles increíbles. Tendrás negros puros con un impacto visual explosivo. ¿Cuál elegirías tú? Suscríbete para dominar lo último en tecnología audiovisual.",
+        "tags": [
+          "television",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1851,7 +1869,8 @@
     "Diferencias entre proyectores de lámpara, LED y Láser.",
     "Por qué los negros son perfectos en pantallas OLED.",
     "Proyectores de tiro ultra corto: ¿Sustitutos de la TV?",
-    "Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?"
+    "Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?",
+    "OLED EX y MLA: Las nuevas tecnologías de LG y Samsung."
   ],
   "processed_ids": []
 }
