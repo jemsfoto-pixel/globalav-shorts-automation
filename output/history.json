@@ -1779,6 +1779,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260416_072210",
+      "video_id": "generative",
+      "original_title": "AI: Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260416_072210.mp4",
+      "metadata": {
+        "title": "¡Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?. \n\n¿Has pensado que el sonido Hi-Res es puro marketing? La realidad es que ofrece texturas y detalles ocultos que el MP3 comprime por completo. Escucharás matices que antes eran totalmente invisibles pero cuidado porque necesitas equipo especializado para percibirlo realmente. Es la diferencia entre oír y sentir la música de verdad. Suscríbete ahora para dominar tu sonido.",
+        "tags": [
+          "headphones",
+          "music",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1832,7 +1850,8 @@
     "Cómo detectar fugas de luz (Backlight Bleed) en tu panel.",
     "Diferencias entre proyectores de lámpara, LED y Láser.",
     "Por qué los negros son perfectos en pantallas OLED.",
-    "Proyectores de tiro ultra corto: ¿Sustitutos de la TV?"
+    "Proyectores de tiro ultra corto: ¿Sustitutos de la TV?",
+    "Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?"
   ],
   "processed_ids": []
 }
