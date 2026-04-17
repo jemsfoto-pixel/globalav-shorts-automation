@@ -1867,6 +1867,24 @@
           "Calibracion"
         ]
       }
+    },
+    {
+      "timestamp": "20260417_130213",
+      "video_id": "generative",
+      "original_title": "AI: Proyectores 4K para el cine en casa definitivo.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260417_130213.mp4",
+      "metadata": {
+        "title": "¡Proyectores 4K para el cine en casa definitivo.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Proyectores 4K para el cine en casa definitivo.. \n\nOlvida las televisiones gigantes porque el verdadero cine en casa empieza con un proyector 4K. Imagina más de cien pulgadas de pura nitidez y colores vibrantes que te sumergen totalmente en la acción. Es la experiencia definitiva para disfrutar películas y deportes con un realismo asombroso. Suscríbete a Global Audiovisual Insights para dominar hoy tu entretenimiento.",
+        "tags": [
+          "projector",
+          "home",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1923,7 +1941,8 @@
     "Proyectores de tiro ultra corto: ¿Sustitutos de la TV?",
     "Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?",
     "OLED EX y MLA: Las nuevas tecnologías de LG y Samsung.",
-    "¿Qué es el eARC y por qué es mejor que el ARC estándar?"
+    "¿Qué es el eARC y por qué es mejor que el ARC estándar?",
+    "Proyectores 4K para el cine en casa definitivo."
   ],
   "processed_ids": []
 }
