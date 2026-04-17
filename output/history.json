@@ -1885,6 +1885,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260417_184915",
+      "video_id": "generative",
+      "original_title": "AI: Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260417_184915.mp4",
+      "metadata": {
+        "title": "¡Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo.. \n\n¿Notas manchas oscuras al ver fútbol o jugar videojuegos? Eso es el Efecto Pantalla Sucia. Este problema visual ocurre cuando el panel no distribuye la luz de forma uniforme. Para detectarlo busca ahora un video de fondo gris sólido en YouTube. Si ves parches raros tu pantalla tiene este defecto. Suscríbete a Global Audiovisual Insights ahora mismo.",
+        "tags": [
+          "television",
+          "soccer",
+          "gaming",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1942,7 +1960,8 @@
     "Sonido Hi-Res: ¿Se nota la diferencia al escuchar música?",
     "OLED EX y MLA: Las nuevas tecnologías de LG y Samsung.",
     "¿Qué es el eARC y por qué es mejor que el ARC estándar?",
-    "Proyectores 4K para el cine en casa definitivo."
+    "Proyectores 4K para el cine en casa definitivo.",
+    "Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo."
   ],
   "processed_ids": []
 }
