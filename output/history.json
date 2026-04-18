@@ -1920,6 +1920,24 @@
           "Calibracion"
         ]
       }
+    },
+    {
+      "timestamp": "20260418_183742",
+      "video_id": "generative",
+      "original_title": "AI: Acústica casera: Trucos para evitar el eco en tu sala.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260418_183742.mp4",
+      "metadata": {
+        "title": "¡Acústica casera: Trucos para evitar el eco en tu sala.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Acústica casera: Trucos para evitar el eco en tu sala.. \n\nTu sala suena como una cueva vacía y arruina tu cine en casa. Elimina el eco hoy mismo con trucos caseros sencillos. Coloca alfombras gruesas para absorber rebotes del suelo. Usa cortinas densas en las ventanas y llena paredes vacías con estanterías de libros. Tu sonido ganará claridad profesional al instante. Suscríbete a nuestro canal para mejorar tu setup ahora.",
+        "tags": [
+          "home theater",
+          "acoustics",
+          "living room",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1978,7 +1996,8 @@
     "OLED EX y MLA: Las nuevas tecnologías de LG y Samsung.",
     "¿Qué es el eARC y por qué es mejor que el ARC estándar?",
     "Proyectores 4K para el cine en casa definitivo.",
-    "Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo."
+    "Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo.",
+    "Acústica casera: Trucos para evitar el eco en tu sala."
   ],
   "processed_ids": []
 }
