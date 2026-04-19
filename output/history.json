@@ -1956,6 +1956,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260419_070944",
+      "video_id": "generative",
+      "original_title": "AI: Cómo configurar el sonido espacial en Windows 11.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260419_070944.mp4",
+      "metadata": {
+        "title": "¡Cómo configurar el sonido espacial en Windows 11.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo configurar el sonido espacial en Windows 11.. \n\n¿Quieres que tus películas y juegos suenen como en el cine directamente desde tu PC? Configurar el sonido espacial en Windows 11 es muy sencillo. Haz clic derecho en el icono de volumen y selecciona configuración de sonido. Elige tu dispositivo de salida y busca sonido espacial. Activa Windows Sonic para una experiencia inmersiva total ahora. Suscríbete para más trucos.",
+        "tags": [
+          "computer",
+          "audio",
+          "headphones",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2016,7 +2034,8 @@
     "Proyectores 4K para el cine en casa definitivo.",
     "Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo.",
     "Acústica casera: Trucos para evitar el eco en tu sala.",
-    "La evolución del Home Cinema en los últimos 20 años."
+    "La evolución del Home Cinema en los últimos 20 años.",
+    "Cómo configurar el sonido espacial en Windows 11."
   ],
   "processed_ids": []
 }
