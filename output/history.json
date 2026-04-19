@@ -1992,6 +1992,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260419_183830",
+      "video_id": "generative",
+      "original_title": "AI: Cómo elegir el mejor soporte de pared para tu TV.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260419_183830.mp4",
+      "metadata": {
+        "title": "¡Cómo elegir el mejor soporte de pared para tu TV.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo elegir el mejor soporte de pared para tu TV.. \n\n¿Tu televisor corre peligro por culpa de un soporte barato? Antes de comprar revisa el peso máximo y el estándar VESA para que encaje perfecto. Decide si prefieres un soporte fijo o uno articulado para moverlo a tu gusto. Si quieres más consejos para mejorar tu cine en casa suscríbete a Global Audiovisual Insights ahora mismo.",
+        "tags": [
+          "television",
+          "mount",
+          "home",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2054,7 +2072,8 @@
     "Acústica casera: Trucos para evitar el eco en tu sala.",
     "La evolución del Home Cinema en los últimos 20 años.",
     "Cómo configurar el sonido espacial en Windows 11.",
-    "El impacto de la latencia en auriculares inalámbricos."
+    "El impacto de la latencia en auriculares inalámbricos.",
+    "Cómo elegir el mejor soporte de pared para tu TV."
   ],
   "processed_ids": []
 }
