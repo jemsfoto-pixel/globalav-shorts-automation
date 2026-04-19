@@ -1938,6 +1938,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260419_015920",
+      "video_id": "generative",
+      "original_title": "AI: La evolución del Home Cinema en los últimos 20 años.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260419_015920.mp4",
+      "metadata": {
+        "title": "¡La evolución del Home Cinema en los últimos 20 años.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La evolución del Home Cinema en los últimos 20 años.. \n\n¿Te acuerdas de cuando ver cine en casa era un caos de cables y cajas enormes? Hace veinte años el DVD dominaba todo. Ahora los proyectores láser y las pantallas OLED ofrecen una inmersión total con resolución 4K y sonido Dolby Atmos. La verdadera experiencia cinematográfica ya habita hoy en tu salón. Suscríbete para dominar mejor tu tecnología audiovisual.",
+        "tags": [
+          "home cinema",
+          "projector",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -1997,7 +2015,8 @@
     "¿Qué es el eARC y por qué es mejor que el ARC estándar?",
     "Proyectores 4K para el cine en casa definitivo.",
     "Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo.",
-    "Acústica casera: Trucos para evitar el eco en tu sala."
+    "Acústica casera: Trucos para evitar el eco en tu sala.",
+    "La evolución del Home Cinema en los últimos 20 años."
   ],
   "processed_ids": []
 }
