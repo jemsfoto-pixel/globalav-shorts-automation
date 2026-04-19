@@ -1974,6 +1974,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260419_124350",
+      "video_id": "generative",
+      "original_title": "AI: El impacto de la latencia en auriculares inalámbricos.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260419_124350.mp4",
+      "metadata": {
+        "title": "¡El impacto de la latencia en auriculares inalámbricos.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El impacto de la latencia en auriculares inalámbricos.. \n\nHas notado que el sonido de tu película va después de la imagen ese molesto retraso es la latencia y arruina por completo tu experiencia cinematográfica en auriculares inalámbricos cada milisegundo cuenta para una sincronización perfecta si quieres disfrutar de un sonido profesional sin cables busca siempre baja latencia suscríbete para dominar tu equipo audiovisual hoy mismo",
+        "tags": [
+          "headphones",
+          "movie",
+          "wireless",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2035,7 +2053,8 @@
     "Qué es el Efecto Pantalla Sucia (DSE) y cómo detectarlo.",
     "Acústica casera: Trucos para evitar el eco en tu sala.",
     "La evolución del Home Cinema en los últimos 20 años.",
-    "Cómo configurar el sonido espacial en Windows 11."
+    "Cómo configurar el sonido espacial en Windows 11.",
+    "El impacto de la latencia en auriculares inalámbricos."
   ],
   "processed_ids": []
 }
