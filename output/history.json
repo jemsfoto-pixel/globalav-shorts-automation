@@ -2028,6 +2028,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260420_075516",
+      "video_id": "generative",
+      "original_title": "AI: Cómo afecta la temperatura de color (6500K) a las películas.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260420_075516.mp4",
+      "metadata": {
+        "title": "¡Cómo afecta la temperatura de color (6500K) a las películas.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo afecta la temperatura de color (6500K) a las películas.. \n\nEstás arruinando tus películas favoritas y ni siquiera lo sabes. Tu televisor viene demasiado azul de fábrica ocultando el arte real. El estándar de cine 6500K recrea la luz solar exacta del mediodía. Sin esto pierdes la visión del director y los tonos de piel reales. Lleva tu experiencia al siguiente nivel hoy mismo. Suscríbete para ver cine de verdad.",
+        "tags": [
+          "television",
+          "movie",
+          "watching",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2092,7 +2110,8 @@
     "Cómo configurar el sonido espacial en Windows 11.",
     "El impacto de la latencia en auriculares inalámbricos.",
     "Cómo elegir el mejor soporte de pared para tu TV.",
-    "Beneficios de los paneles de 10 bits reales vs 8 bits + FRC."
+    "Beneficios de los paneles de 10 bits reales vs 8 bits + FRC.",
+    "Cómo afecta la temperatura de color (6500K) a las películas."
   ],
   "processed_ids": []
 }
