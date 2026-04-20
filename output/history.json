@@ -2010,6 +2010,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260420_020023",
+      "video_id": "generative",
+      "original_title": "AI: Beneficios de los paneles de 10 bits reales vs 8 bits + FRC.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260420_020023.mp4",
+      "metadata": {
+        "title": "¡Beneficios de los paneles de 10 bits reales vs 8 bits + FRC.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Beneficios de los paneles de 10 bits reales vs 8 bits + FRC.. \n\n¿Sabías que tu monitor 4K podría estar mintiéndote sobre sus colores? Un panel de diez bits reales muestra mil millones de tonos con transiciones perfectas y naturales. En cambio el sistema ocho bits más FRC engaña al ojo parpadeando píxeles rápidamente. Si buscas máxima calidad visual para cine o edición elige paneles nativos. Suscríbete para dominar la tecnología.",
+        "tags": [
+          "monitor",
+          "color",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2073,7 +2091,8 @@
     "La evolución del Home Cinema en los últimos 20 años.",
     "Cómo configurar el sonido espacial en Windows 11.",
     "El impacto de la latencia en auriculares inalámbricos.",
-    "Cómo elegir el mejor soporte de pared para tu TV."
+    "Cómo elegir el mejor soporte de pared para tu TV.",
+    "Beneficios de los paneles de 10 bits reales vs 8 bits + FRC."
   ],
   "processed_ids": []
 }
