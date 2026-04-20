@@ -2046,6 +2046,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260420_185603",
+      "video_id": "generative",
+      "original_title": "AI: El impacto del procesador de imagen en tu Smart TV.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260420_185603.mp4",
+      "metadata": {
+        "title": "¡El impacto del procesador de imagen en tu Smart TV.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El impacto del procesador de imagen en tu Smart TV.. \n\n¿Por qué tu televisor 4K se ve mal si fue tan caro? El secreto es el procesador de imagen, el verdadero cerebro de tu equipo. Este chip limpia el ruido y suaviza cada movimiento para una nitidez extrema. No compres solo resolución, busca potencia de procesamiento real. Si quieres mejorar tu cine en casa, suscríbete ahora mismo para más.",
+        "tags": [
+          "television",
+          "microchip",
+          "home cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2111,7 +2129,8 @@
     "El impacto de la latencia en auriculares inalámbricos.",
     "Cómo elegir el mejor soporte de pared para tu TV.",
     "Beneficios de los paneles de 10 bits reales vs 8 bits + FRC.",
-    "Cómo afecta la temperatura de color (6500K) a las películas."
+    "Cómo afecta la temperatura de color (6500K) a las películas.",
+    "El impacto del procesador de imagen en tu Smart TV."
   ],
   "processed_ids": []
 }
