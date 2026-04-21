@@ -2118,6 +2118,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260421_190221",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre proyectores DLP, LCD y LCoS.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260421_190221.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre proyectores DLP, LCD y LCoS.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre proyectores DLP, LCD y LCoS.. \n\nNo compres un proyector sin saber esto primero. DLP es perfecto por su contraste y velocidad en películas de acción. LCD te da colores vibrantes y mayor brillo natural. Pero si buscas la perfección absoluta LCoS ofrece los mejores negros del mercado. Elige bien según tu sala y presupuesto. Suscríbete para mejorar tu setup hoy mismo.",
+        "tags": [
+          "projector",
+          "home theater",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2187,7 +2205,8 @@
     "El impacto del procesador de imagen en tu Smart TV.",
     "Mitos sobre el HDR en monitores de bajo brillo (HDR400).",
     "Cómo mejorar el diálogo en películas sin subir el volumen.",
-    "Cómo afecta la luz ambiental a la calidad de tu Smart TV."
+    "Cómo afecta la luz ambiental a la calidad de tu Smart TV.",
+    "Diferencias entre proyectores DLP, LCD y LCoS."
   ],
   "processed_ids": []
 }
