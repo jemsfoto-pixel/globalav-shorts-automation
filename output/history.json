@@ -2082,6 +2082,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260421_072516",
+      "video_id": "generative",
+      "original_title": "AI: Cómo mejorar el diálogo en películas sin subir el volumen.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260421_072516.mp4",
+      "metadata": {
+        "title": "¡Cómo mejorar el diálogo en películas sin subir el volumen.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo mejorar el diálogo en películas sin subir el volumen.. \n\nHarto de subir el volumen para oír diálogos en películas y bajarlo en explosiones. Deja de luchar con el mando ahora mismo. La clave es activar la compresión de rango dinámico o el modo nocturno. Esto equilibra sonidos fuertes y suaves automáticamente para darte claridad total. Mejora tu cine en casa hoy mismo y suscríbete para más.",
+        "tags": [
+          "television",
+          "remote control",
+          "home cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2149,7 +2167,8 @@
     "Beneficios de los paneles de 10 bits reales vs 8 bits + FRC.",
     "Cómo afecta la temperatura de color (6500K) a las películas.",
     "El impacto del procesador de imagen en tu Smart TV.",
-    "Mitos sobre el HDR en monitores de bajo brillo (HDR400)."
+    "Mitos sobre el HDR en monitores de bajo brillo (HDR400).",
+    "Cómo mejorar el diálogo en películas sin subir el volumen."
   ],
   "processed_ids": []
 }
