@@ -2064,6 +2064,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260421_015632",
+      "video_id": "generative",
+      "original_title": "AI: Mitos sobre el HDR en monitores de bajo brillo (HDR400).",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260421_015632.mp4",
+      "metadata": {
+        "title": "¡Mitos sobre el HDR en monitores de bajo brillo (HDR400).! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Mitos sobre el HDR en monitores de bajo brillo (HDR400).. \n\nDeja de tirar tu dinero en pantallas con HDR falso. Muchos creen que el sello HDR400 garantiza una imagen increíble pero es una mentira total. Sin un brillo real ni zonas de atenuación local solo verás colores lavados y blancos sin detalle. Es puro marketing que arruina tu cine. Suscríbete ahora para dominar la experiencia audiovisual hoy mismo.",
+        "tags": [
+          "monitor",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2130,7 +2148,8 @@
     "Cómo elegir el mejor soporte de pared para tu TV.",
     "Beneficios de los paneles de 10 bits reales vs 8 bits + FRC.",
     "Cómo afecta la temperatura de color (6500K) a las películas.",
-    "El impacto del procesador de imagen en tu Smart TV."
+    "El impacto del procesador de imagen en tu Smart TV.",
+    "Mitos sobre el HDR en monitores de bajo brillo (HDR400)."
   ],
   "processed_ids": []
 }
