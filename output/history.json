@@ -2136,6 +2136,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260422_015431",
+      "video_id": "generative",
+      "original_title": "AI: ¿Realmente merecen la pena los cables HDMI de gama alta?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260422_015431.mp4",
+      "metadata": {
+        "title": "¡¿Realmente merecen la pena los cables HDMI de gama alta?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿Realmente merecen la pena los cables HDMI de gama alta?. \n\nDeja de tirar tu dinero en cables HDMI caros ahora mismo. La realidad es que para distancias cortas un cable barato ofrece la misma calidad de imagen que uno de lujo. Al ser señal digital realmente o funciona o no funciona. Solo gasta más dinero si necesitas certificación 8K hoy. Suscríbete para aprender más en Global Audiovisual Insights.",
+        "tags": [
+          "hdmi",
+          "cable",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2206,7 +2224,8 @@
     "Mitos sobre el HDR en monitores de bajo brillo (HDR400).",
     "Cómo mejorar el diálogo en películas sin subir el volumen.",
     "Cómo afecta la luz ambiental a la calidad de tu Smart TV.",
-    "Diferencias entre proyectores DLP, LCD y LCoS."
+    "Diferencias entre proyectores DLP, LCD y LCoS.",
+    "¿Realmente merecen la pena los cables HDMI de gama alta?"
   ],
   "processed_ids": []
 }
