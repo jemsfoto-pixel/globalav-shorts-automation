@@ -2189,6 +2189,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260423_072639",
+      "video_id": "generative",
+      "original_title": "AI: Por qué deberías usar un DAC externo para el audio.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260423_072639.mp4",
+      "metadata": {
+        "title": "¡Por qué deberías usar un DAC externo para el audio.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué deberías usar un DAC externo para el audio.. \n\nTu música suena mal y no lo sabes. El chip de audio interno de tu móvil o portátil es mediocre. Genera ruido y distorsión que arruinan tu experiencia. Un DAC externo procesa el sonido con total pureza, revelando detalles ocultos y dando potencia real a tus auriculares. El cambio es asombroso. Suscríbete para dominar el mundo del sonido profesional.",
+        "tags": [
+          "headphones",
+          "audio",
+          "music",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2261,7 +2279,8 @@
     "Cómo afecta la luz ambiental a la calidad de tu Smart TV.",
     "Diferencias entre proyectores DLP, LCD y LCoS.",
     "¿Realmente merecen la pena los cables HDMI de gama alta?",
-    "Estrategias para evitar el quemado de pantalla en OLED."
+    "Estrategias para evitar el quemado de pantalla en OLED.",
+    "Por qué deberías usar un DAC externo para el audio."
   ],
   "processed_ids": []
 }
