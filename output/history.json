@@ -2207,6 +2207,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260423_130907",
+      "video_id": "generative",
+      "original_title": "AI: El problema de los reflejos en pantallas brillantes vs mate.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260423_130907.mp4",
+      "metadata": {
+        "title": "¡El problema de los reflejos en pantallas brillantes vs mate.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El problema de los reflejos en pantallas brillantes vs mate.. \n\n¿Tu monitor parece un espejo cada vez que sale el sol? Las pantallas brillantes ofrecen colores vibrantes y negros puros pero reflejan absolutamente todo a tu alrededor. El acabado mate difumina la luz evitando destellos molestos aunque sacrifica algo de impacto visual. Elige mate para oficinas iluminadas y brillante para cine en casa. Suscríbete para mejorar tu experiencia.",
+        "tags": [
+          "monitor",
+          "screen",
+          "office",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2280,7 +2298,8 @@
     "Diferencias entre proyectores DLP, LCD y LCoS.",
     "¿Realmente merecen la pena los cables HDMI de gama alta?",
     "Estrategias para evitar el quemado de pantalla en OLED.",
-    "Por qué deberías usar un DAC externo para el audio."
+    "Por qué deberías usar un DAC externo para el audio.",
+    "El problema de los reflejos en pantallas brillantes vs mate."
   ],
   "processed_ids": []
 }
