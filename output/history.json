@@ -2259,6 +2259,24 @@
           "Tecnología"
         ]
       }
+    },
+    {
+      "timestamp": "20260424_075146",
+      "video_id": "generative",
+      "original_title": "AI: VRR, FreeSync y G-Sync: Términos de gaming explicados.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260424_075146.mp4",
+      "metadata": {
+        "title": "¡VRR, FreeSync y G-Sync: Términos de gaming explicados.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre VRR, FreeSync y G-Sync: Términos de gaming explicados.. \n\n¿Odias que tu imagen se rompa mientras juegas? Eso es tearing y la solución es el VRR. Variable Refresh Rate sincroniza los hercios de tu monitor con los fotogramas de tu tarjeta gráfica. FreeSync es para AMD y G-Sync para NVIDIA. Ambos eliminan tirones para una fluidez total. Mejora tu experiencia visual ahora mismo. Suscríbete a Global Audiovisual Insights.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2333,7 +2351,8 @@
     "¿Realmente merecen la pena los cables HDMI de gama alta?",
     "Estrategias para evitar el quemado de pantalla en OLED.",
     "Por qué deberías usar un DAC externo para el audio.",
-    "El problema de los reflejos en pantallas brillantes vs mate."
+    "El problema de los reflejos en pantallas brillantes vs mate.",
+    "VRR, FreeSync y G-Sync: Términos de gaming explicados."
   ],
   "processed_ids": []
 }
