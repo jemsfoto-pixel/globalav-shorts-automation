@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       niche:
-        description: 'Niche to produce (ia_en_60_segundos, curiosidades, finanzas)'
+        description: 'Nicho a producir (Tecnología AV, Sonido, Calibración, Pantallas)'
         required: false
-        default: 'ia_en_60_segundos'
+        default: 'tecnologia_av'
       upload:
         description: 'Upload to YouTube? (true/false)'
         required: false
@@ -19,6 +19,7 @@ on:
 
 env:
   PYTHON_VERSION: '3.12'
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
 
 jobs:
   produce:
@@ -51,7 +52,7 @@ jobs:
       # --- Production ---
       - name: 🎬 Run production pipeline
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           YOUTUBE_UPLOAD_ENABLED: 'true'
           YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
