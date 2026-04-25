@@ -2311,6 +2311,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260425_124530",
+      "video_id": "generative",
+      "original_title": "AI: Tecnología MicroLED: El futuro de las pantallas planas.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260425_124530.mp4",
+      "metadata": {
+        "title": "¡Tecnología MicroLED: El futuro de las pantallas planas.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Tecnología MicroLED: El futuro de las pantallas planas.. \n\nOlvida el OLED porque el MicroLED ha llegado para cambiarlo todo. Esta increíble tecnología une lo mejor de los paneles orgánicos con un brillo extremo y una durabilidad infinita. Cada píxel es un LED independiente que genera su propia luz. Sin quemados y con negros perfectos. Es la pantalla definitiva. Suscríbete ahora para dominar el mundo audiovisual.",
+        "tags": [
+          "screen",
+          "technology",
+          "led",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2386,7 +2404,8 @@
     "Estrategias para evitar el quemado de pantalla en OLED.",
     "Por qué deberías usar un DAC externo para el audio.",
     "El problema de los reflejos en pantallas brillantes vs mate.",
-    "VRR, FreeSync y G-Sync: Términos de gaming explicados."
+    "VRR, FreeSync y G-Sync: Términos de gaming explicados.",
+    "Tecnología MicroLED: El futuro de las pantallas planas."
   ],
   "processed_ids": []
 }
