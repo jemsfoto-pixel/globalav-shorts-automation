@@ -2364,6 +2364,24 @@
           "Shorts"
         ]
       }
+    },
+    {
+      "timestamp": "20260426_071948",
+      "video_id": "generative",
+      "original_title": "AI: Cómo configurar el bitrate correcto en tus ripeos de vídeo.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260426_071948.mp4",
+      "metadata": {
+        "title": "¡Cómo configurar el bitrate correcto en tus ripeos de vídeo.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo configurar el bitrate correcto en tus ripeos de vídeo.. \n\n¿Tus películas se ven borrosas? Deja de adivinar el bitrate. Para ripeos en 4K utiliza entre veinticinco y cincuenta megabits por segundo. Si es 1080p con diez basta. El secreto es equilibrar peso y nitidez para que tu cine en casa brille siempre. Optimiza tus archivos hoy mismo. Suscríbete a Global Audiovisual Insights ahora mismo para recibir más consejos profesionales.",
+        "tags": [
+          "cinema",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2441,7 +2459,8 @@
     "El problema de los reflejos en pantallas brillantes vs mate.",
     "VRR, FreeSync y G-Sync: Términos de gaming explicados.",
     "Tecnología MicroLED: El futuro de las pantallas planas.",
-    "Diferencias entre Bluetooth SBC, aptX y LDAC en audio."
+    "Diferencias entre Bluetooth SBC, aptX y LDAC en audio.",
+    "Cómo configurar el bitrate correcto en tus ripeos de vídeo."
   ],
   "processed_ids": []
 }
