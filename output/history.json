@@ -2425,6 +2425,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260426_184048",
+      "video_id": "generative",
+      "original_title": "AI: ¿Qué es el muestreo de croma y por qué importa en texto?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260426_184048.mp4",
+      "metadata": {
+        "title": "¡¿Qué es el muestreo de croma y por qué importa en texto?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿Qué es el muestreo de croma y por qué importa en texto?. \n\n¿Notas el texto borroso en tu pantalla nueva? El responsable es el muestreo de croma. Esta función define cuánta información de color procesa tu monitor. Para leer o trabajar necesitas croma cuatro cuatro cuatro. Sin esto las letras pierden su nitidez rápidamente. Exige siempre la máxima calidad visual. Suscríbete para aprender más tecnología dominando tu equipo profesional audiovisual.",
+        "tags": [
+          "monitor",
+          "technology",
+          "text",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2503,7 +2521,8 @@
     "VRR, FreeSync y G-Sync: Términos de gaming explicados.",
     "Tecnología MicroLED: El futuro de las pantallas planas.",
     "Diferencias entre Bluetooth SBC, aptX y LDAC en audio.",
-    "Cómo configurar el bitrate correcto en tus ripeos de vídeo."
+    "Cómo configurar el bitrate correcto en tus ripeos de vídeo.",
+    "¿Qué es el muestreo de croma y por qué importa en texto?"
   ],
   "processed_ids": []
 }
