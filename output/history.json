@@ -2486,6 +2486,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260427_080944",
+      "video_id": "generative",
+      "original_title": "AI: Por qué los cables de fibra de vidrio HDMI son mejores.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260427_080944.mp4",
+      "metadata": {
+        "title": "¡Por qué los cables de fibra de vidrio HDMI son mejores.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué los cables de fibra de vidrio HDMI son mejores.. \n\nEstás arruinando tu experiencia visual usando cables HDMI de cobre tradicionales. La fibra óptica transmite mediante luz eliminando totalmente cualquier degradación en distancias largas. Disfrutarás siempre de una resolución 8K pura sin interferencias electromagnéticas ni cortes de imagen inesperados. Es el salto de calidad definitivo que tu sistema merece ahora mismo. Suscríbete para conocer más secretos de nuestra tecnología audiovisual.",
+        "tags": [
+          "HDMI",
+          "cable",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2565,7 +2583,8 @@
     "Tecnología MicroLED: El futuro de las pantallas planas.",
     "Diferencias entre Bluetooth SBC, aptX y LDAC en audio.",
     "Cómo configurar el bitrate correcto en tus ripeos de vídeo.",
-    "¿Qué es el muestreo de croma y por qué importa en texto?"
+    "¿Qué es el muestreo de croma y por qué importa en texto?",
+    "Por qué los cables de fibra de vidrio HDMI son mejores."
   ],
   "processed_ids": []
 }
