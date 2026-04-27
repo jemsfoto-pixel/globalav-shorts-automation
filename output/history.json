@@ -2504,6 +2504,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260427_190725",
+      "video_id": "generative",
+      "original_title": "AI: La importancia de la iluminación detrás de la TV (Bias Lighting).",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260427_190725.mp4",
+      "metadata": {
+        "title": "¡La importancia de la iluminación detrás de la TV (Bias Lighting).! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La importancia de la iluminación detrás de la TV (Bias Lighting).. \n\nEstás destruyendo tu vista al ver televisión totalmente a oscuras. La iluminación trasera reduce la fatiga ocular y mejora drásticamente el contraste de tu pantalla. Al equilibrar la luz ambiental tus negros se verán más profundos y la imagen resaltará increíblemente. Es el truco más barato para elevar tu experiencia audiovisual hoy mismo. Suscríbete para dominar tu tecnología ahora.",
+        "tags": [
+          "television",
+          "backlight",
+          "living room",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2584,7 +2602,8 @@
     "Diferencias entre Bluetooth SBC, aptX y LDAC en audio.",
     "Cómo configurar el bitrate correcto en tus ripeos de vídeo.",
     "¿Qué es el muestreo de croma y por qué importa en texto?",
-    "Por qué los cables de fibra de vidrio HDMI son mejores."
+    "Por qué los cables de fibra de vidrio HDMI son mejores.",
+    "La importancia de la iluminación detrás de la TV (Bias Lighting)."
   ],
   "processed_ids": []
 }
