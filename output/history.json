@@ -2522,6 +2522,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260428_021113",
+      "video_id": "generative",
+      "original_title": "AI: La verdad sobre los nits y el brillo máximo en HDR.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260428_021113.mp4",
+      "metadata": {
+        "title": "¡La verdad sobre los nits y el brillo máximo en HDR.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La verdad sobre los nits y el brillo máximo en HDR.. \n\nCrees que más nits significan mejor HDR. Te están engañando. El brillo máximo no sirve de nada si los negros se ven grises. Un televisor de mil nits puede verse peor que uno de seiscientos si no controla bien la luz. Lo importante es el contraste real y el detalle. No compres solo números. Suscríbete para más tecnología audiovisual avanzada.",
+        "tags": [
+          "television",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2603,7 +2621,8 @@
     "Cómo configurar el bitrate correcto en tus ripeos de vídeo.",
     "¿Qué es el muestreo de croma y por qué importa en texto?",
     "Por qué los cables de fibra de vidrio HDMI son mejores.",
-    "La importancia de la iluminación detrás de la TV (Bias Lighting)."
+    "La importancia de la iluminación detrás de la TV (Bias Lighting).",
+    "La verdad sobre los nits y el brillo máximo en HDR."
   ],
   "processed_ids": []
 }
