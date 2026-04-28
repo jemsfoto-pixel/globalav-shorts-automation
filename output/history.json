@@ -2540,6 +2540,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260428_081212",
+      "video_id": "generative",
+      "original_title": "AI: Cómo ajustar el modo juego para no perder calidad visual.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260428_081212.mp4",
+      "metadata": {
+        "title": "¡Cómo ajustar el modo juego para no perder calidad visual.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo ajustar el modo juego para no perder calidad visual.. \n\n¿Odias que el modo juego arruine los colores de tu pantalla? Muchos activan esta opción y pierden toda la fidelidad visual. El truco está en ajustar el mapeo de tonos y la nitidez manualmente después de activarlo. Así mantienes la respuesta rápida sin sacrificar esa imagen vibrante que amas. Suscríbete para dominar tu setup audiovisual ahora mismo.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2622,7 +2640,8 @@
     "¿Qué es el muestreo de croma y por qué importa en texto?",
     "Por qué los cables de fibra de vidrio HDMI son mejores.",
     "La importancia de la iluminación detrás de la TV (Bias Lighting).",
-    "La verdad sobre los nits y el brillo máximo en HDR."
+    "La verdad sobre los nits y el brillo máximo en HDR.",
+    "Cómo ajustar el modo juego para no perder calidad visual."
   ],
   "processed_ids": []
 }
