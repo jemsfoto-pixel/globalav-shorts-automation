@@ -2637,6 +2637,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260429_191349",
+      "video_id": "generative",
+      "original_title": "AI: Qué es el tearing y por qué el VRR es la solución definitiva.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260429_191349.mp4",
+      "metadata": {
+        "title": "¡Qué es el tearing y por qué el VRR es la solución definitiva.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Qué es el tearing y por qué el VRR es la solución definitiva.. \n\n¿Odias cuando la imagen de tus juegos se rompe a la mitad? Ese molesto corte horizontal se llama tearing y arruina tu experiencia visual. Sucede cuando la consola y el monitor no están coordinados. La solución definitiva es el VRR. Esta tecnología sincroniza cada fotograma eliminando saltos. Disfruta de fluidez total ahora mismo. Suscríbete para mejorar tu setup audiovisual completo.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2722,7 +2740,8 @@
     "La verdad sobre los nits y el brillo máximo en HDR.",
     "Cómo ajustar el modo juego para no perder calidad visual.",
     "Diferencias entre Masterizado a 1000 nits vs 4000 nits.",
-    "El futuro del cine en casa: 8K y pantallas modulares."
+    "El futuro del cine en casa: 8K y pantallas modulares.",
+    "Qué es el tearing y por qué el VRR es la solución definitiva."
   ],
   "processed_ids": []
 }
