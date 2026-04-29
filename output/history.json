@@ -2601,6 +2601,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260429_080459",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre Masterizado a 1000 nits vs 4000 nits.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260429_080459.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre Masterizado a 1000 nits vs 4000 nits.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre Masterizado a 1000 nits vs 4000 nits.. \n\nSabías que el brillo de tu película puede cambiarlo todo. Mientras mil nits es el estándar para HDR común, masterizar a cuatro mil nits eleva la experiencia a otro nivel de realismo extremo. Los reflejos del sol y el fuego se vuelven impactantes sin perder detalle en las luces. Logra una imagen profesional hoy. Suscríbete ahora para dominar esta tecnología.",
+        "tags": [
+          "monitor",
+          "HDR",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2684,7 +2702,8 @@
     "Por qué los cables de fibra de vidrio HDMI son mejores.",
     "La importancia de la iluminación detrás de la TV (Bias Lighting).",
     "La verdad sobre los nits y el brillo máximo en HDR.",
-    "Cómo ajustar el modo juego para no perder calidad visual."
+    "Cómo ajustar el modo juego para no perder calidad visual.",
+    "Diferencias entre Masterizado a 1000 nits vs 4000 nits."
   ],
   "processed_ids": []
 }
