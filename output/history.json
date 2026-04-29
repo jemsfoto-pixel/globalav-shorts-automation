@@ -2619,6 +2619,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260429_132835",
+      "video_id": "generative",
+      "original_title": "AI: El futuro del cine en casa: 8K y pantallas modulares.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260429_132835.mp4",
+      "metadata": {
+        "title": "¡El futuro del cine en casa: 8K y pantallas modulares.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El futuro del cine en casa: 8K y pantallas modulares.. \n\nOlvida las salas de cine convencionales porque el futuro ya llegó a tu casa. Imagina una resolución 8K tan real que parece una ventana abierta. Lo mejor son las pantallas modulares que crecen según tu espacio para una inmersión total sin límites físicos. Es tecnología punta para tu salón. Suscríbete a Global Audiovisual Insights para más contenido.",
+        "tags": [
+          "television",
+          "futuristic",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2703,7 +2721,8 @@
     "La importancia de la iluminación detrás de la TV (Bias Lighting).",
     "La verdad sobre los nits y el brillo máximo en HDR.",
     "Cómo ajustar el modo juego para no perder calidad visual.",
-    "Diferencias entre Masterizado a 1000 nits vs 4000 nits."
+    "Diferencias entre Masterizado a 1000 nits vs 4000 nits.",
+    "El futuro del cine en casa: 8K y pantallas modulares."
   ],
   "processed_ids": []
 }
