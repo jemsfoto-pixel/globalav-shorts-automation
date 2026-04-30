@@ -2716,6 +2716,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260430_132607",
+      "video_id": "generative",
+      "original_title": "AI: Por qué el sonido analógico (vinilo) sigue siendo popular.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260430_132607.mp4",
+      "metadata": {
+        "title": "¡Por qué el sonido analógico (vinilo) sigue siendo popular.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué el sonido analógico (vinilo) sigue siendo popular.. \n\nPorque seguimos comprando discos de hace décadas en plena era digital. El vinilo no es solo nostalgia sino una experiencia física inigualable. El sonido analógico ofrece una calidez y profundidad que la compresión digital suele sacrificar. Escuchar un disco es un ritual que conecta tus sentidos con la música real. Suscríbete ahora mismo para dominar todo sobre el mundo audiovisual.",
+        "tags": [
+          "vinyl",
+          "turntable",
+          "music",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2803,7 +2821,8 @@
     "Diferencias entre Masterizado a 1000 nits vs 4000 nits.",
     "El futuro del cine en casa: 8K y pantallas modulares.",
     "Qué es el tearing y por qué el VRR es la solución definitiva.",
-    "Cómo elegir el proyector adecuado para exteriores/terraza."
+    "Cómo elegir el proyector adecuado para exteriores/terraza.",
+    "Por qué el sonido analógico (vinilo) sigue siendo popular."
   ],
   "processed_ids": []
 }
