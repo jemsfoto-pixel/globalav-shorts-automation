@@ -2655,6 +2655,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260430_021246",
+      "video_id": "generative",
+      "original_title": "AI: Cómo elegir el proyector adecuado para exteriores/terraza.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260430_021246.mp4",
+      "metadata": {
+        "title": "¡Cómo elegir el proyector adecuado para exteriores/terraza.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo elegir el proyector adecuado para exteriores/terraza.. \n\n¿Quieres convertir tu terraza en un cine espectacular este verano? Para elegir el proyector ideal busca siempre al menos tres mil lúmenes de potencia. Asegúrate de que incluya resolución nativa Full HD y conectividad inalámbrica para evitar cables molestos afuera. Así disfrutarás noches inolvidables bajo las estrellas sin líos de configuración. Suscríbete ahora para más consejos sobre tecnología audiovisual.",
+        "tags": [
+          "projector",
+          "outdoor",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2741,7 +2759,8 @@
     "Cómo ajustar el modo juego para no perder calidad visual.",
     "Diferencias entre Masterizado a 1000 nits vs 4000 nits.",
     "El futuro del cine en casa: 8K y pantallas modulares.",
-    "Qué es el tearing y por qué el VRR es la solución definitiva."
+    "Qué es el tearing y por qué el VRR es la solución definitiva.",
+    "Cómo elegir el proyector adecuado para exteriores/terraza."
   ],
   "processed_ids": []
 }
