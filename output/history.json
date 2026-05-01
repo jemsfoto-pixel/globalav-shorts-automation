@@ -2791,6 +2791,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260501_080459",
+      "video_id": "generative",
+      "original_title": "AI: Ventajas de los monitores ultrapanorámicos (Ultrawide).",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260501_080459.mp4",
+      "metadata": {
+        "title": "¡Ventajas de los monitores ultrapanorámicos (Ultrawide).! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Ventajas de los monitores ultrapanorámicos (Ultrawide).. \n\n¿Cansado de usar dos monitores? Los monitores ultrapanorámicos cambian tu forma de trabajar y jugar para siempre. Olvida los marcos molestos en el medio y disfruta de una visión cinematográfica envolvente. Ganarás mucha productividad abriendo tres ventanas completas simultáneamente sin perder detalle alguno. Es la mejora definitiva para tu setup. Suscríbete para dominar tu tecnología audiovisual hoy mismo.",
+        "tags": [
+          "monitor",
+          "ultrawide",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2880,7 +2898,8 @@
     "Qué es el tearing y por qué el VRR es la solución definitiva.",
     "Cómo elegir el proyector adecuado para exteriores/terraza.",
     "Por qué el sonido analógico (vinilo) sigue siendo popular.",
-    "Diferencias entre los formatos Dolby Atmos y DTS:X."
+    "Diferencias entre los formatos Dolby Atmos y DTS:X.",
+    "Ventajas de los monitores ultrapanorámicos (Ultrawide)."
   ],
   "processed_ids": []
 }
