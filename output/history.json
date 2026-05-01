@@ -2809,6 +2809,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260501_130242",
+      "video_id": "generative",
+      "original_title": "AI: Por qué usar conectores banana en tus altavoces pasivos.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260501_130242.mp4",
+      "metadata": {
+        "title": "¡Por qué usar conectores banana en tus altavoces pasivos.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué usar conectores banana en tus altavoces pasivos.. \n\n¿Sigues usando cables pelados en tus altavoces? Estás cometiendo un error grave. Los conectores banana garantizan una conexión firme y evitan que el cobre se oxide con el tiempo. Además facilitan cualquier cambio de equipo en segundos logrando un acabado profesional y limpio en tu sistema. Mejora tu experiencia hoy. Suscríbete a Global Audiovisual Insights para más.",
+        "tags": [
+          "speaker",
+          "audio",
+          "cable",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2899,7 +2917,8 @@
     "Cómo elegir el proyector adecuado para exteriores/terraza.",
     "Por qué el sonido analógico (vinilo) sigue siendo popular.",
     "Diferencias entre los formatos Dolby Atmos y DTS:X.",
-    "Ventajas de los monitores ultrapanorámicos (Ultrawide)."
+    "Ventajas de los monitores ultrapanorámicos (Ultrawide).",
+    "Por qué usar conectores banana en tus altavoces pasivos."
   ],
   "processed_ids": []
 }
