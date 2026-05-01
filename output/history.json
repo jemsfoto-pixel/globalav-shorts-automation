@@ -2827,6 +2827,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260501_190120",
+      "video_id": "generative",
+      "original_title": "AI: El auge de las TVs de 98 pulgadas y su instalación.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260501_190120.mp4",
+      "metadata": {
+        "title": "¡El auge de las TVs de 98 pulgadas y su instalación.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El auge de las TVs de 98 pulgadas y su instalación.. \n\n¿Quieres un cine real en tu sala sin usar proyectores? Las pantallas gigantes de noventa y ocho pulgadas están dominando el mercado actual. Ofrecen brillo asombroso y colores vibrantes pero su instalación requiere precisión absoluta. El espacio y los soportes reforzados son claves para disfrutar esta experiencia masiva. El cine llegó a casa. Suscríbete para más tecnología.",
+        "tags": [
+          "television",
+          "cinema",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2918,7 +2936,8 @@
     "Por qué el sonido analógico (vinilo) sigue siendo popular.",
     "Diferencias entre los formatos Dolby Atmos y DTS:X.",
     "Ventajas de los monitores ultrapanorámicos (Ultrawide).",
-    "Por qué usar conectores banana en tus altavoces pasivos."
+    "Por qué usar conectores banana en tus altavoces pasivos.",
+    "El auge de las TVs de 98 pulgadas y su instalación."
   ],
   "processed_ids": []
 }
