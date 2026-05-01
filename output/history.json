@@ -2773,6 +2773,24 @@
           "ajuste de lente"
         ]
       }
+    },
+    {
+      "timestamp": "20260501_022619",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias entre los formatos Dolby Atmos y DTS:X.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260501_022619.mp4",
+      "metadata": {
+        "title": "¡Diferencias entre los formatos Dolby Atmos y DTS:X.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias entre los formatos Dolby Atmos y DTS:X.. \n\n¿Quieres el mejor sonido para tu cine en casa? Dolby Atmos y DTS:X dominan el mercado pero no son iguales. Atmos utiliza objetos precisos y exige altavoces en el techo para sumergirte. DTS:X es más versátil pues se adapta a cualquier configuración sin reglas fijas. Uno manda en streaming y el otro en calidad física. Suscríbete para más.",
+        "tags": [
+          "speaker",
+          "home theater",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2861,7 +2879,8 @@
     "El futuro del cine en casa: 8K y pantallas modulares.",
     "Qué es el tearing y por qué el VRR es la solución definitiva.",
     "Cómo elegir el proyector adecuado para exteriores/terraza.",
-    "Por qué el sonido analógico (vinilo) sigue siendo popular."
+    "Por qué el sonido analógico (vinilo) sigue siendo popular.",
+    "Diferencias entre los formatos Dolby Atmos y DTS:X."
   ],
   "processed_ids": []
 }
