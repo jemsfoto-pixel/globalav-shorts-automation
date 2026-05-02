@@ -2899,6 +2899,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260502_184710",
+      "video_id": "generative",
+      "original_title": "AI: La configuración de audio perfecta para hacer streaming.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260502_184710.mp4",
+      "metadata": {
+        "title": "¡La configuración de audio perfecta para hacer streaming.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La configuración de audio perfecta para hacer streaming.. \n\nTu stream suena fatal y estás perdiendo audiencia ahora mismo. Para lograr el audio perfecto necesitas un micrófono dinámico cerca de tu boca y una interfaz dedicada. Evita el eco con paneles o alfombras simples. El sonido es el cincuenta por ciento de tu video y define tu profesionalismo. Mejora tu contenido hoy y suscríbete para dominar la tecnología audiovisual.",
+        "tags": [
+          "microphone",
+          "streamer",
+          "studio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2994,7 +3012,8 @@
     "El auge de las TVs de 98 pulgadas y su instalación.",
     "Velocidad del Wi-Fi y su impacto en el streaming 4K/8K.",
     "El sonido envolvente: ¿Barra de sonido o altavoces?",
-    "La importancia del factor de forma en altavoces de estantería."
+    "La importancia del factor de forma en altavoces de estantería.",
+    "La configuración de audio perfecta para hacer streaming."
   ],
   "processed_ids": []
 }
