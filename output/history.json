@@ -2863,6 +2863,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260502_072235",
+      "video_id": "generative",
+      "original_title": "AI: El sonido envolvente: ¿Barra de sonido o altavoces?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260502_072235.mp4",
+      "metadata": {
+        "title": "¡El sonido envolvente: ¿Barra de sonido o altavoces?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El sonido envolvente: ¿Barra de sonido o altavoces?. \n\n¿Quieres el cine en casa perfecto pero no sabes qué elegir? Las barras de sonido son compactas y fáciles de instalar, ideales para espacios pequeños. Pero si buscas una inmersión real, los altavoces separados ofrecen un escenario sonoro imbatible y efectos traseros potentes. ¿Prefieres comodidad o potencia extrema? La decisión depende de tu sala. Suscríbete ahora para mejorar tu sonido.",
+        "tags": [
+          "soundbar",
+          "speakers",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2956,7 +2974,8 @@
     "Ventajas de los monitores ultrapanorámicos (Ultrawide).",
     "Por qué usar conectores banana en tus altavoces pasivos.",
     "El auge de las TVs de 98 pulgadas y su instalación.",
-    "Velocidad del Wi-Fi y su impacto en el streaming 4K/8K."
+    "Velocidad del Wi-Fi y su impacto en el streaming 4K/8K.",
+    "El sonido envolvente: ¿Barra de sonido o altavoces?"
   ],
   "processed_ids": []
 }
