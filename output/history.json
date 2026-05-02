@@ -2845,6 +2845,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260502_020329",
+      "video_id": "generative",
+      "original_title": "AI: Velocidad del Wi-Fi y su impacto en el streaming 4K/8K.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260502_020329.mp4",
+      "metadata": {
+        "title": "¡Velocidad del Wi-Fi y su impacto en el streaming 4K/8K.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Velocidad del Wi-Fi y su impacto en el streaming 4K/8K.. \n\nTu imagen se congela justo en la mejor escena de la película. Para disfrutar 4K real necesitas 25 megas estables pero el 8K exige 100 megas sin caídas. Un Wi-Fi mediocre destruye la resolución y los colores de tu televisor de gama alta. Optimiza tu red y vive el cine real. Suscríbete para mejorar tu experiencia tecnológica.",
+        "tags": [
+          "television",
+          "internet",
+          "streaming",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2937,7 +2955,8 @@
     "Diferencias entre los formatos Dolby Atmos y DTS:X.",
     "Ventajas de los monitores ultrapanorámicos (Ultrawide).",
     "Por qué usar conectores banana en tus altavoces pasivos.",
-    "El auge de las TVs de 98 pulgadas y su instalación."
+    "El auge de las TVs de 98 pulgadas y su instalación.",
+    "Velocidad del Wi-Fi y su impacto en el streaming 4K/8K."
   ],
   "processed_ids": []
 }
