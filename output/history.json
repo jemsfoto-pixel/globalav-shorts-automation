@@ -2881,6 +2881,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260502_125342",
+      "video_id": "generative",
+      "original_title": "AI: La importancia del factor de forma en altavoces de estantería.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260502_125342.mp4",
+      "metadata": {
+        "title": "¡La importancia del factor de forma en altavoces de estantería.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La importancia del factor de forma en altavoces de estantería.. \n\nNo compres altavoces de estantería sin entender que el tamaño lo cambia todo. El factor de forma no es estética sino pura acústica. Un gabinete bien diseñado controla vibraciones y optimiza bajos sin saturar tu habitación. Si ignoras la estructura física pierdes fidelidad sonora al instante. Suscríbete a Global Audiovisual Insights para dominar tu sonido ahora mismo.",
+        "tags": [
+          "speaker",
+          "audio",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -2975,7 +2993,8 @@
     "Por qué usar conectores banana en tus altavoces pasivos.",
     "El auge de las TVs de 98 pulgadas y su instalación.",
     "Velocidad del Wi-Fi y su impacto en el streaming 4K/8K.",
-    "El sonido envolvente: ¿Barra de sonido o altavoces?"
+    "El sonido envolvente: ¿Barra de sonido o altavoces?",
+    "La importancia del factor de forma en altavoces de estantería."
   ],
   "processed_ids": []
 }
