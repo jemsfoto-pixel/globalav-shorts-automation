@@ -2996,6 +2996,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260503_184823",
+      "video_id": "generative",
+      "original_title": "AI: Cómo configurar el escalado de GPU en juegos retro.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260503_184823.mp4",
+      "metadata": {
+        "title": "¡Cómo configurar el escalado de GPU en juegos retro.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo configurar el escalado de GPU en juegos retro.. \n\n¿Tus juegos retro se ven borrosos y estirados en tu monitor moderno? La solución es el escalado de GPU. Entra al panel de control de tu tarjeta gráfica. Busca la opción de escalado y selecciona relación de aspecto o escalado íntegro. Así mantendrás píxeles nítidos y el formato original. Mejora tu experiencia visual hoy. Suscríbete para más consejos de imagen.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "retro",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3094,7 +3112,8 @@
     "La importancia del factor de forma en altavoces de estantería.",
     "La configuración de audio perfecta para hacer streaming.",
     "Qué es e instalar el rango dinámico en audio.",
-    "Cómo influye el tipo de panel en los ángulos de visión."
+    "Cómo influye el tipo de panel en los ángulos de visión.",
+    "Cómo configurar el escalado de GPU en juegos retro."
   ],
   "processed_ids": []
 }
