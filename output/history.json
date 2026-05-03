@@ -2917,6 +2917,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260503_020904",
+      "video_id": "generative",
+      "original_title": "AI: Qué es e instalar el rango dinámico en audio.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260503_020904.mp4",
+      "metadata": {
+        "title": "¡Qué es e instalar el rango dinámico en audio.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Qué es e instalar el rango dinámico en audio.. \n\n¿Sufres porque los diálogos no se oyen pero las explosiones retumban? Necesitas configurar el rango dinámico. Es la distancia entre el sonido más suave y el más fuerte de tu equipo. Para instalar esta mejora ve a los ajustes de audio y activa el modo amplio o nocturno según tu necesidad de escucha. Suscríbete para mejorar tu sonido.",
+        "tags": [
+          "audio",
+          "television",
+          "settings",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3013,7 +3031,8 @@
     "Velocidad del Wi-Fi y su impacto en el streaming 4K/8K.",
     "El sonido envolvente: ¿Barra de sonido o altavoces?",
     "La importancia del factor de forma en altavoces de estantería.",
-    "La configuración de audio perfecta para hacer streaming."
+    "La configuración de audio perfecta para hacer streaming.",
+    "Qué es e instalar el rango dinámico en audio."
   ],
   "processed_ids": []
 }
