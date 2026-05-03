@@ -2978,6 +2978,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260503_125338",
+      "video_id": "generative",
+      "original_title": "AI: Cómo influye el tipo de panel en los ángulos de visión.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260503_125338.mp4",
+      "metadata": {
+        "title": "¡Cómo influye el tipo de panel en los ángulos de visión.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo influye el tipo de panel en los ángulos de visión.. \n\n¿Por qué tu monitor se ve fatal cuando te mueves? Todo depende del panel. Los TN distorsionan los colores al mínimo ángulo. Los VA mejoran pero pierden contraste. El rey absoluto es el IPS porque mantiene la imagen perfecta desde cualquier posición. Si buscas calidad visual total elige IPS. Suscríbete para dominar la tecnología audiovisual con nosotros.",
+        "tags": [
+          "monitor",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3075,7 +3093,8 @@
     "El sonido envolvente: ¿Barra de sonido o altavoces?",
     "La importancia del factor de forma en altavoces de estantería.",
     "La configuración de audio perfecta para hacer streaming.",
-    "Qué es e instalar el rango dinámico en audio."
+    "Qué es e instalar el rango dinámico en audio.",
+    "Cómo influye el tipo de panel en los ángulos de visión."
   ],
   "processed_ids": []
 }
