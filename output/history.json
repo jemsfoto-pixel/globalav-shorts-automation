@@ -3057,6 +3057,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260504_082130",
+      "video_id": "generative",
+      "original_title": "AI: Cómo evitar el judder (tirones) al ver películas de 24fps.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260504_082130.mp4",
+      "metadata": {
+        "title": "¡Cómo evitar el judder (tirones) al ver películas de 24fps.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo evitar el judder (tirones) al ver películas de 24fps.. \n\n¿Odias que tus películas favoritas se vean con saltos molestos? Ese tartamudeo se llama judder. Ocurre porque tu televisor intenta forzar veinticuatro fps en sesenta hercios. Para solucionarlo activa el modo cine o real cinema en tus ajustes de movimiento. Así lograrás una fluidez cinematográfica perfecta hoy mismo. Suscríbete ahora para dominar tu equipo audiovisual en casa.",
+        "tags": [
+          "television",
+          "movie",
+          "remote",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3156,7 +3174,8 @@
     "La configuración de audio perfecta para hacer streaming.",
     "Qué es e instalar el rango dinámico en audio.",
     "Cómo influye el tipo de panel en los ángulos de visión.",
-    "Cómo configurar el escalado de GPU en juegos retro."
+    "Cómo configurar el escalado de GPU en juegos retro.",
+    "Cómo evitar el judder (tirones) al ver películas de 24fps."
   ],
   "processed_ids": []
 }
