@@ -3,7 +3,7 @@ name: Auto Publish YouTube Shorts
 on:
   schedule:
     # Runs every 6 hours (at minute 0 past every 6th hour)
-    - cron: '0 */6 * * *'
+    - cron: '17 14 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI
 
 jobs:
