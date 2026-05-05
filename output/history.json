@@ -3118,6 +3118,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260505_163154",
+      "video_id": "generative",
+      "original_title": "AI: Cómo usar un iPad o tablet como monitor secundario AV.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260505_163154.mp4",
+      "metadata": {
+        "title": "¡Cómo usar un iPad o tablet como monitor secundario AV.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo usar un iPad o tablet como monitor secundario AV.. \n\nConvierte tu iPad en un monitor profesional para potenciar tu setup audiovisual hoy mismo. Olvida comprar pantallas costosas y utiliza herramientas como Sidecar para expandir tu espacio de trabajo con máxima fluidez. Mejora tu productividad visualizando líneas de tiempo o previos con total claridad estés donde estés. Suscríbete a Global Audiovisual Insights para dominar toda tu tecnología.",
+        "tags": [
+          "iPad",
+          "monitor",
+          "workspace",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3218,7 +3236,8 @@
     "Qué es e instalar el rango dinámico en audio.",
     "Cómo influye el tipo de panel en los ángulos de visión.",
     "Cómo configurar el escalado de GPU en juegos retro.",
-    "Cómo evitar el judder (tirones) al ver películas de 24fps."
+    "Cómo evitar el judder (tirones) al ver películas de 24fps.",
+    "Cómo usar un iPad o tablet como monitor secundario AV."
   ],
   "processed_ids": []
 }
