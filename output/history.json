@@ -3136,6 +3136,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260507_161829",
+      "video_id": "generative",
+      "original_title": "AI: Cómo ver películas con el Filmmaker Mode.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260507_161829.mp4",
+      "metadata": {
+        "title": "¡Cómo ver películas con el Filmmaker Mode.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo ver películas con el Filmmaker Mode.. \n\n¿Sabías que estás viendo tus películas mal por culpa de los ajustes de fábrica? Activa el Filmmaker Mode en tu televisor para ver la imagen exactamente como el director la imaginó. Olvida el efecto telenovela y los colores artificiales que arruinan la experiencia cinematográfica en casa. Un solo botón para transformar tu salón en un cine real. Suscríbete ahora.",
+        "tags": [
+          "television",
+          "movie",
+          "home",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3237,7 +3255,8 @@
     "Cómo influye el tipo de panel en los ángulos de visión.",
     "Cómo configurar el escalado de GPU en juegos retro.",
     "Cómo evitar el judder (tirones) al ver películas de 24fps.",
-    "Cómo usar un iPad o tablet como monitor secundario AV."
+    "Cómo usar un iPad o tablet como monitor secundario AV.",
+    "Cómo ver películas con el Filmmaker Mode."
   ],
   "processed_ids": []
 }
