@@ -3154,6 +3154,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260508_155127",
+      "video_id": "generative",
+      "original_title": "AI: Cómo influye la ganancia de la pantalla en un proyector.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260508_155127.mp4",
+      "metadata": {
+        "title": "¡Cómo influye la ganancia de la pantalla en un proyector.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo influye la ganancia de la pantalla en un proyector.. \n\n¿Estás desperdiciando la potencia de tu proyector por culpa de tu pantalla? La ganancia mide cuánto reflejo recibes. Una ganancia alta multiplica la luminosidad pero reduce los ángulos de visión. Es ideal para salas con luz ambiental. Si eliges mal pierdes calidad visual. Optimiza tu propia experiencia de cine y suscríbete para dominar la tecnología audiovisual hoy mismo.",
+        "tags": [
+          "projector",
+          "screen",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3256,7 +3274,8 @@
     "Cómo configurar el escalado de GPU en juegos retro.",
     "Cómo evitar el judder (tirones) al ver películas de 24fps.",
     "Cómo usar un iPad o tablet como monitor secundario AV.",
-    "Cómo ver películas con el Filmmaker Mode."
+    "Cómo ver películas con el Filmmaker Mode.",
+    "Cómo influye la ganancia de la pantalla en un proyector."
   ],
   "processed_ids": []
 }
