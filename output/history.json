@@ -3172,6 +3172,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260509_151232",
+      "video_id": "generative",
+      "original_title": "AI: Cómo evitar el quemado de imagen en tu monitor OLED nuevo",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260509_151232.mp4",
+      "metadata": {
+        "title": "¡Cómo evitar el quemado de imagen en tu monitor OLED nuevo! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo evitar el quemado de imagen en tu monitor OLED nuevo. \n\nHas gastado una fortuna en tu nuevo monitor oled pero podrías arruinarlo muy pronto. Evita el quemado activando el ocultamiento de la barra de tareas. Reduce el brillo y usa fondos oscuros que cambien a menudo. Nunca dejes elementos estáticos por mucho tiempo para proteger los píxeles. Estos trucos salvarán tu inversión. Suscríbete ahora para dominar tu tecnología audiovisual.",
+        "tags": [
+          "monitor",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3275,7 +3293,8 @@
     "Cómo evitar el judder (tirones) al ver películas de 24fps.",
     "Cómo usar un iPad o tablet como monitor secundario AV.",
     "Cómo ver películas con el Filmmaker Mode.",
-    "Cómo influye la ganancia de la pantalla en un proyector."
+    "Cómo influye la ganancia de la pantalla en un proyector.",
+    "Cómo evitar el quemado de imagen en tu monitor OLED nuevo"
   ],
   "processed_ids": []
 }
