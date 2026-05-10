@@ -3190,6 +3190,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260510_151319",
+      "video_id": "generative",
+      "original_title": "AI: Comparativa de velocidad entre paneles IPS Black y OLED Gaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260510_151319.mp4",
+      "metadata": {
+        "title": "¡Comparativa de velocidad entre paneles IPS Black y OLED Gaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Comparativa de velocidad entre paneles IPS Black y OLED Gaming. \n\n¿Sabes qué monitor es realmente más rápido para jugar? Los paneles IPS Black ofrecen negros profundos pero el OLED es el rey absoluto de la velocidad. Mientras el IPS tiene transiciones fluidas el OLED elimina el desenfoque al instante con tiempos de respuesta casi nulos. Para gaming competitivo la diferencia es brutal. Suscríbete para dominar la mejor tecnología.",
+        "tags": [
+          "monitor",
+          "gaming",
+          "oled",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3294,7 +3312,8 @@
     "Cómo usar un iPad o tablet como monitor secundario AV.",
     "Cómo ver películas con el Filmmaker Mode.",
     "Cómo influye la ganancia de la pantalla en un proyector.",
-    "Cómo evitar el quemado de imagen en tu monitor OLED nuevo"
+    "Cómo evitar el quemado de imagen en tu monitor OLED nuevo",
+    "Comparativa de velocidad entre paneles IPS Black y OLED Gaming"
   ],
   "processed_ids": []
 }
