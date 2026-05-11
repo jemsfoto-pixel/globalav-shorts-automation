@@ -3208,6 +3208,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260511_165020",
+      "video_id": "generative",
+      "original_title": "AI: Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260511_165020.mp4",
+      "metadata": {
+        "title": "¡Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming. \n\n¿Quieres el mejor panel gaming pero no sabes qué tecnología OLED elegir? El QD-OLED ofrece colores explosivos y un brillo superior que hará que tus juegos resalten como nunca antes. Por otro lado WOLED es la opción confiable con negros profundos y precios mucho más competitivos. Si buscas impacto visual total elige QD-OLED. Suscríbete para dominar la tecnología audiovisual.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3313,7 +3331,8 @@
     "Cómo ver películas con el Filmmaker Mode.",
     "Cómo influye la ganancia de la pantalla en un proyector.",
     "Cómo evitar el quemado de imagen en tu monitor OLED nuevo",
-    "Comparativa de velocidad entre paneles IPS Black y OLED Gaming"
+    "Comparativa de velocidad entre paneles IPS Black y OLED Gaming",
+    "Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming"
   ],
   "processed_ids": []
 }
