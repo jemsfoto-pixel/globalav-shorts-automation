@@ -3226,6 +3226,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260512_163338",
+      "video_id": "generative",
+      "original_title": "AI: Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260512_163338.mp4",
+      "metadata": {
+        "title": "¡Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música. \n\n¿Sigues escuchando música con el sonido comprimido de tu móvil? Estás perdiendo la mitad de la experiencia. Un DAC externo procesa el audio digital con una claridad brutal eliminando ruidos y recuperando detalles que antes eran invisibles. Sentirás cada instrumento como si estuvieras en el estudio de grabación. La fidelidad real transforma tus canciones favoritas. Suscríbete para dominar tu sonido.",
+        "tags": [
+          "headphones",
+          "music",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3332,7 +3350,8 @@
     "Cómo influye la ganancia de la pantalla en un proyector.",
     "Cómo evitar el quemado de imagen en tu monitor OLED nuevo",
     "Comparativa de velocidad entre paneles IPS Black y OLED Gaming",
-    "Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming"
+    "Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming",
+    "Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música"
   ],
   "processed_ids": []
 }
