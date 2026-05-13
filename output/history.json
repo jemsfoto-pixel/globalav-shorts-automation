@@ -3244,6 +3244,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260513_165820",
+      "video_id": "generative",
+      "original_title": "AI: El error más común que arruina el sonido de tus altavoces HiFi",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260513_165820.mp4",
+      "metadata": {
+        "title": "¡El error más común que arruina el sonido de tus altavoces HiFi! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El error más común que arruina el sonido de tus altavoces HiFi. \n\nEstás arruinando el sonido de tus altavoces y no lo sabes. El error fatal es pegarlos directamente contra la pared trasera. Esto satura los graves y nubla la nitidez original. Sepáralos solo treinta centímetros y redescubrirás tu música con una claridad asombrosa. Si quieres dominar tu sistema audiovisual suscríbete a Global Audiovisual Insights ahora mismo.",
+        "tags": [
+          "speakers",
+          "audio",
+          "setup",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3351,7 +3369,8 @@
     "Cómo evitar el quemado de imagen en tu monitor OLED nuevo",
     "Comparativa de velocidad entre paneles IPS Black y OLED Gaming",
     "Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming",
-    "Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música"
+    "Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música",
+    "El error más común que arruina el sonido de tus altavoces HiFi"
   ],
   "processed_ids": []
 }
