@@ -3322,6 +3322,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260516_151544",
+      "video_id": "generative",
+      "original_title": "AI: Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260516_151544.mp4",
+      "metadata": {
+        "title": "¡Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos. \n\nTu HDR se ve mal y no es culpa de tu monitor. Primero abre configuración de pantalla y activa usar HDR pero no te detengas ahí. Descarga gratis Calibración de HDR de Windows en la tienda oficial. Esta herramienta ajusta el brillo máximo real de tu panel eliminando los blancos lavados al instante. Suscríbete ahora para mejorar tu imagen final.",
+        "tags": [
+          "monitor",
+          "computer",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3430,7 +3448,8 @@
     "Comparativa de velocidad entre paneles IPS Black y OLED Gaming",
     "Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming",
     "Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música",
-    "El error más común que arruina el sonido de tus altavoces HiFi"
+    "El error más común que arruina el sonido de tus altavoces HiFi",
+    "Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos"
   ],
   "processed_ids": []
 }
