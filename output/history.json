@@ -3382,6 +3382,24 @@
           "audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260518_171114",
+      "video_id": "generative",
+      "original_title": "AI: El truco definitivo para configurar el sonido Hi-Fi en tu PC",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260518_171114.mp4",
+      "metadata": {
+        "title": "¡El truco definitivo para configurar el sonido Hi-Fi en tu PC! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El truco definitivo para configurar el sonido Hi-Fi en tu PC. \n\n¿Sabías que tu PC está ocultando el verdadero sonido Hi-Fi? No compres altavoces nuevos todavía. Entra en configuración de sonido y selecciona tu dispositivo principal. En la pestaña de opciones avanzadas sube la calidad a veinticuatro bits con ciento noventa y dos kilohercios. Desbloquearás una claridad profesional al instante. Suscríbete a Global Audiovisual Insights ahora.",
+        "tags": [
+          "computer",
+          "audio",
+          "settings",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3491,7 +3509,8 @@
     "Comparativa rápida QD-OLED vs WOLED cuál elegir para gaming",
     "Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música",
     "El error más común que arruina el sonido de tus altavoces HiFi",
-    "Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos"
+    "Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos",
+    "El truco definitivo para configurar el sonido Hi-Fi en tu PC"
   ],
   "processed_ids": []
 }
