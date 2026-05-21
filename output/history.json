@@ -3400,6 +3400,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260521_164858",
+      "video_id": "generative",
+      "original_title": "AI: Cómo evitar el quemado en tu nuevo monitor OLED gaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260521_164858.mp4",
+      "metadata": {
+        "title": "¡Cómo evitar el quemado en tu nuevo monitor OLED gaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo evitar el quemado en tu nuevo monitor OLED gaming. \n\nTu nuevo monitor OLED de miles de dólares se está muriendo lentamente y no lo sabes. Para evitar el temido quemado, primero oculta la barra de tareas de Windows y usa fondos negros. Activa siempre el movimiento de píxeles en el menú del monitor y nunca lo desconectes de la corriente al apagarlo. Suscríbete para proteger tu pantalla.",
+        "tags": [
+          "monitor",
+          "screen",
+          "computer",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3510,7 +3528,8 @@
     "Por qué el audio Hi-Fi con DAC cambiará tu forma de escuchar música",
     "El error más común que arruina el sonido de tus altavoces HiFi",
     "Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos",
-    "El truco definitivo para configurar el sonido Hi-Fi en tu PC"
+    "El truco definitivo para configurar el sonido Hi-Fi en tu PC",
+    "Cómo evitar el quemado en tu nuevo monitor OLED gaming"
   ],
   "processed_ids": []
 }
