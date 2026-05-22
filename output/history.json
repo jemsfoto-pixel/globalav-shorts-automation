@@ -3418,6 +3418,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260522_163707",
+      "video_id": "generative",
+      "original_title": "AI: Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260522_163707.mp4",
+      "metadata": {
+        "title": "¡Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto. \n\nNo compres un televisor OLED sin saber esto primero. WOLED usa un filtro blanco que a veces apaga los colores con mucho brillo. QD-OLED utiliza puntos cuánticos para lograr colores ultra puros y un brillo espectacular sin perder saturación. Si buscas precisión gana WOLED pero para impacto visual total elige QD-OLED. Suscríbete para dominar la tecnología.",
+        "tags": [
+          "television",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3529,7 +3547,8 @@
     "El error más común que arruina el sonido de tus altavoces HiFi",
     "Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos",
     "El truco definitivo para configurar el sonido Hi-Fi en tu PC",
-    "Cómo evitar el quemado en tu nuevo monitor OLED gaming"
+    "Cómo evitar el quemado en tu nuevo monitor OLED gaming",
+    "Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto"
   ],
   "processed_ids": []
 }
