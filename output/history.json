@@ -3478,6 +3478,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260524_152138",
+      "video_id": "generative",
+      "original_title": "AI: El truco definitivo para evitar el quemado en tu monitor OLED",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260524_152138.mp4",
+      "metadata": {
+        "title": "¡El truco definitivo para evitar el quemado en tu monitor OLED! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El truco definitivo para evitar el quemado en tu monitor OLED. \n\nTu monitor OLED carisimo se esta muriendo lentamente y no lo sabes Para salvarlo hoy mismo activa la ocultacion automatica de la barra de tareas y usa un fondo de pantalla completamente negro Esto apaga los pixeles por completo evitando que se desgasten con imagenes estaticas Suscribete a Global Audiovisual Insights para proteger tus pantallas",
+        "tags": [
+          "monitor",
+          "computer",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3590,7 +3608,8 @@
     "Configuración crítica de Windows para mejorar el HDR de tu pantalla en segundos",
     "El truco definitivo para configurar el sonido Hi-Fi en tu PC",
     "Cómo evitar el quemado en tu nuevo monitor OLED gaming",
-    "Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto"
+    "Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto",
+    "El truco definitivo para evitar el quemado en tu monitor OLED"
   ],
   "processed_ids": []
 }
