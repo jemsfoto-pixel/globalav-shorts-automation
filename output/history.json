@@ -3496,6 +3496,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260525_163209",
+      "video_id": "generative",
+      "original_title": "AI: Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260525_163209.mp4",
+      "metadata": {
+        "title": "¡Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?. \n\n¿Vas a arruinar tu costosa pantalla OLED por jugar videojuegos horas seguidas? La realidad es que el temido quemado ya es casi un mito. Los paneles modernos tienen sistemas automáticos que protegen los píxeles sin que lo notes. Puedes disfrutar de tus juegos favoritos con total tranquilidad. Suscríbete para dominar la tecnología audiovisual.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3609,7 +3627,8 @@
     "El truco definitivo para configurar el sonido Hi-Fi en tu PC",
     "Cómo evitar el quemado en tu nuevo monitor OLED gaming",
     "Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto",
-    "El truco definitivo para evitar el quemado en tu monitor OLED"
+    "El truco definitivo para evitar el quemado en tu monitor OLED",
+    "Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?"
   ],
   "processed_ids": []
 }
