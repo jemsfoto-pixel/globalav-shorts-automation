@@ -3514,6 +3514,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260526_173520",
+      "video_id": "generative",
+      "original_title": "AI: El error más común al conectar tu barra de sonido por HDMI eARC",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260526_173520.mp4",
+      "metadata": {
+        "title": "¡El error más común al conectar tu barra de sonido por HDMI eARC! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El error más común al conectar tu barra de sonido por HDMI eARC. \n\n¿Estás perdiendo calidad de sonido sin saberlo? El error más común al conectar tu barra de sonido es enchufar el cable HDMI en cualquier puerto de tu televisor. Debes usar obligatoriamente el puerto etiquetado como eARC o ARC. Si no lo haces tu barra sonará como un altavoz barato. Suscríbete para mejorar tu audio de inmediato.",
+        "tags": [
+          "soundbar",
+          "hdmi",
+          "television",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3628,7 +3646,8 @@
     "Cómo evitar el quemado en tu nuevo monitor OLED gaming",
     "Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto",
     "El truco definitivo para evitar el quemado en tu monitor OLED",
-    "Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?"
+    "Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?",
+    "El error más común al conectar tu barra de sonido por HDMI eARC"
   ],
   "processed_ids": []
 }
