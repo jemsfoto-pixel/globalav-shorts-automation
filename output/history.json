@@ -3532,6 +3532,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260527_173351",
+      "video_id": "generative",
+      "original_title": "AI: Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260527_173351.mp4",
+      "metadata": {
+        "title": "¡Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor. \n\nEstás destruyendo el sonido de tu televisor usando el cable equivocado. El cable óptico es un clásico pero limita tu audio a Dolby Digital antiguo. HDMI eARC es el rey indiscutible porque tiene un ancho de banda masivo que transmite Dolby Atmos real y audio sin pérdidas. La diferencia es brutal. Suscríbete para mejorar tu cine en casa.",
+        "tags": [
+          "television",
+          "cable",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3647,7 +3665,8 @@
     "Diferencias clave entre paneles QD-OLED y WOLED explicadas en un minuto",
     "El truco definitivo para evitar el quemado en tu monitor OLED",
     "Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?",
-    "El error más común al conectar tu barra de sonido por HDMI eARC"
+    "El error más común al conectar tu barra de sonido por HDMI eARC",
+    "Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor"
   ],
   "processed_ids": []
 }
