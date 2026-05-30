@@ -3630,6 +3630,24 @@
           "configuracion proyector"
         ]
       }
+    },
+    {
+      "timestamp": "20260530_153534",
+      "video_id": "generative",
+      "original_title": "AI: El ajuste de Windows para exprimir el HDR de tu monitor gaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260530_153534.mp4",
+      "metadata": {
+        "title": "¡El ajuste de Windows para exprimir el HDR de tu monitor gaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El ajuste de Windows para exprimir el HDR de tu monitor gaming. \n\nTu monitor gaming tiene HDR pero los colores se ven apagados y hoy lo solucionamos. Abre la tienda de Windows y descarga gratis la aplicación Windows HDR Calibration. Sigue los tres pasos rápidos para definir el brillo perfecto. Notarás la diferencia en cada partida al instante. Suscríbete a Global Audiovisual Insights para mejorar tu setup.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "setup",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3746,7 +3764,8 @@
     "El truco definitivo para evitar el quemado en tu monitor OLED",
     "Mito o realidad: ¿Se siguen quemando las pantallas OLED para jugar?",
     "El error más común al conectar tu barra de sonido por HDMI eARC",
-    "Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor"
+    "Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor",
+    "El ajuste de Windows para exprimir el HDR de tu monitor gaming"
   ],
   "processed_ids": []
 }
