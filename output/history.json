@@ -3708,6 +3708,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260603_183250",
+      "video_id": "generative",
+      "original_title": "AI: Barra de sonido frente a altavoces estéreo la verdad para tu salón",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260603_183250.mp4",
+      "metadata": {
+        "title": "¡Barra de sonido frente a altavoces estéreo la verdad para tu salón! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Barra de sonido frente a altavoces estéreo la verdad para tu salón. \n\nLa verdad que las marcas de audio te ocultan para tu salón es esta. Las barras de sonido ahorran mucho espacio pero destruyen la escena sonora real. Los altavoces estéreo crean un escenario tridimensional físico que te envuelve por completo en tus películas. Si buscas calidad real el estéreo gana siempre. Suscríbete para dominar tu cine en casa.",
+        "tags": [
+          "speakers",
+          "home theater",
+          "living room",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3826,7 +3844,8 @@
     "El error más común al conectar tu barra de sonido por HDMI eARC",
     "Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor",
     "El ajuste de Windows para exprimir el HDR de tu monitor gaming",
-    "Proyector portátil inteligente contra televisión gigante cuál vale más la pena hoy"
+    "Proyector portátil inteligente contra televisión gigante cuál vale más la pena hoy",
+    "Barra de sonido frente a altavoces estéreo la verdad para tu salón"
   ],
   "processed_ids": []
 }
