@@ -3726,6 +3726,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260604_172158",
+      "video_id": "generative",
+      "original_title": "AI: Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260604_172158.mp4",
+      "metadata": {
+        "title": "¡Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto. \n\nEstás tirando a la basura la mitad del sonido de tus altavoces sin saberlo. Para solucionarlo forma un triángulo equilátero perfecto entre tus dos altavoces y tu cabeza. Apunta los tweeters directo a tus oídos y colócalos a la altura de tus ojos. Suscríbete para masterizar tu audio con Global Audiovisual Insights.",
+        "tags": [
+          "speakers",
+          "audio",
+          "studio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3845,7 +3863,8 @@
     "Configuración de audio digital óptica frente a HDMI eARC cuál suena mejor",
     "El ajuste de Windows para exprimir el HDR de tu monitor gaming",
     "Proyector portátil inteligente contra televisión gigante cuál vale más la pena hoy",
-    "Barra de sonido frente a altavoces estéreo la verdad para tu salón"
+    "Barra de sonido frente a altavoces estéreo la verdad para tu salón",
+    "Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto"
   ],
   "processed_ids": []
 }
