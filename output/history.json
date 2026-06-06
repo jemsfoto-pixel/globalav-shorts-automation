@@ -3744,6 +3744,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260606_154003",
+      "video_id": "generative",
+      "original_title": "AI: El ajuste oculto de Windows que arruina los colores de tu monitor OLED",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260606_154003.mp4",
+      "metadata": {
+        "title": "¡El ajuste oculto de Windows que arruina los colores de tu monitor OLED! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El ajuste oculto de Windows que arruina los colores de tu monitor OLED. \n\nTu costoso monitor OLED se ve apagado y la culpa es de un ajuste oculto en Windows. Ve a configuración de pantalla y desactiva el brillo automático para liberar la verdadera potencia del HDR. Esto recuperará los negros perfectos y colores vibrantes que estás perdiendo. Suscríbete para más trucos de tecnología audiovisual.",
+        "tags": [
+          "monitor",
+          "technology",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3864,7 +3882,8 @@
     "El ajuste de Windows para exprimir el HDR de tu monitor gaming",
     "Proyector portátil inteligente contra televisión gigante cuál vale más la pena hoy",
     "Barra de sonido frente a altavoces estéreo la verdad para tu salón",
-    "Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto"
+    "Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto",
+    "El ajuste oculto de Windows que arruina los colores de tu monitor OLED"
   ],
   "processed_ids": []
 }
