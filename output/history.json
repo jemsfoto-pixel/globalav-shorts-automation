@@ -3762,6 +3762,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260607_154348",
+      "video_id": "generative",
+      "original_title": "AI: El error de configuración que limita los hercios de tu monitor",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260607_154348.mp4",
+      "metadata": {
+        "title": "¡El error de configuración que limita los hercios de tu monitor! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El error de configuración que limita los hercios de tu monitor. \n\nEstás tirando el dinero de tu monitor gaming sin saberlo. Windows limita los hercios de tu pantalla por defecto. Para solucionarlo haz clic derecho en el escritorio ve a configuración de pantalla avanzada y selecciona la tasa de refresco máxima. Notarás la fluidez de inmediato. Suscríbete a Global Audiovisual Insights para optimizar tus equipos.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "computer",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3883,7 +3901,8 @@
     "Proyector portátil inteligente contra televisión gigante cuál vale más la pena hoy",
     "Barra de sonido frente a altavoces estéreo la verdad para tu salón",
     "Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto",
-    "El ajuste oculto de Windows que arruina los colores de tu monitor OLED"
+    "El ajuste oculto de Windows que arruina los colores de tu monitor OLED",
+    "El error de configuración que limita los hercios de tu monitor"
   ],
   "processed_ids": []
 }
