@@ -3780,6 +3780,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260608_172851",
+      "video_id": "generative",
+      "original_title": "AI: Proyectores portátiles baratos contra costosos vale la pena gastar más",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260608_172851.mp4",
+      "metadata": {
+        "title": "¡Proyectores portátiles baratos contra costosos vale la pena gastar más! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Proyectores portátiles baratos contra costosos vale la pena gastar más. \n\n¿Estás tirando tu dinero con un proyector portátil barato? Los modelos de cincuenta dólares prometen cine en casa pero se ven borrosos y sin brillo. Uno premium te ofrece resolución real alta definición batería de larga duración y conectividad total. El gasto extra vale cada centavo para disfrutar de verdad. Suscríbete a nuestro canal para más consejos.",
+        "tags": [
+          "projector",
+          "home cinema",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3902,7 +3920,8 @@
     "Barra de sonido frente a altavoces estéreo la verdad para tu salón",
     "Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto",
     "El ajuste oculto de Windows que arruina los colores de tu monitor OLED",
-    "El error de configuración que limita los hercios de tu monitor"
+    "El error de configuración que limita los hercios de tu monitor",
+    "Proyectores portátiles baratos contra costosos vale la pena gastar más"
   ],
   "processed_ids": []
 }
