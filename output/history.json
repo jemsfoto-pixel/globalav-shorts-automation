@@ -3798,6 +3798,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260610_173405",
+      "video_id": "generative",
+      "original_title": "AI: El mito del quemado en monitores OLED gaming actuales",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260610_173405.mp4",
+      "metadata": {
+        "title": "¡El mito del quemado en monitores OLED gaming actuales! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El mito del quemado en monitores OLED gaming actuales. \n\nSigues teniendo miedo de que tu nuevo monitor OLED se queme para siempre. Eso ya es historia. Los paneles modernos tienen sistemas automáticos de limpieza de píxeles y disipadores de calor avanzados que protegen la pantalla incluso tras horas de juego intenso. Disfruta del contraste infinito sin preocupaciones. Suscríbete a Global Audiovisual Insights para dominar la mejor tecnología.",
+        "tags": [
+          "monitor",
+          "gaming",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3921,7 +3939,8 @@
     "Cómo colocar tus altavoces para conseguir el sonido estéreo perfecto",
     "El ajuste oculto de Windows que arruina los colores de tu monitor OLED",
     "El error de configuración que limita los hercios de tu monitor",
-    "Proyectores portátiles baratos contra costosos vale la pena gastar más"
+    "Proyectores portátiles baratos contra costosos vale la pena gastar más",
+    "El mito del quemado en monitores OLED gaming actuales"
   ],
   "processed_ids": []
 }
