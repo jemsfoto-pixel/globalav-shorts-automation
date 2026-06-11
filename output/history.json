@@ -3816,6 +3816,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260611_174557",
+      "video_id": "generative",
+      "original_title": "AI: Evita que tu monitor OLED se queme con estos tres ajustes rápidos",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260611_174557.mp4",
+      "metadata": {
+        "title": "¡Evita que tu monitor OLED se queme con estos tres ajustes rápidos! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Evita que tu monitor OLED se queme con estos tres ajustes rápidos. \n\n¿Tu monitor OLED costó una fortuna y temes que se queme? Evítalo ya con tres ajustes. Primero activa el ocultamiento automático de la barra de tareas. Segundo usa un fondo de pantalla negro absoluto. Y tercero reduce el brillo SDR al cincuenta por ciento. Protege tu inversión y suscríbete a Global Audiovisual Insights para más consejos de expertos.",
+        "tags": [
+          "monitor",
+          "computer",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3940,7 +3958,8 @@
     "El ajuste oculto de Windows que arruina los colores de tu monitor OLED",
     "El error de configuración que limita los hercios de tu monitor",
     "Proyectores portátiles baratos contra costosos vale la pena gastar más",
-    "El mito del quemado en monitores OLED gaming actuales"
+    "El mito del quemado en monitores OLED gaming actuales",
+    "Evita que tu monitor OLED se queme con estos tres ajustes rápidos"
   ],
   "processed_ids": []
 }
