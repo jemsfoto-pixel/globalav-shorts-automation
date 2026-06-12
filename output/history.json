@@ -3834,6 +3834,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260612_171445",
+      "video_id": "generative",
+      "original_title": "AI: El proyector láser portátil de bolsillo que quiere jubilar a tu televisión",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260612_171445.mp4",
+      "metadata": {
+        "title": "¡El proyector láser portátil de bolsillo que quiere jubilar a tu televisión! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El proyector láser portátil de bolsillo que quiere jubilar a tu televisión. \n\n¿Y si te digo que este pequeño dispositivo de bolsillo va a jubilar a tu televisión para siempre? Este proyector láser portátil cabe en tu mano pero genera una pantalla gigante de cien pulgadas con una definición increíble en cualquier pared. Olvida los cables pesados y disfruta del cine en cualquier lugar. Suscríbete a Global Audiovisual Insights para más.",
+        "tags": [
+          "projector",
+          "portable",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -3959,7 +3977,8 @@
     "El error de configuración que limita los hercios de tu monitor",
     "Proyectores portátiles baratos contra costosos vale la pena gastar más",
     "El mito del quemado en monitores OLED gaming actuales",
-    "Evita que tu monitor OLED se queme con estos tres ajustes rápidos"
+    "Evita que tu monitor OLED se queme con estos tres ajustes rápidos",
+    "El proyector láser portátil de bolsillo que quiere jubilar a tu televisión"
   ],
   "processed_ids": []
 }
