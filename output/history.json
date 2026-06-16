@@ -3954,6 +3954,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260616_183950",
+      "video_id": "generative",
+      "original_title": "AI: Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260616_183950.mp4",
+      "metadata": {
+        "title": "¡Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego. \n\nTu música por bluetooth suena fatal y no lo sabes. El audio de alta resolución inalámbrico ya es real gracias a LDAC. Este códec transmite tres veces más datos que el Bluetooth normal. Así disfrutas de sonido con calidad de estudio directo a tus oídos con un nivel de detalle brutal. Suscríbete para masterizar tu audio.",
+        "tags": [
+          "headphones",
+          "wireless",
+          "music",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4081,7 +4099,8 @@
     "El mito del quemado en monitores OLED gaming actuales",
     "Evita que tu monitor OLED se queme con estos tres ajustes rápidos",
     "El proyector láser portátil de bolsillo que quiere jubilar a tu televisión",
-    "Audio sin pérdida de Apple Music contra Spotify de verdad se nota la diferencia"
+    "Audio sin pérdida de Apple Music contra Spotify de verdad se nota la diferencia",
+    "Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego"
   ],
   "processed_ids": []
 }
