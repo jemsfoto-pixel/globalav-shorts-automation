@@ -3972,6 +3972,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260619_164100",
+      "video_id": "generative",
+      "original_title": "AI: Qué es mejor para tu salón un proyector láser portátil o una tele gigante",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260619_164100.mp4",
+      "metadata": {
+        "title": "¡Qué es mejor para tu salón un proyector láser portátil o una tele gigante! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Qué es mejor para tu salón un proyector láser portátil o una tele gigante. \n\n¿Sigues pensando en comprar una tele gigante? Deja de tirar tu dinero. Mientras esa pantalla enorme arruina la decoración de tu sala, un proyector láser portátil convierte cualquier pared vacía en un cine de cien pulgadas con colores brutales que cabe en tu mochila. La portabilidad siempre gana. Suscríbete para dominar el cine en casa.",
+        "tags": [
+          "projector",
+          "home cinema",
+          "portable",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4100,7 +4118,8 @@
     "Evita que tu monitor OLED se queme con estos tres ajustes rápidos",
     "El proyector láser portátil de bolsillo que quiere jubilar a tu televisión",
     "Audio sin pérdida de Apple Music contra Spotify de verdad se nota la diferencia",
-    "Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego"
+    "Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego",
+    "Qué es mejor para tu salón un proyector láser portátil o una tele gigante"
   ],
   "processed_ids": []
 }
