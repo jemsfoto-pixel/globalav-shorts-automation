@@ -3990,6 +3990,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260620_155451",
+      "video_id": "generative",
+      "original_title": "AI: Cómo configurar el HDR de tu consola o PC para que no se vea opaco",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260620_155451.mp4",
+      "metadata": {
+        "title": "¡Cómo configurar el HDR de tu consola o PC para que no se vea opaco! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo configurar el HDR de tu consola o PC para que no se vea opaco. \n\nTu pantalla HDR se ve gris y sin vida. Primero activa el HDR en tu sistema y pon el brillo del monitor al máximo. Entra al calibrador oficial de tu consola o PC. Ajusta los tonos oscuros hasta que el negro sea puro y los brillantes hasta que destaquen sin cegarte. Suscríbete a Global Audiovisual Insights.",
+        "tags": [
+          "monitor",
+          "calibration",
+          "computer",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4119,7 +4137,8 @@
     "El proyector láser portátil de bolsillo que quiere jubilar a tu televisión",
     "Audio sin pérdida de Apple Music contra Spotify de verdad se nota la diferencia",
     "Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego",
-    "Qué es mejor para tu salón un proyector láser portátil o una tele gigante"
+    "Qué es mejor para tu salón un proyector láser portátil o una tele gigante",
+    "Cómo configurar el HDR de tu consola o PC para que no se vea opaco"
   ],
   "processed_ids": []
 }
