@@ -4008,6 +4008,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260621_160950",
+      "video_id": "generative",
+      "original_title": "AI: La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260621_160950.mp4",
+      "metadata": {
+        "title": "¡La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV. \n\nTu receptor de audio te está engañando y no estás escuchando cine real. Busca ahora mismo en tu menú y activa la función llamada Straight o Direct. Por defecto el sistema altera el sonido restando realismo. Al activar esta opción oculta liberas la mezcla original del director con máxima pureza. Suscríbete a Global Audiovisual Insights para dominar tu cine.",
+        "tags": [
+          "receiver",
+          "audio",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4138,7 +4156,8 @@
     "Audio sin pérdida de Apple Music contra Spotify de verdad se nota la diferencia",
     "Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego",
     "Qué es mejor para tu salón un proyector láser portátil o una tele gigante",
-    "Cómo configurar el HDR de tu consola o PC para que no se vea opaco"
+    "Cómo configurar el HDR de tu consola o PC para que no se vea opaco",
+    "La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV"
   ],
   "processed_ids": []
 }
