@@ -4026,6 +4026,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260622_181747",
+      "video_id": "generative",
+      "original_title": "AI: El error que cometes al configurar el audio espacial de tu sistema",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260622_181747.mp4",
+      "metadata": {
+        "title": "¡El error que cometes al configurar el audio espacial de tu sistema! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El error que cometes al configurar el audio espacial de tu sistema. \n\n¿Sabías que estás arruinando el sonido de tu cine en casa? El peor error al configurar el audio espacial es colocar los altavoces a alturas diferentes sin alinearlos con tus oídos. Esto destruye por completo la dirección del sonido real. Ajusta su altura hoy mismo para notar la diferencia y suscríbete para mejorar tu sistema.",
+        "tags": [
+          "speaker",
+          "audio",
+          "setup",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4157,7 +4175,8 @@
     "Audio de alta resolución por Bluetooth por qué el códec LDAC cambia por completo el juego",
     "Qué es mejor para tu salón un proyector láser portátil o una tele gigante",
     "Cómo configurar el HDR de tu consola o PC para que no se vea opaco",
-    "La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV"
+    "La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV",
+    "El error que cometes al configurar el audio espacial de tu sistema"
   ],
   "processed_ids": []
 }
