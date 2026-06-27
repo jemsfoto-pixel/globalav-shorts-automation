@@ -4082,6 +4082,24 @@
           "focus white noise"
         ]
       }
+    },
+    {
+      "timestamp": "20260627_153801",
+      "video_id": "generative",
+      "original_title": "AI: Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260627_153801.mp4",
+      "metadata": {
+        "title": "¡Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?. \n\n¿Quieres una pantalla de cien pulgadas en tu cuarto por menos de lo que cuesta una cena? Los proyectores portátiles de hoy ofrecen resolución decente y brillo aceptable para ver películas en la oscuridad sin gastar una fortuna en televisores gigantes. No son perfectos pero su portabilidad es insuperable. Suscríbete para más consejos de tecnología audiovisual.",
+        "tags": [
+          "projector",
+          "home",
+          "movie",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4214,7 +4232,8 @@
     "Qué es mejor para tu salón un proyector láser portátil o una tele gigante",
     "Cómo configurar el HDR de tu consola o PC para que no se vea opaco",
     "La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV",
-    "El error que cometes al configurar el audio espacial de tu sistema"
+    "El error que cometes al configurar el audio espacial de tu sistema",
+    "Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?"
   ],
   "processed_ids": []
 }
