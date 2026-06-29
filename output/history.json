@@ -4141,6 +4141,24 @@
           "dormir rapido"
         ]
       }
+    },
+    {
+      "timestamp": "20260629_171157",
+      "video_id": "generative",
+      "original_title": "AI: Auriculares de estudio versus monitores de audio qué es mejor para empezar",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260629_171157.mp4",
+      "metadata": {
+        "title": "¡Auriculares de estudio versus monitores de audio qué es mejor para empezar! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Auriculares de estudio versus monitores de audio qué es mejor para empezar. \n\nQuieres mejorar tu sonido pero no sabes si comprar auriculares o monitores de estudio. Los auriculares son más baratos y cancelan la acústica de tu habitación permitiéndote mezclar donde sea. Pero los monitores ofrecen una imagen estéreo real y cansan menos tus oídos. Empieza con auriculares y ahorra. Suscríbete para dominar tu sonido.",
+        "tags": [
+          "headphones",
+          "studio",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4274,7 +4292,8 @@
     "Cómo configurar el HDR de tu consola o PC para que no se vea opaco",
     "La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV",
     "El error que cometes al configurar el audio espacial de tu sistema",
-    "Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?"
+    "Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?",
+    "Auriculares de estudio versus monitores de audio qué es mejor para empezar"
   ],
   "processed_ids": []
 }
