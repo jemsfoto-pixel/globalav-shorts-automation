@@ -4159,6 +4159,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260630_163104",
+      "video_id": "generative",
+      "original_title": "AI: Qué es un DAC de audio y por qué lo necesitas para tus auriculares",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260630_163104.mp4",
+      "metadata": {
+        "title": "¡Qué es un DAC de audio y por qué lo necesitas para tus auriculares! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Qué es un DAC de audio y por qué lo necesitas para tus auriculares. \n\nTus auriculares caros suenan mal y la culpa es de tu móvil. Necesitas un DAC, un conversor que transforma la música digital en ondas analógicas puras. El chip de tu teléfono es pésimo, pero un DAC externo libera detalles ocultos y graves potentes que nunca habías escuchado. Suscríbete a Global Audiovisual Insights para dominar tu sonido.",
+        "tags": [
+          "headphones",
+          "smartphone",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4293,7 +4311,8 @@
     "La configuración oculta para activar el verdadero sonido envolvente en tu receptor AV",
     "El error que cometes al configurar el audio espacial de tu sistema",
     "Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?",
-    "Auriculares de estudio versus monitores de audio qué es mejor para empezar"
+    "Auriculares de estudio versus monitores de audio qué es mejor para empezar",
+    "Qué es un DAC de audio y por qué lo necesitas para tus auriculares"
   ],
   "processed_ids": []
 }
