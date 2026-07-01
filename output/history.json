@@ -4177,6 +4177,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260701_163908",
+      "video_id": "generative",
+      "original_title": "AI: Cómo activar el audio sin pérdida real en tu celular usando un DAC barato",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260701_163908.mp4",
+      "metadata": {
+        "title": "¡Cómo activar el audio sin pérdida real en tu celular usando un DAC barato! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo activar el audio sin pérdida real en tu celular usando un DAC barato. \n\nSabías que tu celular está arruinando tu música favorita sin que te des cuenta. Para escuchar audio sin pérdida real, conecta un DAC barato al puerto USB, usa audífonos con cable y activa la máxima calidad en tu aplicación de streaming. La mejora es brutal. Suscríbete a Global Audiovisual Insights para dominar tu sonido.",
+        "tags": [
+          "headphones",
+          "smartphone",
+          "music",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4312,7 +4330,8 @@
     "El error que cometes al configurar el audio espacial de tu sistema",
     "Pantalla gigante barata: ¿Vale la pena un proyector portátil en 2024?",
     "Auriculares de estudio versus monitores de audio qué es mejor para empezar",
-    "Qué es un DAC de audio y por qué lo necesitas para tus auriculares"
+    "Qué es un DAC de audio y por qué lo necesitas para tus auriculares",
+    "Cómo activar el audio sin pérdida real en tu celular usando un DAC barato"
   ],
   "processed_ids": []
 }
