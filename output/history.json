@@ -4274,6 +4274,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260705_153646",
+      "video_id": "generative",
+      "original_title": "AI: El peligro oculto de los monitores OLED gaming y cómo evitarlo",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260705_153646.mp4",
+      "metadata": {
+        "title": "¡El peligro oculto de los monitores OLED gaming y cómo evitarlo! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El peligro oculto de los monitores OLED gaming y cómo evitarlo. \n\nTu monitor OLED gaming de mil dólares se está muriendo lentamente sin que lo sepas. El peligro es el quemado de pantalla por culpa de los elementos estáticos de tus videojuegos favoritos. Para evitarlo activa el ocultado automático de la barra de tareas y usa protectores de pantalla oscuros. Suscríbete para proteger tu setup.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4412,7 +4430,8 @@
     "Qué es un DAC de audio y por qué lo necesitas para tus auriculares",
     "Cómo activar el audio sin pérdida real en tu celular usando un DAC barato",
     "El ajuste oculto de Windows que mejora al instante el HDR de tu monitor gaming",
-    "Proyector portátil barato contra televisión gigante qué comprar hoy"
+    "Proyector portátil barato contra televisión gigante qué comprar hoy",
+    "El peligro oculto de los monitores OLED gaming y cómo evitarlo"
   ],
   "processed_ids": []
 }
