@@ -4330,6 +4330,24 @@
           "tecnologia oled"
         ]
       }
+    },
+    {
+      "timestamp": "20260707_164139",
+      "video_id": "generative",
+      "original_title": "AI: La verdad sobre el audio de alta resolución en plataformas de streaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260707_164139.mp4",
+      "metadata": {
+        "title": "¡La verdad sobre el audio de alta resolución en plataformas de streaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La verdad sobre el audio de alta resolución en plataformas de streaming. \n\n¿Estás tirando tu dinero con el audio de alta resolución en streaming? La dura realidad es que casi todas las plataformas comprimen la música, y tus oídos jamás notarán la diferencia sin un costoso equipo profesional. El verdadero cambio está en tus auriculares, no en la suscripción. Suscríbete para mejorar tu audio.",
+        "tags": [
+          "headphones",
+          "music",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4469,7 +4487,8 @@
     "Cómo activar el audio sin pérdida real en tu celular usando un DAC barato",
     "El ajuste oculto de Windows que mejora al instante el HDR de tu monitor gaming",
     "Proyector portátil barato contra televisión gigante qué comprar hoy",
-    "El peligro oculto de los monitores OLED gaming y cómo evitarlo"
+    "El peligro oculto de los monitores OLED gaming y cómo evitarlo",
+    "La verdad sobre el audio de alta resolución en plataformas de streaming"
   ],
   "processed_ids": []
 }
