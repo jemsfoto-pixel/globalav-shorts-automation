@@ -4444,6 +4444,24 @@
           "lg oled burn in espanol"
         ]
       }
+    },
+    {
+      "timestamp": "20260719_151318",
+      "video_id": "generative",
+      "original_title": "AI: El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260719_151318.mp4",
+      "metadata": {
+        "title": "¡El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC. \n\nEstás perdiendo la mitad del sonido de tu barra sin saberlo. El error más común con el puerto eARC es conectar el cable HDMI en cualquier entrada de tu televisor. Si no usas el puerto específico que dice eARC no tendrás Dolby Atmos real. Revisa tu conexión ahora mismo. Suscríbete a Global Audiovisual Insights para dominar tu tecnología.",
+        "tags": [
+          "hdmi",
+          "television",
+          "soundbar",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4585,7 +4603,8 @@
     "Proyector portátil barato contra televisión gigante qué comprar hoy",
     "El peligro oculto de los monitores OLED gaming y cómo evitarlo",
     "La verdad sobre el audio de alta resolución en plataformas de streaming",
-    "Pantalla brillante contra mate el dilema definitivo de los nuevos monitores"
+    "Pantalla brillante contra mate el dilema definitivo de los nuevos monitores",
+    "El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC"
   ],
   "processed_ids": []
 }
