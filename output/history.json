@@ -4462,6 +4462,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260722_155058",
+      "video_id": "generative",
+      "original_title": "AI: Truco de configuración en Windows para exprimir los Hz de tu monitor gaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260722_155058.mp4",
+      "metadata": {
+        "title": "¡Truco de configuración en Windows para exprimir los Hz de tu monitor gaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Truco de configuración en Windows para exprimir los Hz de tu monitor gaming. \n\nEstas jugando a sesenta hercios sin saberlo aunque pagaste por un monitor gaming de mas frecuencia. Arreglalo ya en Windows. Ve a configuracion, entra en pantalla y busca configuracion avanzada. En frecuencia de actualizacion cambia el valor por el mas alto disponible. Notaras la fluidez al instante. Suscribete a Global Audiovisual Insights para dominar tu pantalla.",
+        "tags": [
+          "gaming",
+          "monitor",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4604,7 +4622,8 @@
     "El peligro oculto de los monitores OLED gaming y cómo evitarlo",
     "La verdad sobre el audio de alta resolución en plataformas de streaming",
     "Pantalla brillante contra mate el dilema definitivo de los nuevos monitores",
-    "El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC"
+    "El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC",
+    "Truco de configuración en Windows para exprimir los Hz de tu monitor gaming"
   ],
   "processed_ids": []
 }
