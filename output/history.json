@@ -4498,6 +4498,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260724_154247",
+      "video_id": "generative",
+      "original_title": "AI: DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260724_154247.mp4",
+      "metadata": {
+        "title": "¡DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica! #Shorts #AV",
+        "description": "Perspectivas de IA sobre DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica. \n\nCreías que HDMI 2.1 era invencible pero cometiste un error grave. La diferencia secreta es el ancho de banda real. HDMI 2.1 se limita a 48 gigabits por segundo, pero DisplayPort 2.1 alcanza increíbles 80 gigabits. Esto permite transmitir video en 4K sin ningún tipo de compresión ni pérdida. Suscríbete a Global Audiovisual Insights para dominar la tecnología.",
+        "tags": [
+          "cable",
+          "monitor",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4642,7 +4660,8 @@
     "Pantalla brillante contra mate el dilema definitivo de los nuevos monitores",
     "El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC",
     "Truco de configuración en Windows para exprimir los Hz de tu monitor gaming",
-    "Guía rápida de 60 segundos para calibrar el HDR de tu monitor gaming"
+    "Guía rápida de 60 segundos para calibrar el HDR de tu monitor gaming",
+    "DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica"
   ],
   "processed_ids": []
 }
