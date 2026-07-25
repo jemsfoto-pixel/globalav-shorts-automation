@@ -4516,6 +4516,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260725_151826",
+      "video_id": "generative",
+      "original_title": "AI: Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260725_151826.mp4",
+      "metadata": {
+        "title": "¡Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1. \n\nEstas tirando a la basura el potencial de tu pantalla. Para activar 120Hz y HDR reales, conecta tu cable HDMI 2.1 en el puerto de alta velocidad. Luego entra a la configuracion de tu TV, activa el formato mejorado HDMI y selecciona la salida de 120Hz en tu consola. Suscribete para mas consejos audiovisuales.",
+        "tags": [
+          "television",
+          "hdmi",
+          "console",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4661,7 +4679,8 @@
     "El error más común al configurar tu barra de sonido o equipo de audio con HDMI eARC",
     "Truco de configuración en Windows para exprimir los Hz de tu monitor gaming",
     "Guía rápida de 60 segundos para calibrar el HDR de tu monitor gaming",
-    "DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica"
+    "DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica",
+    "Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1"
   ],
   "processed_ids": []
 }
