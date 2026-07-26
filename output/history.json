@@ -4534,6 +4534,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260726_151934",
+      "video_id": "generative",
+      "original_title": "AI: QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260726_151934.mp4",
+      "metadata": {
+        "title": "¡QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming. \n\nVas a tirar tu dinero si compras un monitor OLED sin saber esto. El panel QD OLED ofrece colores impactantes y mas brillo, pero sufre un desgaste y quemado mas rapido que el WOLED. La razon. El WOLED incluye un subpixel blanco que protege la pantalla al jugar. Suscribete a Global Audiovisual Insights para no fallar en tu compra.",
+        "tags": [
+          "monitor",
+          "technology",
+          "gaming",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4680,7 +4698,8 @@
     "Truco de configuración en Windows para exprimir los Hz de tu monitor gaming",
     "Guía rápida de 60 segundos para calibrar el HDR de tu monitor gaming",
     "DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica",
-    "Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1"
+    "Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1",
+    "QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming"
   ],
   "processed_ids": []
 }
