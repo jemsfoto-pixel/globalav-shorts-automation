@@ -4591,6 +4591,24 @@
           "tutorial OLED"
         ]
       }
+    },
+    {
+      "timestamp": "20260728_161518",
+      "video_id": "generative",
+      "original_title": "AI: Mini-LED vs OLED: Cuál deberías comprar este año",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260728_161518.mp4",
+      "metadata": {
+        "title": "¡Mini-LED vs OLED: Cuál deberías comprar este año! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Mini-LED vs OLED: Cuál deberías comprar este año. \n\nNo compres tu nueva pantalla sin saber esto. OLED o MiniLED, cuál deberías elegir este año. OLED te ofrece negros puros y contraste infinito, siendo la reina para cine a oscuras. Sin embargo, MiniLED destruye en brillo y no sufre quemados, ideal para salas muy iluminadas. Suscríbete a Global Audiovisual Insights para dominar tu tecnología.",
+        "tags": [
+          "television",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4738,7 +4756,8 @@
     "Guía rápida de 60 segundos para calibrar el HDR de tu monitor gaming",
     "DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica",
     "Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1",
-    "QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming"
+    "QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming",
+    "Mini-LED vs OLED: Cuál deberías comprar este año"
   ],
   "processed_ids": []
 }
