@@ -4609,6 +4609,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260730_160013",
+      "video_id": "generative",
+      "original_title": "AI: Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260730_160013.mp4",
+      "metadata": {
+        "title": "¡Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?. \n\nCuatrocientos ochenta hercios en un panel OLED suena a locura pero en gaming competitivo te da una fluidez absurda y cero desenfoque de movimiento. Los monitores QD-OLED combinan colores puros y respuesta casi instantánea. Si juegas shooters esports ganarás ventaja real pero su precio es altísimo. Suscríbete a Global Audiovisual Insights para dominar el mejor hardware.",
+        "tags": [
+          "monitor",
+          "gaming",
+          "esports",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4757,7 +4775,8 @@
     "DisplayPort 2.1 vs HDMI 2.1: La diferencia clave que nadie te explica",
     "Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1",
     "QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming",
-    "Mini-LED vs OLED: Cuál deberías comprar este año"
+    "Mini-LED vs OLED: Cuál deberías comprar este año",
+    "Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?"
   ],
   "processed_ids": []
 }
