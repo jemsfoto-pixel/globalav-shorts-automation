@@ -4706,6 +4706,24 @@
           "truco oled"
         ]
       }
+    },
+    {
+      "timestamp": "20260802_151739",
+      "video_id": "generative",
+      "original_title": "AI: HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260802_151739.mp4",
+      "metadata": {
+        "title": "¡HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K! #Shorts #AV",
+        "description": "Perspectivas de IA sobre HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K. \n\nEstas tirando tu dinero eligiendo el cable equivocado para jugar en 4K. HDMI 2.1 es ideal para consolas y televisor, soporta 4K a 120 hercios de forma perfecta. Pero si juegas en PC con monitor de gama alta, DisplayPort 2.1 es el rey absoluto por su brutal ancho de banda sin compresion. Suscribete a Global Audiovisual Insights.",
+        "tags": [
+          "gaming",
+          "cable",
+          "monitor",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4855,7 +4873,8 @@
     "Cómo activar los 120Hz y HDR reales con tu cable HDMI 2.1",
     "QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming",
     "Mini-LED vs OLED: Cuál deberías comprar este año",
-    "Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?"
+    "Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?",
+    "HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K"
   ],
   "processed_ids": []
 }
