@@ -4724,6 +4724,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260803_164008",
+      "video_id": "generative",
+      "original_title": "AI: El ajuste oculto de Windows 11 para activar el verdadero HDR",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260803_164008.mp4",
+      "metadata": {
+        "title": "¡El ajuste oculto de Windows 11 para activar el verdadero HDR! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El ajuste oculto de Windows 11 para activar el verdadero HDR. \n\nTu monitor con HDR se ve lavado y sin vida en Windows 11. No es culpa de tu pantalla. Hay una herramienta secreta oficial que cambia todo. Busca Windows HDR Calibration en la Microsoft Store y ejecútala. Ajustarás el brillo máximo real de tu panel eliminando ese tono grisáceo al instante. Suscríbete a Global Audiovisual Insights para más trucos.",
+        "tags": [
+          "monitor",
+          "screen",
+          "brightness",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4874,7 +4892,8 @@
     "QD-OLED vs WOLED: La verdad sobre el quemado de pantalla en monitores gaming",
     "Mini-LED vs OLED: Cuál deberías comprar este año",
     "Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?",
-    "HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K"
+    "HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K",
+    "El ajuste oculto de Windows 11 para activar el verdadero HDR"
   ],
   "processed_ids": []
 }
