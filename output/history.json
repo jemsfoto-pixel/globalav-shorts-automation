@@ -4782,6 +4782,24 @@
           "tutorial OLED"
         ]
       }
+    },
+    {
+      "timestamp": "20260805_161417",
+      "video_id": "generative",
+      "original_title": "AI: El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260805_161417.mp4",
+      "metadata": {
+        "title": "¡El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad. \n\nTe están engañando si pagas por música en alta resolución y la escuchas por Bluetooth. El Bluetooth siempre comprime el audio sin importar la marca de tus audífonos. Para escuchar calidad Lossless de verdad necesitas una conexión por cable y un DAC dedicado que procese todo ese bitrate. Suscríbete al canal para dominar tu sonido.",
+        "tags": [
+          "headphones",
+          "audio",
+          "music",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4933,7 +4951,8 @@
     "Mini-LED vs OLED: Cuál deberías comprar este año",
     "Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?",
     "HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K",
-    "El ajuste oculto de Windows 11 para activar el verdadero HDR"
+    "El ajuste oculto de Windows 11 para activar el verdadero HDR",
+    "El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad"
   ],
   "processed_ids": []
 }
