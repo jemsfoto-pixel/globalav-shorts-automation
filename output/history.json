@@ -4841,6 +4841,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20260808_144855",
+      "video_id": "generative",
+      "original_title": "AI: ¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260808_144855.mp4",
+      "metadata": {
+        "title": "¡¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?. \n\nComprar un monitor OLED en 2024 sigue siendo un peligro para tu bolsillo. El quemado de pantalla no ha desaparecido del todo, pero la tecnología actual incluye limpiezas automáticas y algoritmos que lo minimizan. Si trabajas con logos estáticos por horas, el riesgo existe. Protege tu inversión y suscríbete a Global Audiovisual Insights hoy mismo.",
+        "tags": [
+          "monitor",
+          "screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -4993,7 +5011,8 @@
     "Monitores QD-OLED a 480Hz: ¿Valen la pena para gaming competitivo?",
     "HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K",
     "El ajuste oculto de Windows 11 para activar el verdadero HDR",
-    "El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad"
+    "El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad",
+    "¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?"
   ],
   "processed_ids": []
 }
