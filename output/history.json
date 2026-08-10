@@ -4859,6 +4859,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20260810_151529",
+      "video_id": "generative",
+      "original_title": "AI: Cómo detectar un cable HDMI 2.1 falso en menos de un minuto",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260810_151529.mp4",
+      "metadata": {
+        "title": "¡Cómo detectar un cable HDMI 2.1 falso en menos de un minuto! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Cómo detectar un cable HDMI 2.1 falso en menos de un minuto. \n\nTe vendieron un cable HDMI dos punto uno falso y está arruinando tu experiencia. Si tu pantalla no alcanza cuatro K a ciento veinte hertz haz esto. Busca la etiqueta oficial Ultra High Speed en la caja y escanea su código QR con la aplicación oficial. Si no la tiene es una estafa. Suscríbete a Global Audiovisual Insights hoy.",
+        "tags": [
+          "hdmi",
+          "cable",
+          "television",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5012,7 +5030,8 @@
     "HDMI 2.1 vs DisplayPort 2.1 cuál necesitas realmente para jugar en 4K",
     "El ajuste oculto de Windows 11 para activar el verdadero HDR",
     "El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad",
-    "¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?"
+    "¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?",
+    "Cómo detectar un cable HDMI 2.1 falso en menos de un minuto"
   ],
   "processed_ids": []
 }
