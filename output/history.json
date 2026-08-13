@@ -4955,6 +4955,24 @@
           "arreglar pantalla quemada"
         ]
       }
+    },
+    {
+      "timestamp": "20260813_151309",
+      "video_id": "generative",
+      "original_title": "AI: Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260813_151309.mp4",
+      "metadata": {
+        "title": "¡Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth. \n\n¿Sabías que el Bluetooth destruye la calidad de tu música favorita? Los audiófilos rechazan lo inalámbrico porque la compresión Bluetooth elimina matices sonoros clave. El cable transmite audio de alta resolución sin pérdidas ni latencia directo a tu oído. Si buscas un sonido puro insuperable el cable manda. Suscríbete a Global Audiovisual Insights para aprender más.",
+        "tags": [
+          "headphones",
+          "music",
+          "cable",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5109,7 +5127,8 @@
     "El ajuste oculto de Windows 11 para activar el verdadero HDR",
     "El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad",
     "¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?",
-    "Cómo detectar un cable HDMI 2.1 falso en menos de un minuto"
+    "Cómo detectar un cable HDMI 2.1 falso en menos de un minuto",
+    "Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth"
   ],
   "processed_ids": []
 }
