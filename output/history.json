@@ -4990,6 +4990,24 @@
           "Tecnología"
         ]
       }
+    },
+    {
+      "timestamp": "20260820_145317",
+      "video_id": "generative",
+      "original_title": "AI: Por qué el sonido analógico (vinilo) sigue siendo popular.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260820_145317.mp4",
+      "metadata": {
+        "title": "¡Por qué el sonido analógico (vinilo) sigue siendo popular.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué el sonido analógico (vinilo) sigue siendo popular.. \n\n¿Por qué gastar en vinilos teniendo streaming ilimitado? La respuesta está en la física. El audio digital toma muestras y corta la onda, mientras que el vinilo reproduce una señal continua, rica y cálida. No es solo nostalgia, es una experiencia táctil y acústica insuperable para tu sistema de sonido. Suscríbete a Global Audiovisual Insights para más.",
+        "tags": [
+          "vinyl",
+          "turntable",
+          "music",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5145,7 +5163,8 @@
     "El mito del audio Hi-Fi por Bluetooth y cómo escuchar calidad Lossless de verdad",
     "¿El quemado en monitores OLED en 2024 sigue siendo un riesgo real?",
     "Cómo detectar un cable HDMI 2.1 falso en menos de un minuto",
-    "Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth"
+    "Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth",
+    "Por qué el sonido analógico (vinilo) sigue siendo popular."
   ],
   "processed_ids": []
 }
