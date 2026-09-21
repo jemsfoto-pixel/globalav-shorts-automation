@@ -5077,6 +5077,24 @@
           "Tecnología"
         ]
       }
+    },
+    {
+      "timestamp": "20260921_192507",
+      "video_id": "generative",
+      "original_title": "AI: Por qué usar conectores banana en tus altavoces pasivos.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20260921_192507.mp4",
+      "metadata": {
+        "title": "¡Por qué usar conectores banana en tus altavoces pasivos.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué usar conectores banana en tus altavoces pasivos.. \n\nDeja de conectar cables pelados antes de arruinar tu amplificador. Un simple hilo de cobre suelto puede provocar un cortocircuito fatal. Los conectores banana blindan la conexión contra la oxidación, garantizan una transferencia de sonido impecable y te permiten conectar o mover altavoces en segundos. Protege tu equipo hoy y suscríbete para dominar tu sonido.",
+        "tags": [
+          "speaker",
+          "audio cable",
+          "amplifier",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5234,7 +5252,8 @@
     "Cómo detectar un cable HDMI 2.1 falso en menos de un minuto",
     "Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth",
     "Por qué el sonido analógico (vinilo) sigue siendo popular.",
-    "Desactiva este ajuste en tu Smart TV ahora mismo para eliminar el molesto efecto telenovela"
+    "Desactiva este ajuste en tu Smart TV ahora mismo para eliminar el molesto efecto telenovela",
+    "Por qué usar conectores banana en tus altavoces pasivos."
   ],
   "processed_ids": []
 }
