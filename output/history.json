@@ -5136,6 +5136,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20261005_212917",
+      "video_id": "generative",
+      "original_title": "AI: La importancia de la profundidad de color en diseño gráfico.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261005_212917.mp4",
+      "metadata": {
+        "title": "¡La importancia de la profundidad de color en diseño gráfico.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La importancia de la profundidad de color en diseño gráfico.. \n\nTus diseños se ven arruinados por este error invisible. Si ves cortes extraños en tus degradados, necesitas entender la profundidad de color. Un monitor de diez bits muestra más de mil millones de tonos, eliminando las bandas y garantizando fidelidad absoluta desde tu pantalla hasta la impresión final. Eleva tu nivel visual. Suscríbete para dominar la mejor tecnología.",
+        "tags": [
+          "monitor",
+          "graphic design",
+          "color",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5294,7 +5312,8 @@
     "Por qué los audiófilos siguen usando auriculares de cable en vez de Bluetooth",
     "Por qué el sonido analógico (vinilo) sigue siendo popular.",
     "Desactiva este ajuste en tu Smart TV ahora mismo para eliminar el molesto efecto telenovela",
-    "Por qué usar conectores banana en tus altavoces pasivos."
+    "Por qué usar conectores banana en tus altavoces pasivos.",
+    "La importancia de la profundidad de color en diseño gráfico."
   ],
   "processed_ids": []
 }
