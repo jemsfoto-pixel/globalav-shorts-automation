@@ -5196,6 +5196,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20261010_183306",
+      "video_id": "generative",
+      "original_title": "AI: Proyector láser portátil vs TV gigante: Cuál conviene más para tu habitación",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261010_183306.mp4",
+      "metadata": {
+        "title": "¡Proyector láser portátil vs TV gigante: Cuál conviene más para tu habitación! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Proyector láser portátil vs TV gigante: Cuál conviene más para tu habitación. \n\n¿Quieres cien pulgadas en tu cuarto sin arruinar la decoración? Una tele gigante domina todo el espacio, cansa la vista de noche y es imposible de mover. En cambio, el proyector láser portátil cabe en tu mano, proyecta directo al techo y ofrece cine brutal cuando tú quieras. Suscríbete a Global Audiovisual Insights para más cine en casa.",
+        "tags": [
+          "projector",
+          "bedroom",
+          "cinema",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5355,7 +5373,8 @@
     "Por qué el sonido analógico (vinilo) sigue siendo popular.",
     "Desactiva este ajuste en tu Smart TV ahora mismo para eliminar el molesto efecto telenovela",
     "Por qué usar conectores banana en tus altavoces pasivos.",
-    "La importancia de la profundidad de color en diseño gráfico."
+    "La importancia de la profundidad de color en diseño gráfico.",
+    "Proyector láser portátil vs TV gigante: Cuál conviene más para tu habitación"
   ],
   "processed_ids": []
 }
