@@ -5214,6 +5214,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20261013_201440",
+      "video_id": "generative",
+      "original_title": "AI: Guía para montar un cine en casa en una habitación pequeña.",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261013_201440.mp4",
+      "metadata": {
+        "title": "¡Guía para montar un cine en casa en una habitación pequeña.! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Guía para montar un cine en casa en una habitación pequeña.. \n\nTu cuarto diminuto puede convertirse en un cine brutal sin gastar una fortuna. Primero, olvida televisores gigantes y elige un proyector de tiro ultracorto. Luego, añade una barra de sonido compacta con Dolby Atmos hacia el techo para lograr audio envolvente sin ocupar espacio. Pon cortinas opacas y listo. Suscríbete para dominar tu tecnología audiovisual.",
+        "tags": [
+          "home theater",
+          "projector",
+          "soundbar",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5374,7 +5392,8 @@
     "Desactiva este ajuste en tu Smart TV ahora mismo para eliminar el molesto efecto telenovela",
     "Por qué usar conectores banana en tus altavoces pasivos.",
     "La importancia de la profundidad de color en diseño gráfico.",
-    "Proyector láser portátil vs TV gigante: Cuál conviene más para tu habitación"
+    "Proyector láser portátil vs TV gigante: Cuál conviene más para tu habitación",
+    "Guía para montar un cine en casa en una habitación pequeña."
   ],
   "processed_ids": []
 }
