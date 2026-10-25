@@ -15,6 +15,18 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
+# Ensure UTF-8 output encoding across platforms (especially Windows console)
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+if sys.stderr and hasattr(sys.stderr, "reconfigure"):
+    try:
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 from scripts.channel_manager import ChannelManager
 from scripts.assets import AssetManager
 from scripts.video_builder import VideoBuilder
@@ -61,29 +73,6 @@ def should_run(history: dict, interval_hours: int = 6) -> bool:
     except ValueError:
         return True
 
-
-def run_pipeline():
-    logger.info("=" * 60)
-    logger.info("🚀 GlobalAVInsights — YouTube Shorts Automation")
-    logger.info("=" * 60)
-
-    config = load_config()
-    channel_url = config["channel"]["url"]
-    interval = config["schedule"]["interval_hours"]
-
-    # --- Setup ---
-    os.makedirs(PROJECT_ROOT / "output" / "videos", exist_ok=True)
-    os.makedirs(PROJECT_ROOT / "output" / "thumbnails", exist_ok=True)
-    os.makedirs(PROJECT_ROOT / "assets" / "raw_videos", exist_ok=True)
-
-    history_path = str(PROJECT_ROOT / "output" / "history.json")
-    manager = ChannelManager(channel_url, history_file=history_path)
-    history = manager.load_history()
-
-    # --- Check Schedule ---
-    if not should_run(history, interval):
-        logger.info("⏳ Skipping — next upload not due yet.")
-        return
 
 def run_clip_pipeline(config, manager, history, timestamp):
     logger.info("🎬 Mode: EXPLAINER PIPELINE (YouTube long-form explained by AI)")
@@ -252,6 +241,7 @@ def process_post_generation(config, manager, history, timestamp, short_path, thu
             logger.info("🎉 Short published successfully!")
         else:
             logger.error("❌ Upload failed.")
+            return False
     else:
         logger.info("⏭️ Phase 6: Upload SKIPPED (set YOUTUBE_UPLOAD_ENABLED=true)")
 

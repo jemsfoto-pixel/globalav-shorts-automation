@@ -130,6 +130,54 @@ class YouTubeUploader:
         self.youtube = build(API_SERVICE, API_VERSION, credentials=credentials)
         return True
 
+    @staticmethod
+    def sanitize_tags(tags: list, max_total_chars: int = 400) -> list:
+        """
+        Sanitize tags according to YouTube rules:
+        - No quotes, angle brackets, newlines, or internal commas
+        - Strip leading '#'
+        - Limit tag length to 80 chars
+        - YouTube wraps tags containing spaces in quotes, adding 2 chars to total budget
+        - Total serialized budget capped at max_total_chars (<= 400, well below 500 limit)
+        """
+        if not tags:
+            return []
+        cleaned = []
+        seen = set()
+        total_len = 0
+        for item in tags:
+            if not item or not isinstance(item, str):
+                continue
+            # Strip forbidden characters: <, >, quotes, newlines, #, commas
+            t = (item.replace('<', '')
+                     .replace('>', '')
+                     .replace('"', '')
+                     .replace("'", '')
+                     .replace('\n', ' ')
+                     .replace('\r', ' ')
+                     .replace('#', '')
+                     .replace(',', ' ')
+                     .strip())
+            t = " ".join(t.split())
+            if not t:
+                continue
+            t = t[:80].strip()
+            t_lower = t.lower()
+            if t_lower in seen:
+                continue
+
+            # YouTube counts multi-word tags as wrapped in quotes: "word word" (+2 chars)
+            tag_cost = len(t) + (2 if ' ' in t else 0)
+            sep_cost = 1 if cleaned else 0
+
+            if total_len + sep_cost + tag_cost <= max_total_chars:
+                cleaned.append(t)
+                total_len += sep_cost + tag_cost
+                seen.add(t_lower)
+            else:
+                break
+        return cleaned
+
     def upload(self, video_path: Path, metadata: dict, thumbnail_path: Optional[Path] = None) -> bool:
         """
         Upload a video to YouTube and optionally set a thumbnail.
@@ -146,20 +194,24 @@ class YouTubeUploader:
             logger.error("Authentication failed, cannot upload")
             return False
 
-        try:
-            body = {
-                "snippet": {
-                    "title": metadata.get("title", "Short automático"),
-                    "description": metadata.get("description", ""),
-                    "tags": metadata.get("tags", []),
-                    "categoryId": metadata.get("category_id", "22"), # People & Blogs or Science/Tech
-                },
-                "status": {
-                    "privacyStatus": metadata.get("privacy", "public"),
-                    "selfDeclaredMadeForKids": False,
-                },
-            }
+        safe_tags = self.sanitize_tags(metadata.get("tags", []))
+        category_id = str(metadata.get("category_id") or self.config.get("seo", {}).get("category_id", "28"))
+        privacy_status = metadata.get("privacy") or self.config.get("seo", {}).get("privacy", "public")
 
+        body = {
+            "snippet": {
+                "title": metadata.get("title", "Short automático")[:100],
+                "description": metadata.get("description", "")[:5000],
+                "tags": safe_tags,
+                "categoryId": category_id,
+            },
+            "status": {
+                "privacyStatus": privacy_status,
+                "selfDeclaredMadeForKids": False,
+            },
+        }
+
+        try:
             media = MediaFileUpload(
                 str(video_path),
                 mimetype="video/mp4",
@@ -182,6 +234,36 @@ class YouTubeUploader:
 
             return True
 
+        except HttpError as e:
+            error_str = str(e)
+            if "invalidTags" in error_str or "invalid video keywords" in error_str.lower():
+                logger.warning(f"YouTube rejected tags ({error_str}). Retrying upload with emergency safe tags...")
+                try:
+                    body["snippet"]["tags"] = ["GlobalAVInsights", "Shorts"]
+                    media = MediaFileUpload(
+                        str(video_path),
+                        mimetype="video/mp4",
+                        resumable=True
+                    )
+                    request = self.youtube.videos().insert(
+                        part="snippet,status",
+                        body=body,
+                        media_body=media,
+                    )
+                    response = request.execute()
+                    video_id = response.get("id")
+                    logger.info(f"✅ Video uploaded successfully on retry! ID: {video_id}")
+
+                    if thumbnail_path and video_id:
+                        self.set_thumbnail(video_id, thumbnail_path)
+
+                    return True
+                except Exception as retry_e:
+                    logger.error(f"Upload retry failed: {retry_e}")
+                    return False
+            else:
+                logger.error(f"Upload failed: {e}")
+                return False
         except Exception as e:
             logger.error(f"Upload failed: {e}")
             return False

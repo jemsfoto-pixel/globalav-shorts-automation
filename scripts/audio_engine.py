@@ -41,9 +41,58 @@ class AudioEngine:
 
     def __init__(self, config: dict):
         self.config = config
-        self.language = config["niche"].get("language", "es")
+        self.language = (
+            config.get("audio", {}).get("language")
+            or config.get("channel", {}).get("language")
+            or config.get("niche", {}).get("language", "es")
+        )
         self.voice = config.get("audio", {}).get("voice", "es-ES-AlvaroNeural")
         self.rate = config.get("audio", {}).get("rate", "+15%") # Default faster for Shorts
+
+    def _synthesize_text_to_file(self, text: str, output_file: Path) -> bool:
+        """Helper to synthesize a single piece of text to an MP3 file using Edge TTS (or gTTS fallback)."""
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        if EDGE_TTS_AVAILABLE:
+            try:
+                async def _gen():
+                    communicate = edge_tts.Communicate(text, self.voice, rate=self.rate)
+                    await communicate.save(str(output_file))
+
+                try:
+                    import asyncio
+                    loop = asyncio.get_event_loop()
+                    if loop.is_running():
+                        import nest_asyncio
+                        nest_asyncio.apply()
+                    asyncio.run(_gen())
+                except Exception:
+                    asyncio.run(_gen())
+                return True
+            except Exception as e:
+                logger.warning(f"edge-tts failed: {e}. Falling back to gTTS if available...")
+
+        if GTTS_AVAILABLE:
+            try:
+                tts = gTTS(text=text, lang=self.language, slow=False)
+                tts.save(str(output_file))
+                return True
+            except Exception as e:
+                logger.error(f"gTTS failed: {e}")
+                return False
+
+        logger.error("No TTS engine available to synthesize text.")
+        return False
+
+    def generate_from_text(self, text: str, output_path: Path) -> Optional[Path]:
+        """Generate voiceover directly from a raw text string."""
+        if not text:
+            logger.warning("Empty text passed for voiceover generation.")
+            return None
+        success = self._synthesize_text_to_file(text, output_path)
+        if success and output_path.exists():
+            logger.info(f"✅ Voiceover created ({'edge-tts' if EDGE_TTS_AVAILABLE else 'gTTS'}): {output_path.name}")
+            return output_path
+        return None
 
     def generate_voiceover(self, script: dict, output_dir: Path) -> Optional[Path]:
         """
@@ -83,32 +132,12 @@ class AudioEngine:
         segment_paths = []
         for i, text in enumerate(parts):
             segment_path = output_dir / f"tts_segment_{i:03d}.mp3"
-            try:
-                if EDGE_TTS_AVAILABLE:
-                    # Async generation for edge-tts
-                    async def _gen():
-                        communicate = edge_tts.Communicate(text, self.voice, rate=self.rate)
-                        await communicate.save(str(segment_path))
-                    
-                    import asyncio
-                    try:
-                        loop = asyncio.get_event_loop()
-                        if loop.is_running():
-                            # This is tricky in some environments, but script is usually top-level
-                            import nest_asyncio
-                            nest_asyncio.apply()
-                        asyncio.run(_gen())
-                    except Exception:
-                        # Fallback for already running loop
-                        asyncio.run(_gen())
-                else:
-                    tts = gTTS(text=text, lang=self.language, slow=False)
-                    tts.save(str(segment_path))
-                
+            success = self._synthesize_text_to_file(text, segment_path)
+            if success and segment_path.exists():
                 segment_paths.append(segment_path)
                 logger.info(f"TTS segment {i} ({'edge-tts' if EDGE_TTS_AVAILABLE else 'gTTS'}): {len(text)} chars")
-            except Exception as e:
-                logger.error(f"TTS failed for segment {i}: {e}")
+            else:
+                logger.error(f"TTS failed for segment {i}")
 
         if not segment_paths:
             return None

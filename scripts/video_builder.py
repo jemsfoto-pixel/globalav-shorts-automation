@@ -162,13 +162,13 @@ class VideoBuilder:
         for vp in video_paths:
             try:
                 c = VideoFileClip(str(vp))
-                # Resize and crop EACH clip to 1080x1920 first to avoid black screen on concatenate
-                c = c.resized(height=self.height)
-                if c.w > self.width:
-                    c = c.cropped(
-                        x1=(c.w - self.width) // 2,
-                        x2=(c.w + self.width) // 2,
-                    )
+                # Resize and crop EACH clip to exact 1080x1920 (aspect fill/cover) to avoid black bars/mismatches
+                scale = max(self.width / c.w, self.height / c.h)
+                new_w, new_h = int(c.w * scale), int(c.h * scale)
+                c = c.resized((new_w, new_h))
+                x1 = (new_w - self.width) // 2
+                y1 = (new_h - self.height) // 2
+                c = c.cropped(x1=x1, y1=y1, x2=x1 + self.width, y2=y1 + self.height)
                 # Ensure the clip has no audio to prevent concatenate errors (we will add one later)
                 c = c.without_audio()
                 clips.append(c)

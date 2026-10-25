@@ -5,14 +5,20 @@ __pycache__/
 .venv/
 venv/
 
-# Output
+# Output & Media
 output/videos/*.mp4
 output/thumbnails/
+output/*.log
 assets/images/
 assets/audio/
+assets/raw_videos/
+*.mp3
+*.mp4
+test_*.mp3
 
 # Credentials (NEVER commit these!)
 credentials/
+github_secrets.txt
 *.json
 !config.yml
 !package.json

@@ -16,6 +16,12 @@ video:
   format: "mp4"
   codec: "libx264"
 
+# --- Audio / TTS ---
+audio:
+  voice: "es-ES-AlvaroNeural"  # Natural neural Spanish voice
+  rate: "+15%"                # Fast and dynamic pace for Shorts
+  language: "es"
+
 # --- Subtitles ---
 subtitles:
   font: "Montserrat-Bold"

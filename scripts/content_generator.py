@@ -3,12 +3,12 @@ import logging
 from pathlib import Path
 from typing import Optional, List
 from google import genai
-from gtts import gTTS
+from scripts.audio_engine import AudioEngine
 
 logger = logging.getLogger("content_generator")
 
 class ContentGenerator:
-    """Generates original video scripts using Gemini and voiceovers using gTTS."""
+    """Generates original video scripts using Gemini and voiceovers using AudioEngine."""
 
     def __init__(self, config: dict):
         self.config = config
@@ -19,6 +19,7 @@ class ContentGenerator:
         
         self.client = genai.Client(api_key=self.api_key)
         self.model_id = "gemini-flash-latest"
+        self.audio_engine = AudioEngine(config)
 
     def generate_content(self, topic: str):
         """Generates a script and search keywords for a given topic."""
@@ -31,7 +32,10 @@ class ContentGenerator:
         NO USES emojis, ni formatos complejos (ni asteriscos, ni negritas, ni comillas). Solo texto plano continuo.
         Contexto del canal: Global Audiovisual Insights (tecnología AV, monitores, proyectores, sonido, home theater).
         IMPORTANTE: NO hables de "barras de color", "señales de prueba" o "ajustes técnicos" a menos que el tema lo requiera específicamente. Enfócate en el valor para el espectador.
-        Incluye un "gancho" inicial muy atractivo en la primera frase y una llamada a la acción rápida al final pidiendo suscripción.
+        REGLAS DE SEO Y RETENCIÓN:
+        1. El gancho inicial debe ser muy atractivo y MENCIONAR literalmente en los primeros 3 segundos la palabra clave principal del tema.
+        2. El final debe incluir una pregunta interactiva (ej: "¿Tú qué prefieres?", "¿Te ha pasado?") seguida de una rápida petición de suscripción, para fomentar comentarios.
+        3. Termina la última frase de manera que conecte fluidamente con el inicio del video (creando un bucle de retención).
         """
         
         try:
@@ -72,13 +76,14 @@ class ContentGenerator:
         TÍTULO DEL VÍDEO ORIGEN: {title}
         CONTEXTO TÉCNICO: {description[:800]}
         
-        REGLAS ESTRICTAS:
-        - Explica 1 o 2 conceptos técnicos clave (ej. para qué sirve una barra de color, qué es el tono de 1kHz, qué es el DSE, etc.) basándote en el título y contexto.
-        - Sé conciso pero muy informativo (cero paja). Usa un tono experto pero accesible.
+        REGLAS ESTRICTAS DE SEO Y RETENCIÓN:
+        - Explica 1 o 2 conceptos técnicos clave.
+        - Sé conciso pero muy informativo (cero paja).
         - El guion debe tener exactamente 70-85 palabras para durar unos 50-60 segundos.
         - NO USES emojis, ni formatos complejos (ni asteriscos, ni negritas, ni comillas). Solo texto plano continuo.
-        - Empieza con un "gancho" inicial educativo muy atractivo (ej: "¿Sabías para qué sirven realmente las barras de colores de TV?").
-        - Termina con una llamada a la acción rapidísima: "Suscríbete para más tips AV". (NO digas "mira el vídeo completo").
+        - Empieza con un "gancho" inicial educativo muy atractivo que INCLUYA literalmente las palabras clave principales del título.
+        - Termina haciendo una pregunta rápida al espectador para generar comentarios (ej: "¿Alguna vez has notado esto en tu TV? Te leo en comentarios") y un rápido "Suscríbete". NO digas "mira el vídeo completo".
+        - Opcional: Haz que el final suene como que conecta con la primera frase para crear un bucle visual.
         """
         
         try:
@@ -132,12 +137,6 @@ class ContentGenerator:
             return []
 
     def generate_voiceover(self, text: str, output_path: Path) -> Optional[Path]:
-        """Convert text to speech and save as MP3."""
+        """Convert text to speech using AudioEngine (Edge TTS / gTTS fallback) and save as MP3."""
         logger.info(f"Generating voiceover: {output_path}")
-        try:
-            tts = gTTS(text=text, lang='es', tld='es', slow=False)
-            tts.save(str(output_path))
-            return output_path
-        except Exception as e:
-            logger.error(f"Error generating voiceover: {e}")
-            return None
+        return self.audio_engine.generate_from_text(text, output_path)
