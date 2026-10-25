@@ -1,5 +1,6 @@
 import logging
 import os
+import time
 from typing import Optional
 
 try:
@@ -100,11 +101,34 @@ class SEOGenerator:
                 Línea 2: Un párrafo corto (en UNA SOLA LÍNEA, sin saltos de línea internos) rico en palabras clave SEO sobre el tema, generando curiosidad.
                 Línea 3: Una lista de 15 a 20 etiquetas (tags) relevantes separadas por comas (sin comillas, sin caracteres extraños). DEBEN incluir "GlobalAVInsights", "Global AV Insights" y "#Shorts".
                 """
-                response = self.client.models.generate_content(
-                    model="gemini-flash-latest",
-                    contents=prompt
-                )
-                lines = [line.strip() for line in response.text.strip().split('\n') if line.strip()]
+                response_text = None
+                models_to_try = ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+                for model in models_to_try:
+                    delay = 3
+                    for attempt in range(1, 4):
+                        try:
+                            res = self.client.models.generate_content(
+                                model=model,
+                                contents=prompt
+                            )
+                            if res and res.text:
+                                response_text = res.text
+                                break
+                        except Exception as ge:
+                            err = str(ge)
+                            if any(c in err for c in ["503", "429", "UNAVAILABLE", "high demand"]):
+                                logger.warning(f"SEO Gemini {model} busy ({err}). Retrying in {delay}s...")
+                                time.sleep(delay)
+                                delay *= 2
+                            else:
+                                break
+                    if response_text:
+                        break
+
+                if not response_text:
+                    raise RuntimeError("All Gemini models busy for SEO generation.")
+
+                lines = [line.strip() for line in response_text.strip().split('\n') if line.strip()]
                 
                 if len(lines) >= 3:
                     short_title = lines[0][:70]

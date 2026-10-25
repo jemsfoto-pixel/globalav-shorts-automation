@@ -1,4 +1,5 @@
 import os
+import time
 import logging
 from pathlib import Path
 from typing import Optional, List
@@ -21,6 +22,34 @@ class ContentGenerator:
         self.model_id = "gemini-flash-latest"
         self.audio_engine = AudioEngine(config)
 
+    def _generate_with_retry(self, prompt: str, max_retries: int = 4) -> Optional[str]:
+        """Call Gemini API with automatic exponential backoff retry on 503/429 errors and model fallback."""
+        models_to_try = [self.model_id, "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+        
+        for model in models_to_try:
+            delay = 3
+            for attempt in range(1, max_retries + 1):
+                try:
+                    response = self.client.models.generate_content(
+                        model=model,
+                        contents=prompt
+                    )
+                    if response and response.text:
+                        return response.text
+                except Exception as e:
+                    err_str = str(e)
+                    is_transient = any(code in err_str for code in ["503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "high demand"])
+                    if is_transient and attempt < max_retries:
+                        logger.warning(f"Gemini {model} temporary error ({err_str}). Retrying in {delay}s (attempt {attempt}/{max_retries})...")
+                        time.sleep(delay)
+                        delay *= 2
+                    else:
+                        logger.warning(f"Attempt failed for model {model}: {err_str}")
+                        break
+                        
+        logger.error("All Gemini models and retries failed.")
+        return None
+
     def generate_content(self, topic: str):
         """Generates a script and search keywords for a given topic."""
         logger.info(f"Generating script for topic: {topic}")
@@ -39,20 +68,20 @@ class ContentGenerator:
         """
         
         try:
-            response = self.client.models.generate_content(
-                model=self.model_id,
-                contents=prompt
-            )
-            script = response.text.strip().replace("\n", " ").replace("*", "")
+            text = self._generate_with_retry(prompt)
+            if not text:
+                logger.error("Failed to generate script text from Gemini.")
+                return None
+            script = text.strip().replace("\n", " ").replace("*", "")
             logger.info("Script generated successfully.")
             
             # Extract keywords for Pexels search
             keyword_prompt = f"Read the following Spanish script and extract exactly 3 simple English keywords for stock video search, separated by commas (e.g., monitor, technology, office): {script}"
-            kw_response = self.client.models.generate_content(
-                model=self.model_id,
-                contents=keyword_prompt
-            )
-            keywords = [k.strip() for k in kw_response.text.split(",")]
+            kw_text = self._generate_with_retry(keyword_prompt)
+            if kw_text:
+                keywords = [k.strip() for k in kw_text.split(",") if k.strip()]
+            else:
+                keywords = ["technology", "screen", "monitor"]
             logger.info(f"Keywords extracted: {keywords}")
             
             return {
@@ -87,20 +116,20 @@ class ContentGenerator:
         """
         
         try:
-            response = self.client.models.generate_content(
-                model=self.model_id,
-                contents=prompt
-            )
-            script = response.text.strip().replace("\n", " ").replace("*", "")
+            text = self._generate_with_retry(prompt)
+            if not text:
+                logger.error("Failed to generate explainer script from Gemini.")
+                return None
+            script = text.strip().replace("\n", " ").replace("*", "")
             logger.info("Explainer script generated successfully.")
             
             # Extract keywords for Pexels search
             keyword_prompt = f"Read the following Spanish script and extract exactly 3 simple English keywords for stock video search about audiovisual tech, separated by commas (e.g., monitor, technology, audio): {script}"
-            kw_response = self.client.models.generate_content(
-                model=self.model_id,
-                contents=keyword_prompt
-            )
-            keywords = [k.strip() for k in kw_response.text.split(",")]
+            kw_text = self._generate_with_retry(keyword_prompt)
+            if kw_text:
+                keywords = [k.strip() for k in kw_text.split(",") if k.strip()][:3]
+            else:
+                keywords = ["television", "technology", "screen"]
             logger.info(f"Keywords extracted: {keywords}")
             
             return {
@@ -125,13 +154,12 @@ class ContentGenerator:
         """
         
         try:
-            response = self.client.models.generate_content(
-                model=self.model_id,
-                contents=prompt
-            )
-            topics = [line.strip() for line in response.text.strip().split("\n") if line.strip()]
-            logger.info(f"Successfully generated topics: {topics}")
-            return topics[:count]
+            text = self._generate_with_retry(prompt)
+            if text:
+                topics = [line.strip() for line in text.strip().split("\n") if line.strip()]
+                logger.info(f"Successfully generated topics: {topics}")
+                return topics[:count]
+            return []
         except Exception as e:
             logger.error(f"Error generating topics: {e}")
             return []
