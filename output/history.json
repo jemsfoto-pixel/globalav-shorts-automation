@@ -5326,6 +5326,24 @@
           "Audiovisual"
         ]
       }
+    },
+    {
+      "timestamp": "20261025_210019",
+      "video_id": "generative",
+      "original_title": "AI: El error común al escuchar audio Hi-Res por Bluetooth explicado en 30 segundos",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261025_210019.mp4",
+      "metadata": {
+        "title": "¡El error común al escuchar audio Hi-Res por Bluetooth explicado en 30 segundos! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El error común al escuchar audio Hi-Res por Bluetooth explicado en 30 segundos. \n\n¿Escuchas audio Hi-Res por Bluetooth creyendo que es máxima calidad? Pues estás perdiendo el tiempo. El Bluetooth comprime tanto los datos que destruye los detalles del sonido de alta resolución. Para disfrutarlo de verdad necesitas cables. Sabías esto antes de comprar tus audífonos inalámbricos. Deja tu opinión en los comentarios y suscríbete a Global Audiovisual Insights para más secretos de sonido porque",
+        "tags": [
+          "headphones",
+          "bluetooth",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5489,7 +5507,8 @@
     "Proyector láser portátil vs TV gigante: Cuál conviene más para tu habitación",
     "Guía para montar un cine en casa en una habitación pequeña.",
     "Proyector láser de tiro ultracorto frente a Smart TV gigante: ¿Cuál conviene comprar?",
-    "Proyector láser de tiro ultracorto o televisor gigante de 98 pulgadas"
+    "Proyector láser de tiro ultracorto o televisor gigante de 98 pulgadas",
+    "El error común al escuchar audio Hi-Res por Bluetooth explicado en 30 segundos"
   ],
   "processed_ids": []
 }
