@@ -3,11 +3,9 @@ name: 🎬 Produce YouTube Short
 on:
   # Run every 6 hours
   schedule:
-     - cron: '0 0 * * *'
-
-
-  # Allow manual trigger
-  workflow_dispatch:
+    # Runs every 24 hours (once a day at 00:00 UTC)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
     inputs:
       niche:
         description: 'Nicho a producir (Tecnología AV, Sonido, Calibración, Pantallas)'
