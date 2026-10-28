@@ -5408,6 +5408,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20261028_035405",
+      "video_id": "generative",
+      "original_title": "AI: La verdad oculta sobre los hercios falsos en los nuevos monitores gaming",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261028_035405.mp4",
+      "metadata": {
+        "title": "¡La verdad oculta sobre los hercios falsos en los nuevos monitores gaming! #Shorts #AV",
+        "description": "Perspectivas de IA sobre La verdad oculta sobre los hercios falsos en los nuevos monitores gaming. \n\n¿Te has comprado un monitor gaming de doscientos hercios y notas que la imagen se ve rara? Cuidado porque las marcas engañan con hercios falsos interpolados que solo generan retraso y fatiga visual arruinando tus partidas competitivas reales. Revisa bien las especificaciones antes de caer en la trampa comercial. Tu dinero vale oro. Te ha pasado algo similar y te suscribes para más verdades tecnológicas.",
+        "tags": [
+          "monitor",
+          "gaming",
+          "screen",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5574,7 +5592,8 @@
     "Proyector láser de tiro ultracorto o televisor gigante de 98 pulgadas",
     "El error común al escuchar audio Hi-Res por Bluetooth explicado en 30 segundos",
     "Pantallas MicroLED la tecnologia que matara a las teles OLED muy pronto",
-    "El monitor gaming definitivo de 2024: ¿Vale la pena dar el salto a 500Hz?"
+    "El monitor gaming definitivo de 2024: ¿Vale la pena dar el salto a 500Hz?",
+    "La verdad oculta sobre los hercios falsos en los nuevos monitores gaming"
   ],
   "processed_ids": []
 }
