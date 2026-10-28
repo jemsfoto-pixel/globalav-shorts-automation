@@ -1,7 +1,7 @@
 name: 🎬 Produce YouTube Short
 
 on:
-  # Run every 6 hours
+  # Run every 24 hours (once a day at 00:00 UTC)
   schedule:
     # Runs every 24 hours (once a day at 00:00 UTC)
     - cron: '0 0 * * *'
