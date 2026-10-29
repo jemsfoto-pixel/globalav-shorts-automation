@@ -5426,6 +5426,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20261029_041706",
+      "video_id": "generative",
+      "original_title": "AI: El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261029_041706.mp4",
+      "metadata": {
+        "title": "¡El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa. \n\nEl truco del subwoofer crawl mejorará tus películas para siempre. Coloca tu bajo justo en el asiento donde te sientas y reproduce una escena intensa. Luego gatea por la sala escuchando atentamente. Donde el impacto suene más limpio y potente, déjalo ahí. ¿Dónde tienes puesto el tuyo? Suscríbete al canal y comprueba que",
+        "tags": [
+          "subwoofer",
+          "home theater",
+          "audio",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5593,7 +5611,8 @@
     "El error común al escuchar audio Hi-Res por Bluetooth explicado en 30 segundos",
     "Pantallas MicroLED la tecnologia que matara a las teles OLED muy pronto",
     "El monitor gaming definitivo de 2024: ¿Vale la pena dar el salto a 500Hz?",
-    "La verdad oculta sobre los hercios falsos en los nuevos monitores gaming"
+    "La verdad oculta sobre los hercios falsos en los nuevos monitores gaming",
+    "El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa"
   ],
   "processed_ids": []
 }
