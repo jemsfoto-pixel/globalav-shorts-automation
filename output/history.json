@@ -5506,6 +5506,24 @@
           "tda descanso"
         ]
       }
+    },
+    {
+      "timestamp": "20261101_041411",
+      "video_id": "generative",
+      "original_title": "AI: El proyector láser 4K que destruye a las televisiones gigantes",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261101_041411.mp4",
+      "metadata": {
+        "title": "¡El proyector láser 4K que destruye a las televisiones gigantes! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El proyector láser 4K que destruye a las televisiones gigantes. \n\nLas televisiones gigantes ya son historia gracias al nuevo proyector láser 4K que te da doscientas pulgadas de cine real en tu propia pared con una nitidez brutal que supera cualquier pantalla tradicional ahorrando espacio y dinero sin perder calidad visual y transformando tu sala en una verdadera experiencia inmersiva que nadie puede ignorar. Comprarias este proyector o prefieres tu tele actual dime en los comentarios y suscribete para mas tecnologia.",
+        "tags": [
+          "projector",
+          "home theater",
+          "wall",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5674,7 +5692,8 @@
     "Pantallas MicroLED la tecnologia que matara a las teles OLED muy pronto",
     "El monitor gaming definitivo de 2024: ¿Vale la pena dar el salto a 500Hz?",
     "La verdad oculta sobre los hercios falsos en los nuevos monitores gaming",
-    "El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa"
+    "El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa",
+    "El proyector láser 4K que destruye a las televisiones gigantes"
   ],
   "processed_ids": []
 }
