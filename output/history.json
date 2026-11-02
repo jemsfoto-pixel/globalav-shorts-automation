@@ -5524,6 +5524,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20261102_041719",
+      "video_id": "generative",
+      "original_title": "AI: El error más común al configurar Dolby Atmos en tu receptor o barra de sonido",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261102_041719.mp4",
+      "metadata": {
+        "title": "¡El error más común al configurar Dolby Atmos en tu receptor o barra de sonido! #Shorts #AV",
+        "description": "Perspectivas de IA sobre El error más común al configurar Dolby Atmos en tu receptor o barra de sonido. \n\nTu Dolby Atmos no está funcionando por culpa de tu cable óptico. Esa conexión no soporta audio espacial y arruina por completo la inmersión. Conecta siempre tu barra o receptor al puerto HDMI eARC para disfrutar el formato real. ¿Te ha pasado este fallo? Suscríbete para más cine en casa y comprueba si",
+        "tags": [
+          "HDMI",
+          "audio",
+          "cables",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5693,7 +5711,8 @@
     "El monitor gaming definitivo de 2024: ¿Vale la pena dar el salto a 500Hz?",
     "La verdad oculta sobre los hercios falsos en los nuevos monitores gaming",
     "El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa",
-    "El proyector láser 4K que destruye a las televisiones gigantes"
+    "El proyector láser 4K que destruye a las televisiones gigantes",
+    "El error más común al configurar Dolby Atmos en tu receptor o barra de sonido"
   ],
   "processed_ids": []
 }
