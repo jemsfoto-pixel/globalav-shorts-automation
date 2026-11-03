@@ -5542,6 +5542,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20261103_051537",
+      "video_id": "generative",
+      "original_title": "AI: Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261103_051537.mp4",
+      "metadata": {
+        "title": "¡Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?. \n\n¿Puede una persona común notar la diferencia en una prueba ciega de sonido Hi-Fi? Pusimos a prueba a gente real con música sin pérdida y archivos comprimidos. El resultado te sorprenderá porque muchos fallaron al intentar distinguirlos. La calidad importa pero nuestros oídos no siempre lo perciben igual. ¿Tú notas el cambio o es puro marketing? Suscríbete para más secretos de audio y dime",
+        "tags": [
+          "headphones",
+          "audio",
+          "listening",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5712,7 +5730,8 @@
     "La verdad oculta sobre los hercios falsos en los nuevos monitores gaming",
     "El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa",
     "El proyector láser 4K que destruye a las televisiones gigantes",
-    "El error más común al configurar Dolby Atmos en tu receptor o barra de sonido"
+    "El error más común al configurar Dolby Atmos en tu receptor o barra de sonido",
+    "Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?"
   ],
   "processed_ids": []
 }
