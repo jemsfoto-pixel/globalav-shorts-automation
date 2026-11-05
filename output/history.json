@@ -5589,6 +5589,24 @@
           "anti ansiedad"
         ]
       }
+    },
+    {
+      "timestamp": "20261105_050013",
+      "video_id": "generative",
+      "original_title": "AI: ¿Por qué tu monitor OLED se está quemando y cómo evitarlo ya",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261105_050013.mp4",
+      "metadata": {
+        "title": "¡¿Por qué tu monitor OLED se está quemando y cómo evitarlo ya! #Shorts #AV",
+        "description": "Perspectivas de IA sobre ¿Por qué tu monitor OLED se está quemando y cómo evitarlo ya. \n\n¿Tu monitor OLED se está quemando? Los píxeles orgánicos mueren si dejas imágenes estáticas demasiado tiempo porque el calor desgasta su brillo desigual. Para evitarlo ya activa el desplazamiento de píxeles y oculta la barra de tareas hoy mismo. ¿Te ha pasado algo así? Suscríbete a Global Audiovisual Insights para más consejos de tecnología y dime si tu pantalla sigue perfecta.",
+        "tags": [
+          "OLED monitor",
+          "burnt screen",
+          "technology",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5760,7 +5778,8 @@
     "El truco del subwoofer crawl para conseguir los mejores graves en tu cine en casa",
     "El proyector láser 4K que destruye a las televisiones gigantes",
     "El error más común al configurar Dolby Atmos en tu receptor o barra de sonido",
-    "Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?"
+    "Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?",
+    "¿Por qué tu monitor OLED se está quemando y cómo evitarlo ya"
   ],
   "processed_ids": []
 }
