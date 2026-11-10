@@ -13,23 +13,23 @@ class ContentGenerator:
 
     def __init__(self, config: dict):
         self.config = config
-        self.api_key = os.getenv("GOOGLE_API_KEY", "").strip() # User needs to have this in Secrets
+        self.api_key = os.getenv("GOOGLE_API_KEY", "").strip()
         if not self.api_key:
-            # Fallback for local testing if env not set, but expected in GitHub Actions
             logger.warning("GOOGLE_API_KEY not found in environment.")
         
         self.client = genai.Client(api_key=self.api_key)
-        # FIX: Usar modelos Gemini actualizados y estables
-        self.model_id = "gemini-2.0-flash"
+        # Modelos recomendados y disponibles actualmente en Google AI Studio
+        self.model_id = "gemini-3.8-flash"
         self.audio_engine = AudioEngine(config)
 
     def _generate_with_retry(self, prompt: str, max_retries: int = 4) -> Optional[str]:
         """Call Gemini API with automatic exponential backoff retry on 503/429 errors and model fallback."""
-        # FIX: Lista de modelos actualizada — los nombres anteriores devolvían 404
         models_to_try = [
-            self.model_id,          # gemini-2.0-flash (principal, rápido y gratuito)
-            "gemini-2.0-flash-lite", # alternativa más ligera
-            "gemini-1.5-flash",      # fallback estable
+            "gemini-3.8-flash",
+            "gemini-3.5-flash-lite",
+            "gemini-2.5-flash",
+            "gemini-2.5-flash-lite",
+            "gemini-3-flash-preview",
         ]
         
         for model in models_to_try:
@@ -41,6 +41,7 @@ class ContentGenerator:
                         contents=prompt
                     )
                     if response and response.text:
+                        logger.info(f"Generated successfully with model: {model}")
                         return response.text
                 except Exception as e:
                     err_str = str(e)
@@ -147,7 +148,6 @@ class ContentGenerator:
             logger.error(f"Error generating explainer script: {e}")
             return None
 
-
     def generate_topics(self, count: int = 5) -> List[str]:
         """Generates a list of new and trending topics for the AV niche."""
         logger.info(f"Generating {count} new topics for the AV channel...")
@@ -174,4 +174,3 @@ class ContentGenerator:
         """Convert text to speech using AudioEngine (Edge TTS / gTTS fallback) and save as MP3."""
         logger.info(f"Generating voiceover: {output_path}")
         return self.audio_engine.generate_from_text(text, output_path)
-
