@@ -52,7 +52,21 @@ jobs:
       - name: 🏗️ Setup environment
         run: python setup_env.py
 
-      # FIX: Cargar cookies de YouTube desde el Secret para evitar bloqueo de bot detection
+      # Cargar credenciales de YouTube a archivos
+      - name: 🔑 Setup YouTube credentials
+        env:
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_TOKEN_JSON: ${{ secrets.YOUTUBE_TOKEN_JSON }}
+        run: |
+          mkdir -p credentials
+          if [ -n "$YOUTUBE_CLIENT_SECRET" ]; then
+            echo "$YOUTUBE_CLIENT_SECRET" > credentials/client_secret.json
+          fi
+          if [ -n "$YOUTUBE_TOKEN_JSON" ]; then
+            echo "$YOUTUBE_TOKEN_JSON" > credentials/youtube_token.json
+          fi
+
+      # Cargar cookies de YouTube desde el Secret para evitar bloqueo de bot detection
       - name: 🍪 Setup YouTube cookies for yt-dlp
         run: |
           mkdir -p credentials
@@ -96,4 +110,3 @@ jobs:
           git add output/history.json || true
           git diff --cached --quiet || git commit -m "📊 Update production history [skip ci]"
           git push || true
-
