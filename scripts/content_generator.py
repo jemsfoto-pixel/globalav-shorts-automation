@@ -19,12 +19,18 @@ class ContentGenerator:
             logger.warning("GOOGLE_API_KEY not found in environment.")
         
         self.client = genai.Client(api_key=self.api_key)
-        self.model_id = "gemini-flash-latest"
+        # FIX: Usar modelos Gemini actualizados y estables
+        self.model_id = "gemini-2.0-flash"
         self.audio_engine = AudioEngine(config)
 
     def _generate_with_retry(self, prompt: str, max_retries: int = 4) -> Optional[str]:
         """Call Gemini API with automatic exponential backoff retry on 503/429 errors and model fallback."""
-        models_to_try = [self.model_id, "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+        # FIX: Lista de modelos actualizada — los nombres anteriores devolvían 404
+        models_to_try = [
+            self.model_id,          # gemini-2.0-flash (principal, rápido y gratuito)
+            "gemini-2.0-flash-lite", # alternativa más ligera
+            "gemini-1.5-flash",      # fallback estable
+        ]
         
         for model in models_to_try:
             delay = 3
@@ -168,3 +174,4 @@ class ContentGenerator:
         """Convert text to speech using AudioEngine (Edge TTS / gTTS fallback) and save as MP3."""
         logger.info(f"Generating voiceover: {output_path}")
         return self.audio_engine.generate_from_text(text, output_path)
+
