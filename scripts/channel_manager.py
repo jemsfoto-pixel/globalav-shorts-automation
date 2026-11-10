@@ -30,6 +30,19 @@ class ChannelManager:
         with open(self.history_file, 'w', encoding='utf-8') as f:
             json.dump(history, f, ensure_ascii=False, indent=2)
 
+    def _get_cookies_arg(self) -> str:
+        """
+        FIX: Devuelve el argumento de cookies para yt-dlp si existe el fichero.
+        El fichero credentials/cookies.txt debe cargarse desde el secret YOUTUBE_COOKIES
+        en el workflow de GitHub Actions.
+        """
+        cookies_path = Path("credentials/cookies.txt")
+        if cookies_path.exists() and cookies_path.stat().st_size > 0:
+            logger.info("Usando cookies de YouTube para yt-dlp.")
+            return f'--cookies "{cookies_path}"'
+        logger.warning("No se encontró credentials/cookies.txt — yt-dlp puede ser bloqueado por YouTube.")
+        return ""
+
     def get_eligible_videos(self, limit: int = 10):
         """Fetch video list from channel using yt-dlp, writing to temp file for reliability."""
         url = self.channel_url.rstrip('/') + '/videos'
@@ -40,19 +53,16 @@ class ChannelManager:
         tmp_path = tmp_file.name
         tmp_file.close()
 
-        cmd = [
-            "yt-dlp",
-            "--flat-playlist",
-            "--dump-single-json",
-            "--playlist-items", f"1-{limit}",
-            "--no-warnings",
-            "-o", "-",  # not needed for dump-json but harmless
-            url
-        ]
+        cookies_arg = self._get_cookies_arg()
 
         try:
-            # Use shell redirection to write output to temp file
-            full_cmd = f'yt-dlp --flat-playlist --dump-single-json --playlist-items 1-{limit} --no-warnings "{url}" > "{tmp_path}"'
+            # FIX: Incluir cookies para evitar el bloqueo de bot detection de YouTube
+            full_cmd = (
+                f'yt-dlp --flat-playlist --dump-single-json '
+                f'--playlist-items 1-{limit} --no-warnings '
+                f'{cookies_arg} '
+                f'"{url}" > "{tmp_path}"'
+            )
             subprocess.run(full_cmd, shell=True, check=True, timeout=120)
 
             with open(tmp_path, 'r', encoding='utf-8', errors='replace') as f:
@@ -142,7 +152,10 @@ class ChannelManager:
         tmp_path = tmp_file.name
         tmp_file.close()
 
-        cmd = f'yt-dlp --dump-json --no-warnings "{url}" > "{tmp_path}"'
+        cookies_arg = self._get_cookies_arg()
+
+        # FIX: Incluir cookies para evitar el bloqueo de bot detection de YouTube
+        cmd = f'yt-dlp --dump-json --no-warnings {cookies_arg} "{url}" > "{tmp_path}"'
         
         try:
             subprocess.run(cmd, shell=True, check=True, timeout=60)
@@ -157,6 +170,8 @@ class ChannelManager:
             }
         except Exception as e:
             logger.error(f"Error fetching metadata for {video_id}: {e}")
+            # FIX: Usar metadatos de fallback en lugar de fallar completamente
+            logger.info(f"Using fallback metadata for '{fallback_title}'")
             return {
                 "id": video_id,
                 "title": fallback_title,
