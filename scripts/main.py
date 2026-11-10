@@ -292,10 +292,11 @@ def run_pipeline():
     # Determine which pipeline to run
     pipeline_mode = os.getenv("PIPELINE_MODE", "auto").lower()
 
+    success = False
     if pipeline_mode == "clip":
-        run_clip_pipeline(config, manager, history, timestamp)
+        success = run_clip_pipeline(config, manager, history, timestamp)
     elif pipeline_mode == "ai":
-        run_ai_pipeline(config, manager, history, timestamp)
+        success = run_ai_pipeline(config, manager, history, timestamp)
     else: # auto
         import random
         ai_weight = config.get("generator", {}).get("ai_mode_weight", 0.5)
@@ -306,13 +307,17 @@ def run_pipeline():
             success = run_ai_pipeline(config, manager, history, timestamp)
             if not success:
                 logger.info("🔄 AI pipeline failed. Falling back to CLIP pipeline...")
-                run_clip_pipeline(config, manager, history, timestamp)
+                success = run_clip_pipeline(config, manager, history, timestamp)
         else:
             logger.info(f"🔄 Mode: AUTO (Weighted). Chosen first: CLIP pipeline (weight: {1-ai_weight})")
             success = run_clip_pipeline(config, manager, history, timestamp)
             if not success:
                 logger.info("🔄 CLIP pipeline failed/skipped. Falling back to AI pipeline...")
-                run_ai_pipeline(config, manager, history, timestamp)
+                success = run_ai_pipeline(config, manager, history, timestamp)
+
+    if not success:
+        logger.error("❌ El pipeline no pudo producir ni publicar el Short.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
@@ -321,3 +326,4 @@ if __name__ == "__main__":
     except Exception as e:
         logger.error(f"❌ Pipeline failed: {e}", exc_info=True)
         sys.exit(1)
+
