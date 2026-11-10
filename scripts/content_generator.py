@@ -1,7 +1,8 @@
 import os
 import time
+import json
 import logging
-import concurrent.futures
+import requests
 from pathlib import Path
 from typing import Optional, List
 from google import genai
@@ -18,51 +19,70 @@ class ContentGenerator:
         if not self.api_key:
             logger.warning("GOOGLE_API_KEY not found in environment.")
         
-        self.client = genai.Client(api_key=self.api_key)
-        # Modelos verificados en model_list.txt
-        self.model_id = "gemini-2.5-flash"
+        # Configure client with v1beta to access latest Gemini 3.x models
+        try:
+            self.client = genai.Client(api_key=self.api_key, http_options={"api_version": "v1beta"})
+        except Exception:
+            self.client = genai.Client(api_key=self.api_key)
+            
         self.audio_engine = AudioEngine(config)
 
-    def _generate_with_retry(self, prompt: str, max_retries: int = 3, timeout_seconds: int = 45) -> Optional[str]:
-        """Call Gemini API with timeout protection and model fallback."""
+    def _call_gemini_rest(self, model: str, prompt: str) -> Optional[str]:
+        """Direct REST fallback to v1beta API."""
+        try:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={self.api_key}"
+            payload = {
+                "contents": [{"parts": [{"text": prompt}]}]
+            }
+            resp = requests.post(url, json=payload, headers={"Content-Type": "application/json"}, timeout=30)
+            if resp.status_code == 200:
+                data = resp.json()
+                candidates = data.get("candidates", [])
+                if candidates:
+                    parts = candidates[0].get("content", {}).get("parts", [])
+                    if parts:
+                        return parts[0].get("text", "")
+            else:
+                logger.warning(f"REST call failed for {model} ({resp.status_code}): {resp.text[:300]}")
+        except Exception as e:
+            logger.warning(f"REST error for {model}: {e}")
+        return None
+
+    def _generate_with_retry(self, prompt: str, max_retries: int = 2) -> Optional[str]:
+        """Tries Google GenAI SDK first with v1beta, then REST fallback."""
         models_to_try = [
-            "gemini-2.5-flash",
-            "gemini-2.5-flash-lite",
+            "gemini-3.8-flash",
+            "gemini-3.5-flash-lite",
+            "gemini-3.1-flash-lite-preview",
             "gemini-3-flash-preview",
-            "gemini-2.5-pro",
+            "gemini-3.1-pro-preview",
         ]
         
+        # 1. Try with GenAI Client (v1beta)
         for model in models_to_try:
-            delay = 2
             for attempt in range(1, max_retries + 1):
                 try:
-                    logger.info(f"Calling Gemini with model: {model} (attempt {attempt})...")
-                    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
-                        future = executor.submit(
-                            self.client.models.generate_content,
-                            model=model,
-                            contents=prompt
-                        )
-                        response = future.result(timeout=timeout_seconds)
-
+                    logger.info(f"Calling Gemini SDK with {model} (attempt {attempt})...")
+                    response = self.client.models.generate_content(
+                        model=model,
+                        contents=prompt
+                    )
                     if response and response.text:
-                        logger.info(f"Generated successfully with model: {model}")
+                        logger.info(f"Generated successfully via SDK with model: {model}")
                         return response.text
-                except concurrent.futures.TimeoutError:
-                    logger.warning(f"Timeout ({timeout_seconds}s) waiting for model {model}. Moving to next...")
-                    break
                 except Exception as e:
-                    err_str = str(e)
-                    is_transient = any(code in err_str for code in ["503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "high demand"])
-                    if is_transient and attempt < max_retries:
-                        logger.warning(f"Gemini {model} temporary error ({err_str}). Retrying in {delay}s...")
-                        time.sleep(delay)
-                        delay *= 2
-                    else:
-                        logger.warning(f"Attempt failed for model {model}: {err_str}")
-                        break
-                        
-        logger.error("All Gemini models and retries failed.")
+                    logger.warning(f"SDK attempt failed for model {model}: {e}")
+                    break
+
+        # 2. Try REST fallback
+        logger.info("Attempting REST v1beta fallback across models...")
+        for model in models_to_try:
+            res = self._call_gemini_rest(model, prompt)
+            if res:
+                logger.info(f"Generated successfully via REST with model: {model}")
+                return res
+
+        logger.error("All Gemini models and methods failed.")
         return None
 
     def generate_content(self, topic: str):
