@@ -1,6 +1,7 @@
 import os
 import time
 import logging
+import concurrent.futures
 from pathlib import Path
 from typing import Optional, List
 from google import genai
@@ -18,36 +19,43 @@ class ContentGenerator:
             logger.warning("GOOGLE_API_KEY not found in environment.")
         
         self.client = genai.Client(api_key=self.api_key)
-        # Modelos recomendados y disponibles actualmente en Google AI Studio
-        self.model_id = "gemini-3.8-flash"
+        # Modelos verificados en model_list.txt
+        self.model_id = "gemini-2.5-flash"
         self.audio_engine = AudioEngine(config)
 
-    def _generate_with_retry(self, prompt: str, max_retries: int = 4) -> Optional[str]:
-        """Call Gemini API with automatic exponential backoff retry on 503/429 errors and model fallback."""
+    def _generate_with_retry(self, prompt: str, max_retries: int = 3, timeout_seconds: int = 45) -> Optional[str]:
+        """Call Gemini API with timeout protection and model fallback."""
         models_to_try = [
-            "gemini-3.8-flash",
-            "gemini-3.5-flash-lite",
             "gemini-2.5-flash",
             "gemini-2.5-flash-lite",
             "gemini-3-flash-preview",
+            "gemini-2.5-pro",
         ]
         
         for model in models_to_try:
-            delay = 3
+            delay = 2
             for attempt in range(1, max_retries + 1):
                 try:
-                    response = self.client.models.generate_content(
-                        model=model,
-                        contents=prompt
-                    )
+                    logger.info(f"Calling Gemini with model: {model} (attempt {attempt})...")
+                    with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
+                        future = executor.submit(
+                            self.client.models.generate_content,
+                            model=model,
+                            contents=prompt
+                        )
+                        response = future.result(timeout=timeout_seconds)
+
                     if response and response.text:
                         logger.info(f"Generated successfully with model: {model}")
                         return response.text
+                except concurrent.futures.TimeoutError:
+                    logger.warning(f"Timeout ({timeout_seconds}s) waiting for model {model}. Moving to next...")
+                    break
                 except Exception as e:
                     err_str = str(e)
                     is_transient = any(code in err_str for code in ["503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED", "high demand"])
                     if is_transient and attempt < max_retries:
-                        logger.warning(f"Gemini {model} temporary error ({err_str}). Retrying in {delay}s (attempt {attempt}/{max_retries})...")
+                        logger.warning(f"Gemini {model} temporary error ({err_str}). Retrying in {delay}s...")
                         time.sleep(delay)
                         delay *= 2
                     else:
