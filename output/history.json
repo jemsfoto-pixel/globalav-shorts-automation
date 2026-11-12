@@ -5625,6 +5625,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20261112_054034",
+      "video_id": "generative",
+      "original_title": "AI: Sonido Hi-Fi sin gastar una fortuna: Mejora tu audio ya mismo",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261112_054034.mp4",
+      "metadata": {
+        "title": "¡Sonido Hi-Fi sin gastar una fortuna: Mejora tu audio ya mismo! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Sonido Hi-Fi sin gastar una fortuna: Mejora tu audio ya mismo. \n\n¿Quieres sonido hifi sin gastar una fortuna hoy mismo en tu home theater? Olvida los equipos caros. Solo cambia la posición de tus parlantes y alejalos de las paredes para eliminar eco y graves molestos. Un ajuste simple que transforma tu musica y peliculas al instante. Tu que opinas de este truco y te suscribes para mas insights audiovisuales porque quieres sonido hifi",
+        "tags": [
+          "speakers",
+          "home theater",
+          "living room",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5798,7 +5816,8 @@
     "El error más común al configurar Dolby Atmos en tu receptor o barra de sonido",
     "Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?",
     "¿Por qué tu monitor OLED se está quemando y cómo evitarlo ya",
-    "Proyector láser de tiro ultracorto vs Smart TV gigante: ¿Cuál conviene más?"
+    "Proyector láser de tiro ultracorto vs Smart TV gigante: ¿Cuál conviene más?",
+    "Sonido Hi-Fi sin gastar una fortuna: Mejora tu audio ya mismo"
   ],
   "processed_ids": []
 }
