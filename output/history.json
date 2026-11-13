@@ -5643,6 +5643,24 @@
           "GlobalAVInsights"
         ]
       }
+    },
+    {
+      "timestamp": "20261113_045729",
+      "video_id": "generative",
+      "original_title": "AI: Por qué tu barra de sonido barata no te está dando Dolby Atmos real",
+      "short_path": "/home/runner/work/globalav-shorts-automation/globalav-shorts-automation/output/videos/short_20261113_045729.mp4",
+      "metadata": {
+        "title": "¡Por qué tu barra de sonido barata no te está dando Dolby Atmos real! #Shorts #AV",
+        "description": "Perspectivas de IA sobre Por qué tu barra de sonido barata no te está dando Dolby Atmos real. \n\nTu barra de sonido barata jamás reproducirá Dolby Atmos real. Es puro marketing. El verdadero sonido tridimensional exige altavoces físicos proyectando audio hacia tu techo, no algoritmos virtuales que distorsionan la mezcla. Pagaste solo por un logotipo que engaña tus oídos. ¿Has caído en esta trampa comercial? Suscríbete para mejorar tu cine en casa y descubre por qué",
+        "tags": [
+          "soundbar",
+          "speakers",
+          "home theater",
+          "AV",
+          "Shorts",
+          "GlobalAVInsights"
+        ]
+      }
     }
   ],
   "topics_used": [
@@ -5817,7 +5835,8 @@
     "Prueba ciega de sonido Hi-Fi: ¿Nota la diferencia un usuario común?",
     "¿Por qué tu monitor OLED se está quemando y cómo evitarlo ya",
     "Proyector láser de tiro ultracorto vs Smart TV gigante: ¿Cuál conviene más?",
-    "Sonido Hi-Fi sin gastar una fortuna: Mejora tu audio ya mismo"
+    "Sonido Hi-Fi sin gastar una fortuna: Mejora tu audio ya mismo",
+    "Por qué tu barra de sonido barata no te está dando Dolby Atmos real"
   ],
   "processed_ids": []
 }
